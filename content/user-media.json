@@ -1,0 +1,2285 @@
+{
+  "replacements": [
+    {
+      "projectId": 23,
+      "source": "/Users/dragonlee/Downloads/26618d667ca87bef1bc454f29da488befc0919af.mp4",
+      "sourceCodec": "av01",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "duration": 93.332,
+      "frameRate": 30,
+      "tileRatio": 1,
+      "detailRatio": "16:9",
+      "posterTime": 8,
+      "outputs": [
+        {
+          "path": "assets/dragonlee-work-01.mp4",
+          "bytes": 35565853,
+          "sha256": "053dddca43b0a7d7926a3fd4b9d8f52bccd8ea4c47b60aca9b0a4e27cd697fe7",
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080,
+          "videoBitrate": 3000000,
+          "audio": "AAC 128 kbps"
+        },
+        {
+          "path": "assets/dragonlee-work-01-tile.mp4",
+          "bytes": 12557749,
+          "sha256": "e61a7a6a51270182f5f11aec36fc0aeb0a7e658fbac4dbd799b238c834237535",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "videoBitrate": 1100000,
+          "audio": false
+        },
+        {
+          "path": "assets/dragonlee-work-01-poster.jpg",
+          "bytes": 94826,
+          "sha256": "2697104de39a832152fdea402f8b098382aef134265d534e11aa9c68c03d13af",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "slides": [
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-6a2d258c-0ce5-4014-818f-d0e9cd075200.png",
+          "path": "assets/color16-01-os16-ux-strategy.png",
+          "bytes": 221391,
+          "sha256": "60086eb85fd837fdc9a2cf5a635aeef457c554c0d114886efe9341c7e1d80ae1",
+          "width": 3840,
+          "height": 2160,
+          "order": 2
+        },
+        {
+          "order": 3,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-b6fa54ae-19c4-4a47-8e9d-c76a946dec09.png",
+          "path": "assets/color16-02-design-insight.png",
+          "bytes": 201749,
+          "sha256": "6173c47d788c9d28fc2e971e4390da43010e77c0ef4669f8486cfab2bc7f3e40",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "order": 4,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-7612d165-ff9b-4744-980f-2e48aae31205.png",
+          "path": "assets/color16-03-audience-insight.png",
+          "bytes": 3229515,
+          "sha256": "a8f057d929c32428a0f6064d13fd400481a27e41e0a9937522f77992aa55f0ee",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "order": 5,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-d37376a7-a250-4a5d-9cd8-cfa75791d432.png",
+          "path": "assets/color16-04-emotional-trends.png",
+          "bytes": 1283552,
+          "sha256": "4a0931290b42a5e84a033b78728fa5989649a0ed089c3ecc15eb154ec58487ef",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "order": 6,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-e18d5ab0-6be7-4c5a-9a6c-908101c50e6f.png",
+          "path": "assets/color16-05-insight-summary.png",
+          "bytes": 6530260,
+          "sha256": "7a765f4605f9b3a2718304e064893b83c5f8c06e3a60e1ab1a2045fec06e4206",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "order": 7,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-31ba0938-3017-4620-bdc5-0ac848c2b7d6.png",
+          "path": "assets/color16-06-natural-comfort.png",
+          "bytes": 4385355,
+          "sha256": "1e65d220111dd506966370bb60a9b8e212843ecf6a7353e9d11e99e13bee1e2a",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "order": 8,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-01c6de39-d0d8-4b6c-aa35-257212af743e.png",
+          "path": "assets/color16-07-self-immersion.png",
+          "bytes": 4324003,
+          "sha256": "b3ae586616ac5206c585ebb916b912dc0080bceeaa7d672b79a9729946f2e1cf",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "order": 9,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-95c8a397-6fa3-40ba-9b26-a8ea3370eeab.png",
+          "path": "assets/color16-08-free-expression.png",
+          "bytes": 7483048,
+          "sha256": "74972b5b3eb1556663b7fc87f23dde867edf278b16ce157a7baea1386c290819",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "order": 10,
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-705f23be-12f0-420d-86ad-7a30cef2f24f.png",
+          "path": "assets/color16-09-design-direction.png",
+          "bytes": 239454,
+          "sha256": "0d3bd8e80785055582f3a8f10dad6c6bf4569df55e23ea6d39ee115e3fed112b",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-46e738a6-34d5-47da-9f8f-96b0beb45c9b.png",
+          "path": "assets/color16-mood-board.png",
+          "bytes": 3466740,
+          "sha256": "c730dfc34c33b86279440218d42e6a377d86f9a9c462a3cb1aa57ca753fbaa42",
+          "width": 3840,
+          "height": 2160,
+          "order": 12
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-611c5d6c-0b60-4b74-96d5-4b359793ab32.png",
+          "path": "assets/color16-10-design-content.png",
+          "bytes": 206849,
+          "sha256": "d0e86b56dc524c95b95083da91bf2f8e35c6403155d05bc16ce7e6180039d295",
+          "width": 3840,
+          "height": 2160,
+          "order": 13
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-143f5618-a36e-43a5-aaed-dc3dc9c8fc59.png",
+          "path": "assets/color16-11-lockscreen-overview.png",
+          "bytes": 11385194,
+          "sha256": "c94ce2670392fa5bb2f16b8f62a404fbb0163c32971c3c4787923bbf38c70add",
+          "width": 3840,
+          "height": 2160,
+          "order": 14
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-4102ffec-746a-4cee-bed9-d1feac608390.png",
+          "path": "assets/color16-12-design-strategy.png",
+          "bytes": 347109,
+          "sha256": "de5a4e94664d1978e2c791ef7454af3c2ca43f59913da1f1d685a4d8a252fe8e",
+          "width": 3840,
+          "height": 2160,
+          "order": 15
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-91a5ddb7-5604-4e91-ac27-0dbc6f1d2ba8.png",
+          "path": "assets/color16-13-logotype.png",
+          "bytes": 362197,
+          "sha256": "5c4d001b25cb983114b3a697f855238abe9b697db71b15ac81cf11b2b3cb05ae",
+          "width": 3840,
+          "height": 2160,
+          "order": 16
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-8839d573-88f0-41d7-995a-4894a3427968.png",
+          "path": "assets/color16-14-startup-story.png",
+          "bytes": 3506052,
+          "sha256": "4538ad9afc4c390baf017fbd8637fdae4812a2f1d93e45752def64c039cbc81d",
+          "width": 3840,
+          "height": 2160,
+          "order": 17
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-20fdd90a-5906-4d61-80ed-58087fd2b032.png",
+          "path": "assets/color16-15-rounded-corners.png",
+          "bytes": 3580051,
+          "sha256": "5321d8c9f6a5e3e611b4d14a8ff244b3824a8fd9c87967f8b74fef3585b20e36",
+          "width": 3840,
+          "height": 2160,
+          "order": 18
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-84be7f68-2d5d-4c0a-8009-4b242d51e6d2.png",
+          "path": "assets/color16-16-widget-gallery.png",
+          "bytes": 5714458,
+          "sha256": "21749e59810b8d9d6252dec43b40e2bc54f8aace7926da3fe132392ca6345188",
+          "width": 3840,
+          "height": 2160,
+          "order": 19
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-71283f54-74bf-4685-9b99-857abd644122.png",
+          "path": "assets/color16-17-immersive-gallery.png",
+          "bytes": 6099803,
+          "sha256": "c6c90dfa6233637b6bd7ef6a7d23d2eff1ac01a1dfd304b4a61cba6138d72ab9",
+          "width": 3840,
+          "height": 2160,
+          "order": 20
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-73fa4f11-d6fd-4c25-9bea-db1705207035.png",
+          "path": "assets/color16-18-system-surfaces.png",
+          "bytes": 7047975,
+          "sha256": "2f12dad7313716ee3e65652015af64ac27bd37790b741cbe3c540dee8f50e7d6",
+          "width": 3840,
+          "height": 2160,
+          "order": 21
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-2adc3311-e94c-41fe-81bf-e6fe14a3e52e.png",
+          "path": "assets/color16-19-natural-weather.png",
+          "bytes": 4874801,
+          "sha256": "a8077fca3509340e84938cde0694b123a2326536da08c45dfa8ae676457bfa63",
+          "width": 3840,
+          "height": 2160,
+          "order": 22
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-b598a117-ec64-4d44-b943-9d122121b1eb.png",
+          "path": "assets/color16-20-weather-gallery.png",
+          "bytes": 7935962,
+          "sha256": "600614feebd9cdfff178e08667239417b612849dc3d9c740cf9f4bf687a61f33",
+          "width": 3840,
+          "height": 2160,
+          "order": 23
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-99b4414f-f272-479f-9fb5-e1bbc0d27c9d.png",
+          "path": "assets/color16-21-classic-design.png",
+          "bytes": 6707625,
+          "sha256": "67a82be8da01cee7394653b5af868a776d6146bd94a77a135a23a19519d5506a",
+          "width": 3840,
+          "height": 2160,
+          "order": 24
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-f9a56a66-718d-4cc0-859f-056dda1f6ae3.png",
+          "path": "assets/color16-22-classic-apps.png",
+          "bytes": 3189072,
+          "sha256": "db362d9c0534ff18cb4f2410221c06da9f562ebbaf92683acb4c19adf3b55bab",
+          "width": 3840,
+          "height": 2160,
+          "order": 25
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-d07db5d5-175f-448d-a9de-91e206dbecdd.png",
+          "path": "assets/color16-23-ai-colors.png",
+          "bytes": 3677426,
+          "sha256": "093e3645a69458512b25096627393fc76b5417ef484c105afed57daabe92047c",
+          "width": 3840,
+          "height": 2160,
+          "order": 26
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-783c55ae-0250-4ddb-a614-3ce499f29103.png",
+          "path": "assets/color16-24-controls.png",
+          "bytes": 1320778,
+          "sha256": "35df9ffdf7c5159c69f496ead2f0af575c5864e05c1af07963be0581800addc0",
+          "width": 3840,
+          "height": 2160,
+          "order": 27
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-791c9674-99f4-454d-a8e4-cd25eae9b711.png",
+          "path": "assets/color16-25-lockscreen-depth.png",
+          "bytes": 3591542,
+          "sha256": "5fdcff18013400a08109b50c00329e096eb55d3828b7fae58b74b2dcf0ee65d4",
+          "width": 3840,
+          "height": 2160,
+          "order": 28
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-69fda164-a27e-49a9-9cfd-13141f207d32.png",
+          "path": "assets/color16-26-cinematic-lockscreen.png",
+          "bytes": 2039984,
+          "sha256": "96e5fecc11f86f2e65b2181e79d0d14c98a031f00e9b33fcef1ed9e5f08966c7",
+          "width": 3840,
+          "height": 2160,
+          "order": 29
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-4b79337e-f265-45ba-bcf0-dd5ab890f219.png",
+          "path": "assets/color16-27-theme-gallery.png",
+          "bytes": 8421087,
+          "sha256": "2253046c236f7e33cbb072d731314b08a75c30a2e035a6a1ddc404cff5901e10",
+          "width": 3840,
+          "height": 2160,
+          "order": 30
+        },
+        {
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-86138b0e-9116-465e-a8cf-f17151850f4a.png",
+          "path": "assets/color16-28-coloros-overview.png",
+          "bytes": 5766614,
+          "sha256": "2d93218172af0d45fa382102c8ccc06c75d289e6eb981aceabf1137f716c2322",
+          "width": 3840,
+          "height": 2160,
+          "order": 31
+        }
+      ],
+      "detailItemCount": 31,
+      "additionalVideos": [
+        {
+          "order": 11,
+          "source": "/Users/dragonlee/Downloads/0ae10c26cdc1fad58ef674ac69b6220978ffa1e7.mp4",
+          "sourceCodec": "hvc1",
+          "sourceWidth": 2160,
+          "sourceHeight": 926,
+          "sourceBytes": 8560073,
+          "duration": 3.434,
+          "frameRate": 60,
+          "posterTime": 1.7,
+          "outputs": [
+            {
+              "path": "assets/color16-design-intro.mp4",
+              "bytes": 457400,
+              "sha256": "0cdb4baa8218d0f5f3c451da9e92714191875922e143083ce68537f69e5fa8a9",
+              "codec": "h264",
+              "width": 2160,
+              "height": 926,
+              "frameRate": 60,
+              "videoBitrate": 4000000
+            },
+            {
+              "path": "assets/color16-design-intro-poster.jpg",
+              "bytes": 66526,
+              "sha256": "717a6ccc4c80cb6416fedb657d777bc4644c10a97fd4120f67f130a510d14c07",
+              "width": 1600,
+              "height": 686
+            }
+          ]
+        }
+      ],
+      "embeddedVideos": [
+        {
+          "parentKey": "color16/14-startup-story.png",
+          "order": 17,
+          "source": "/Users/dragonlee/Downloads/3130ab0b503a6a530a6c9ba5b33bfab4216505d0.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 1080,
+          "sourceHeight": 2400,
+          "sourceBytes": 9534522,
+          "duration": 19.433333,
+          "frameRate": 60,
+          "posterTime": 8,
+          "screenBounds": {
+            "x": 535,
+            "y": 269,
+            "width": 741,
+            "height": 1622,
+            "radius": 100,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 905,
+            "y": 318,
+            "radius": 24
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-phone-startup.mp4",
+              "codec": "h264",
+              "width": 1080,
+              "height": 2400,
+              "frameRate": 60,
+              "copiedOriginal": true,
+              "bytes": 9534522,
+              "sha256": "b9bb9e62b05a7954737535a3eec99e6103fd0a9e9ee822026c9ea2f20292649f"
+            },
+            {
+              "path": "assets/color16-phone-startup-poster.jpg",
+              "width": 720,
+              "height": 1600,
+              "bytes": 68745,
+              "sha256": "bd9e597624ce98da09cd21e297d0ff4e8c65e7440df9b2086c1605b356d3b092"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/22-classic-apps.png",
+          "order": 25,
+          "screen": 1,
+          "name": "world-clock",
+          "source": "/Users/dragonlee/Downloads/dba195771785eb0f1b121e5a602806ff740c577a.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 1080,
+          "sourceHeight": 2400,
+          "sourceBytes": 564955,
+          "duration": 8,
+          "frameRate": 60,
+          "posterTime": 4,
+          "screenBounds": {
+            "x": 212,
+            "y": 280,
+            "width": 718,
+            "height": 1600,
+            "radius": 90,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 570,
+            "y": 318,
+            "radius": 22
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-world-clock.mp4",
+              "codec": "h264",
+              "width": 1080,
+              "height": 2400,
+              "frameRate": 60,
+              "copiedOriginal": true,
+              "bytes": 564955,
+              "sha256": "1db193c6bcf913c13fce599f7cf4a8b711b8d0ec10d0040dd4b1fb2d18a907ed"
+            },
+            {
+              "path": "assets/color16-world-clock-poster.jpg",
+              "width": 720,
+              "height": 1600,
+              "bytes": 119990,
+              "sha256": "2c65e16b083dbf77f21a85ee1152c7e0af37f68e5d85649e4ec6a1c082f22599"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/22-classic-apps.png",
+          "order": 25,
+          "screen": 2,
+          "name": "stopwatch",
+          "source": "/Users/dragonlee/Downloads/83f3bef9783ad95883da4dbfa3233b4c97b53db2.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 1080,
+          "sourceHeight": 2400,
+          "sourceBytes": 501166,
+          "duration": 3.467,
+          "frameRate": 60,
+          "posterTime": 1.7335,
+          "screenBounds": {
+            "x": 1112,
+            "y": 280,
+            "width": 718,
+            "height": 1600,
+            "radius": 90,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 1470,
+            "y": 318,
+            "radius": 22
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-stopwatch.mp4",
+              "codec": "h264",
+              "width": 1080,
+              "height": 2400,
+              "frameRate": 60,
+              "copiedOriginal": true,
+              "bytes": 501166,
+              "sha256": "686eccb94059f9a6368a57485b7df1c6802a90b9d113c2126bc24ee16afb028f"
+            },
+            {
+              "path": "assets/color16-stopwatch-poster.jpg",
+              "width": 720,
+              "height": 1600,
+              "bytes": 132520,
+              "sha256": "3d9ba3dd6d29c6079937ee32d84170c97a558f7f7ceb446704240a7fd0b55c49"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/22-classic-apps.png",
+          "order": 25,
+          "screen": 3,
+          "name": "calculator",
+          "source": "/Users/dragonlee/Downloads/-3db9-4cd9-be0e-b38687326bd2.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 1080,
+          "sourceHeight": 2400,
+          "sourceBytes": 2428256,
+          "duration": 35.684,
+          "frameRate": 60,
+          "posterTime": 8,
+          "screenBounds": {
+            "x": 2012,
+            "y": 280,
+            "width": 718,
+            "height": 1600,
+            "radius": 90,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 2370,
+            "y": 318,
+            "radius": 22
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-calculator.mp4",
+              "codec": "h264",
+              "width": 1080,
+              "height": 2400,
+              "frameRate": 60,
+              "copiedOriginal": true,
+              "bytes": 2428256,
+              "sha256": "460843335306cc348093495aea097d7a7cbd9e2b85425ab4c3e676bdfaf8ced1"
+            },
+            {
+              "path": "assets/color16-calculator-poster.jpg",
+              "width": 720,
+              "height": 1600,
+              "bytes": 134429,
+              "sha256": "ad79af65f0fd704b6755b3c1be82b43280cc0aae3d20c69a86efcdc718fce8c8"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/22-classic-apps.png",
+          "order": 25,
+          "screen": 4,
+          "name": "level",
+          "source": "/Users/dragonlee/Downloads/cc0bb184aea01bb21429668cf6af404cc0d3cdab.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 1080,
+          "sourceHeight": 2372,
+          "sourceBytes": 1238567,
+          "duration": 6.65,
+          "frameRate": 60,
+          "posterTime": 3.325,
+          "screenBounds": {
+            "x": 2912,
+            "y": 280,
+            "width": 718,
+            "height": 1600,
+            "radius": 90,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 3270,
+            "y": 318,
+            "radius": 22
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-level.mp4",
+              "codec": "h264",
+              "width": 1080,
+              "height": 2372,
+              "frameRate": 60,
+              "copiedOriginal": true,
+              "bytes": 1238567,
+              "sha256": "d08d9313d1ebbaa46fdf8d13262874aed44fa88dea7101cb92d347445c3d87ea"
+            },
+            {
+              "path": "assets/color16-level-poster.jpg",
+              "width": 728,
+              "height": 1600,
+              "bytes": 94584,
+              "sha256": "8b0dca1f5e283f30e3399527b8aa91ee08486aab4a44f41305059fdb4f72840d"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/23-ai-colors.png",
+          "order": 26,
+          "screen": 1,
+          "position": "upper-left",
+          "name": "ai-demo",
+          "source": "/Users/dragonlee/Downloads/-0691-4746-a7a2-71e86ee77f64.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 1080,
+          "sourceHeight": 2400,
+          "sourceBytes": 3977684,
+          "sourceSha256": "ea83f0742e96555621d312a019f81af6affbc1d956fe55d0b8dde0f0afd24758",
+          "duration": 5.161,
+          "frameRate": 60,
+          "posterTime": 2.5805,
+          "screenBounds": {
+            "x": 1530,
+            "y": -732,
+            "width": 777,
+            "height": 1726,
+            "radius": 100,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": null,
+          "outputs": [
+            {
+              "path": "assets/color16-ai-demo.mp4",
+              "codec": "h264",
+              "width": 1080,
+              "height": 2400,
+              "frameRate": 60,
+              "copiedOriginal": true,
+              "bytes": 3977684,
+              "sha256": "ea83f0742e96555621d312a019f81af6affbc1d956fe55d0b8dde0f0afd24758"
+            },
+            {
+              "path": "assets/color16-ai-demo-poster.jpg",
+              "width": 720,
+              "height": 1600,
+              "bytes": 249078,
+              "sha256": "fee909e0d1b49df690dfe0f4e4021ede0cea361dd3190b06a93c7d8e3bc9002a"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/23-ai-colors.png",
+          "order": 26,
+          "screen": 2,
+          "position": "lower-left",
+          "name": "ai-newjeans",
+          "source": "/Users/dragonlee/Downloads/-78f3-46d3-8c31-56e880bd799c.mov",
+          "sourceCodec": "avc1",
+          "sourceWidth": 1080,
+          "sourceHeight": 2400,
+          "sourceBytes": 6495607,
+          "sourceSha256": "6609e5dcf1fb7d410f5900775300617ae6581ddf463e38ed1bdd8123eb6ab55a",
+          "duration": 8.0169921875,
+          "frameRate": 60,
+          "posterTime": 4.00849609375,
+          "screenBounds": {
+            "x": 1530,
+            "y": 1185,
+            "width": 777,
+            "height": 1726,
+            "radius": 100,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": null,
+          "outputs": [
+            {
+              "path": "assets/color16-ai-newjeans.mp4",
+              "codec": "h264",
+              "width": 1080,
+              "height": 2400,
+              "frameRate": 60,
+              "remuxedOriginal": true,
+              "bytes": 6495230,
+              "sha256": "e4c48a7ebdd713488f9f60e157ac12bea185e61d9396e45af0c4f6960075d3ce"
+            },
+            {
+              "path": "assets/color16-ai-newjeans-poster.jpg",
+              "width": 720,
+              "height": 1600,
+              "bytes": 199024,
+              "sha256": "62b8303d8d8c38b2d2591dd7707539e4e42a18437476652ade9db90de9cad350"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/23-ai-colors.png",
+          "order": 26,
+          "screen": 3,
+          "position": "right",
+          "name": "ai-concert",
+          "source": "/Users/dragonlee/Downloads/-ca16-4e02-9056-2749fa1d6e13.mov",
+          "sourceCodec": "hvc1",
+          "sourceWidth": 432,
+          "sourceHeight": 960,
+          "sourceBytes": 880586,
+          "sourceSha256": "7a14dde4c9b3a59617282dece5b9c13d1303ddbc7b0fb0286562e45ebe98d9d0",
+          "duration": 8,
+          "frameRate": 30,
+          "posterTime": 4,
+          "screenBounds": {
+            "x": 2566,
+            "y": 222,
+            "width": 777,
+            "height": 1726,
+            "radius": 100,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 2956,
+            "y": 267,
+            "radius": 26
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-ai-concert.mp4",
+              "codec": "h264",
+              "width": 432,
+              "height": 960,
+              "frameRate": 30,
+              "transcoded": true,
+              "audio": false,
+              "bytes": 1128225,
+              "sha256": "bdb89584a9c5fcba233b407ca05f67d9f41d01cf3b4a17f701c9242cce1ad629"
+            },
+            {
+              "path": "assets/color16-ai-concert-poster.jpg",
+              "width": 432,
+              "height": 960,
+              "bytes": 97518,
+              "sha256": "fe9fcb6d539f624be5186e31c6b49f71fddfc7b72de0fa380b72dc03a6c4ca5c"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/24-controls.png",
+          "order": 27,
+          "screen": 1,
+          "position": "right",
+          "name": "controls-slider",
+          "source": "/Users/dragonlee/Downloads/9fb08e94ba9f9f88d49d19aef225551608a6eba1.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 720,
+          "sourceHeight": 1562,
+          "sourceBytes": 1376916,
+          "sourceSha256": "9f5f9ac0406c368ea34c30771ca213f8e93a8fbc88fbd15f0be41dc68dfe754e",
+          "duration": 10.252377777777777,
+          "frameRate": 74.51929473876953,
+          "posterTime": 5.126188888888889,
+          "screenBounds": {
+            "x": 2567,
+            "y": 212,
+            "width": 780,
+            "height": 1734,
+            "radius": 100,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "shape": "capsule",
+            "x": 2903,
+            "y": 235,
+            "width": 107,
+            "height": 57,
+            "radius": 28.5,
+            "lens": {
+              "x": 2956,
+              "y": 256,
+              "radius": 23
+            }
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-controls-slider.mp4",
+              "codec": "h264",
+              "width": 720,
+              "height": 1562,
+              "frameRate": 74.51929473876953,
+              "copiedOriginal": true,
+              "bytes": 1376916,
+              "sha256": "9f5f9ac0406c368ea34c30771ca213f8e93a8fbc88fbd15f0be41dc68dfe754e"
+            },
+            {
+              "path": "assets/color16-controls-slider-poster.jpg",
+              "width": 720,
+              "height": 1562,
+              "bytes": 123115,
+              "sha256": "a721f1c5791239b237487abfb61fdb1875bcfdd80d61423072fb41a639078275"
+            },
+            {
+              "path": "assets/color16-controls-camera-mask.svg",
+              "width": 780,
+              "height": 1734,
+              "role": "camera-opacity-mask",
+              "bytes": 400,
+              "sha256": "22841f0d4c38537540d48062eb7328f77baea68c636414fb1b009df1862fd7f0"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/25-lockscreen-depth.png",
+          "order": 28,
+          "screen": 1,
+          "position": "upper-left",
+          "name": "lockdepth-ski",
+          "source": "/Users/dragonlee/Downloads/7e5e8b8a80fae8703b041b286019f74803e7bd71.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 720,
+          "sourceHeight": 1584,
+          "sourceBytes": 4925809,
+          "sourceSha256": "84b609e88edc01b267d8dfb62f28cf80c3be3c2c8d11f179f7fa054ba909ea96",
+          "duration": 5.255,
+          "frameRate": 51.00001907348633,
+          "posterTime": 2.6275,
+          "screenBounds": {
+            "x": 1589,
+            "y": -836,
+            "width": 771,
+            "height": 1713,
+            "radius": 96,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 1973.5,
+            "y": 612.5,
+            "radius": 23
+          },
+          "rotation": 180,
+          "outputs": [
+            {
+              "path": "assets/color16-lockdepth-ski.mp4",
+              "codec": "h264",
+              "width": 720,
+              "height": 1584,
+              "frameRate": 51.00001907348633,
+              "copiedOriginal": true,
+              "bytes": 4925809,
+              "sha256": "84b609e88edc01b267d8dfb62f28cf80c3be3c2c8d11f179f7fa054ba909ea96"
+            },
+            {
+              "path": "assets/color16-lockdepth-ski-poster.jpg",
+              "width": 720,
+              "height": 1584,
+              "bytes": 121460,
+              "sha256": "117009275c67d1fcf6c3f361ccb9b140bf94d5f6dbe8fa01f6103a05e0ce9a58"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/25-lockscreen-depth.png",
+          "order": 28,
+          "screen": 2,
+          "position": "lower-left",
+          "name": "lockdepth-beach",
+          "source": "/Users/dragonlee/Downloads/c57646c86bf0b5b1fc3accf25ad9fa975453504d.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 720,
+          "sourceHeight": 1584,
+          "sourceBytes": 5596718,
+          "sourceSha256": "efd53b7380775ed2d8df39fdd8a4e1018248e9127d6ec9e360133d75e45f5633",
+          "duration": 5.961,
+          "frameRate": 50.999961853027344,
+          "posterTime": 2.9805,
+          "screenBounds": {
+            "x": 1586,
+            "y": 1055,
+            "width": 771,
+            "height": 1713,
+            "radius": 96,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": null,
+          "outputs": [
+            {
+              "path": "assets/color16-lockdepth-beach.mp4",
+              "codec": "h264",
+              "width": 720,
+              "height": 1584,
+              "frameRate": 50.999961853027344,
+              "copiedOriginal": true,
+              "bytes": 5596718,
+              "sha256": "efd53b7380775ed2d8df39fdd8a4e1018248e9127d6ec9e360133d75e45f5633"
+            },
+            {
+              "path": "assets/color16-lockdepth-beach-poster.jpg",
+              "width": 720,
+              "height": 1584,
+              "bytes": 251730,
+              "sha256": "ad475eb95dd4660c8594f555e5ee2fe064ec7452306a5f39caf48fb069daff1e"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/25-lockscreen-depth.png",
+          "order": 28,
+          "screen": 3,
+          "position": "right",
+          "name": "lockdepth-underwater",
+          "source": "/Users/dragonlee/Downloads/edd14b2f65e470d9a197ad19075059a5dc25b381.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 720,
+          "sourceHeight": 1584,
+          "sourceBytes": 4796969,
+          "sourceSha256": "198629ed2fcccc88ff002d4fb4d73b515c723ac17df6bc8b792692227e5c7160",
+          "duration": 5.099,
+          "frameRate": 50.99994659423828,
+          "posterTime": 2.5495,
+          "screenBounds": {
+            "x": 2564,
+            "y": 228,
+            "width": 771,
+            "height": 1713,
+            "radius": 96,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "camera": {
+            "x": 2951.5,
+            "y": 264.5,
+            "radius": 23
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-lockdepth-underwater.mp4",
+              "codec": "h264",
+              "width": 720,
+              "height": 1584,
+              "frameRate": 50.99994659423828,
+              "copiedOriginal": true,
+              "bytes": 4796969,
+              "sha256": "198629ed2fcccc88ff002d4fb4d73b515c723ac17df6bc8b792692227e5c7160"
+            },
+            {
+              "path": "assets/color16-lockdepth-underwater-poster.jpg",
+              "width": 720,
+              "height": 1584,
+              "bytes": 147991,
+              "sha256": "850f3edd80fcb9967f58c9d99a4bc6676d1b48e2d21b80ea56bae757592ed156"
+            }
+          ]
+        },
+        {
+          "parentKey": "color16/26-cinematic-lockscreen.png",
+          "order": 29,
+          "screen": 1,
+          "position": "single-phone",
+          "name": "cinematic-lockscreen",
+          "source": "/Users/dragonlee/Downloads/143f0182d8542557c255f34cd20be970c8103ebf.mp4",
+          "sourceCodec": "avc1",
+          "sourceWidth": 720,
+          "sourceHeight": 1280,
+          "sourceBytes": 809379,
+          "sourceSha256": "22dfef1d92c77e9763132c66b52ccf23b66d922210e420ec67b4a2666fb10594",
+          "duration": 6.247,
+          "frameRate": 29.970029830932617,
+          "posterTime": 3.1235,
+          "screenBounds": {
+            "x": 1946,
+            "y": 379,
+            "width": 924,
+            "height": 2053.3333333333335,
+            "radius": 116,
+            "canvasWidth": 3840,
+            "canvasHeight": 2160
+          },
+          "screenHeightBasis": "Full screen extends below artwork; preserve the 0.45 inner-glass ratio of the same device in the supplied artwork.",
+          "camera": {
+            "x": 2406.5,
+            "y": 425.5,
+            "radius": 27
+          },
+          "outputs": [
+            {
+              "path": "assets/color16-cinematic-lockscreen.mp4",
+              "codec": "h264",
+              "width": 720,
+              "height": 1280,
+              "frameRate": 29.970029830932617,
+              "copiedOriginal": true,
+              "bytes": 809379,
+              "sha256": "22dfef1d92c77e9763132c66b52ccf23b66d922210e420ec67b4a2666fb10594"
+            },
+            {
+              "path": "assets/color16-cinematic-lockscreen-poster.jpg",
+              "width": 720,
+              "height": 1280,
+              "bytes": 141487,
+              "sha256": "614ec9de5d4ce00c2ed72c0d057b263154cf28272d16effc601f74fd79d9f0f9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "projectId": 45,
+      "source": "/Users/dragonlee/Downloads/3130ab0b503a6a530a6c9ba5b33bfab4216505d0.mp4",
+      "backgroundSource": "assets/color16-14-startup-story.png",
+      "sourceCodec": "avc1",
+      "sourceWidth": 1080,
+      "sourceHeight": 2400,
+      "duration": 19.433333,
+      "frameRate": 60,
+      "tileRatio": 1,
+      "detailRatio": "1:1",
+      "posterTime": 8,
+      "detailItemCount": 16,
+      "composition": {
+        "canvasWidth": 1080,
+        "canvasHeight": 1080,
+        "sourceCanvasWidth": 3840,
+        "sourceCanvasHeight": 2160,
+        "scale": 0.5,
+        "phoneCenterX": 907.5,
+        "phoneCenterY": 1080.5,
+        "background": "black",
+        "screenSourceBounds": {
+          "x": 535,
+          "y": 269,
+          "width": 741,
+          "height": 1622,
+          "radius": 100
+        },
+        "cameraSource": {
+          "x": 905,
+          "y": 318,
+          "radius": 24
+        }
+      },
+      "outputs": [
+        {
+          "path": "assets/color16-startup-square.mp4",
+          "codec": "h264",
+          "width": 1080,
+          "height": 1080,
+          "frameRate": 60,
+          "audio": false,
+          "bytes": 5371334,
+          "sha256": "33cf48024d97f06cb67828ce0de34f2563072db3bc1663f7940150b55f121d47"
+        },
+        {
+          "path": "assets/color16-startup-square-poster.jpg",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 48599,
+          "sha256": "7bd03366ba321c740ce91e18c7535ab12a07aef97412b77916bc73c06e3a52e9"
+        }
+      ],
+      "detailSlides": [
+        {
+          "key": "coloros-startup/01.png",
+          "order": 2,
+          "originalFilename": "01.png",
+          "title": "ColorOS 16 — cover",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-a593efd5-3c91-4989-98e7-33c5a0e4e0ef.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/01.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 34226,
+          "sourceSha256": "4becba5c3728ac13438cd8722a195bd71391bfb6b670058bb815c0b2a85481e6",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-01.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 34226,
+              "sha256": "4becba5c3728ac13438cd8722a195bd71391bfb6b670058bb815c0b2a85481e6"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/02.png",
+          "order": 3,
+          "originalFilename": "02.png",
+          "title": "ColorOS 16 — design overview",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-e326030a-a24f-402c-9d59-36acd0d4afa5.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/02.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 95474,
+          "sourceSha256": "eb9df312ded39bb953e3325409e9044dbdb0acd226a06aac9def8ef5a195d8de",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-02.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 95474,
+              "sha256": "eb9df312ded39bb953e3325409e9044dbdb0acd226a06aac9def8ef5a195d8de"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/03.png",
+          "order": 4,
+          "originalFilename": "03.png",
+          "title": "Mood Board",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-605db744-d451-4c57-841a-fa1ddfae9dbf.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/03.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 1145154,
+          "sourceSha256": "64e4e513b5c5e2e3c3b9d9d7a098e73108e3521cc5ba6f218fcfd7df4c4b5c05",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-03.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 1145154,
+              "sha256": "64e4e513b5c5e2e3c3b9d9d7a098e73108e3521cc5ba6f218fcfd7df4c4b5c05"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/04.png",
+          "order": 5,
+          "originalFilename": "04.png",
+          "title": "自然舒适 / A",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-4788205e-82ae-4d46-833a-3d98ea59602e.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/04.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 34922,
+          "sourceSha256": "ec064e9c71c48c370e516928168b9fd4bff3bc417fa328c9e0ea81acdc6d050b",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-04.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 34922,
+              "sha256": "ec064e9c71c48c370e516928168b9fd4bff3bc417fa328c9e0ea81acdc6d050b"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/05.png",
+          "order": 6,
+          "originalFilename": "05.png",
+          "title": "三原色 / COLOR",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-257e89cc-3e55-45b9-87b8-d11b8847e1a2.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/05.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 140602,
+          "sourceSha256": "36ca241f2435e76e374c0480f58c5acf0b4a5c47e0e32e23c96c9970851751c6",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-05.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 140602,
+              "sha256": "36ca241f2435e76e374c0480f58c5acf0b4a5c47e0e32e23c96c9970851751c6"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/06.png",
+          "order": 7,
+          "originalFilename": "06.png",
+          "title": "曼陀罗 / MANDALA",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-53ca0380-9c38-4676-bccc-dbe9e17c5bd1.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/06.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 176050,
+          "sourceSha256": "3dd98a522d626d39018b283b7a3781659215916d431bf9680ece186442390af3",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-06.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 176050,
+              "sha256": "3dd98a522d626d39018b283b7a3781659215916d431bf9680ece186442390af3"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/07.png",
+          "order": 8,
+          "originalFilename": "07.png",
+          "title": "阳光 / SUNSHINE",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-6904eb39-76d6-4217-af0e-1efa00429bd7.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/07.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 182775,
+          "sourceSha256": "d9dddfce6896a126f0f67c67629cfd3d37e376f1a1e84df9548ee0fa23a3a3b3",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-07.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 182775,
+              "sha256": "d9dddfce6896a126f0f67c67629cfd3d37e376f1a1e84df9548ee0fa23a3a3b3"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/08.png",
+          "order": 9,
+          "originalFilename": "08.png",
+          "title": "自我专注 / B",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-770872a8-f3e1-4d36-b467-51a786a55512.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/08.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 28857,
+          "sourceSha256": "eab15c17b1f0097ca0b420fdef0fbfacf06340544a704b0c5f035b44a3fb9f03",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-08.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 28857,
+              "sha256": "eab15c17b1f0097ca0b420fdef0fbfacf06340544a704b0c5f035b44a3fb9f03"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/09.png",
+          "order": 10,
+          "originalFilename": "09.png",
+          "title": "光线 / LIGHT",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-ba001ea2-044c-4aeb-9e79-4392c25ce177.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/09.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 156528,
+          "sourceSha256": "0e26a4ac5dfcd8e4673806cc1db10787dcea9a7c8cb7973747f4942fd7e6209a",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-09.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 156528,
+              "sha256": "0e26a4ac5dfcd8e4673806cc1db10787dcea9a7c8cb7973747f4942fd7e6209a"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/10.png",
+          "order": 11,
+          "originalFilename": "10.png",
+          "title": "黄金螺旋 / CONCENTRIC",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-7e82687b-27f5-4e5c-ae7c-95c5d8c50d8e.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/10.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 168226,
+          "sourceSha256": "d93efcf041e6a7729356dd8bd04af637a25e26f48488509f8c824eb5fc17db70",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-10.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 168226,
+              "sha256": "d93efcf041e6a7729356dd8bd04af637a25e26f48488509f8c824eb5fc17db70"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/11.png",
+          "order": 12,
+          "originalFilename": "11.png",
+          "title": "万花筒 / KALEIDOSCOPE",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-c8763f6c-eba9-422b-842a-436197dcf2f4.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/11.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 191261,
+          "sourceSha256": "498a5a185d43b35b0e42521b39562ca932b4f4d9a9d1a3726dd18f4c684fadc8",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-11.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 191261,
+              "sha256": "498a5a185d43b35b0e42521b39562ca932b4f4d9a9d1a3726dd18f4c684fadc8"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/12.png",
+          "order": 13,
+          "originalFilename": "12.png",
+          "title": "自在创造 / C",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-287b3c4e-5cb3-48ea-b0e8-8d477c3f5d63.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/12.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 30593,
+          "sourceSha256": "4b308c228892047c5051ebe1843a7bbf7fc86a582779d45a594fc6a5e58cdeb6",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-12.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 30593,
+              "sha256": "4b308c228892047c5051ebe1843a7bbf7fc86a582779d45a594fc6a5e58cdeb6"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/13.png",
+          "order": 14,
+          "originalFilename": "13.png",
+          "title": "量子学 / SNOWFLAKE",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-51ee3cd5-b628-4bd7-9448-a4f18f21598d.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/13.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 196681,
+          "sourceSha256": "2121b6063396bae2d42a2bb9c3e29b3d4609b5e036095a7f7777c4d7d512ef3b",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-13.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 196681,
+              "sha256": "2121b6063396bae2d42a2bb9c3e29b3d4609b5e036095a7f7777c4d7d512ef3b"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/14.png",
+          "order": 15,
+          "originalFilename": "14.png",
+          "title": "星光 / SNOWFLAKE",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-443dcc4d-46ff-4aea-8c4c-53477d840e50.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/14.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 172693,
+          "sourceSha256": "640782ae41f25a5f0582e78e772ca6d622b5529f139f0976a778dd2966f8ccc0",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-14.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 172693,
+              "sha256": "640782ae41f25a5f0582e78e772ca6d622b5529f139f0976a778dd2966f8ccc0"
+            }
+          ]
+        },
+        {
+          "key": "coloros-startup/19.png",
+          "order": 16,
+          "originalFilename": "19.png",
+          "title": "THANK YOU!",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-e4e83740-fd98-445e-8e79-969f9ca11d64.png",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/19.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 24297,
+          "sourceSha256": "07f7a4fe7e8a1b928fb465fc82ec98a89396eb3a8b6b8dfd35798d271b0fc459",
+          "outputs": [
+            {
+              "path": "assets/coloros-startup-19.png",
+              "width": 1920,
+              "height": 1080,
+              "copiedOriginal": true,
+              "bytes": 24297,
+              "sha256": "07f7a4fe7e8a1b928fb465fc82ec98a89396eb3a8b6b8dfd35798d271b0fc459"
+            }
+          ]
+        }
+      ],
+      "detailImageRatio": "16:9",
+      "detailOrdering": "Existing square startup video, followed by supplied original filenames in numeric ascending order: 01–14, 19. The identifying Work card screenshot is excluded."
+    },
+    {
+      "projectId": 46,
+      "title": "OOS 15 Una AI",
+      "year": "2024",
+      "tileRatio": 0.75,
+      "detailRatio": "4:3",
+      "coverKey": "oos15-una-ai/cover.webp",
+      "detailItemCount": 5,
+      "ordering": "封面.webp is both the Work cover and the first detail page; the following detail pages remain 001.webp,002.webp,003.webp,004.webp.",
+      "images": [
+        {
+          "key": "oos15-una-ai/cover.webp",
+          "role": "work-and-detail-cover",
+          "order": 0,
+          "originalFilename": "封面.webp",
+          "title": "OOS 15 Una AI — Cover",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-082103f9-d4dc-4134-b2be-6681c319f123.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/封面.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 56912,
+          "sourceSha256": "003c2589167c0b83eb6d73fce5256ae5e19f558a39a515a0bccee698cfaa13a7",
+          "outputs": [
+            {
+              "path": "assets/oos15-una-ai-cover.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 56912,
+              "sha256": "003c2589167c0b83eb6d73fce5256ae5e19f558a39a515a0bccee698cfaa13a7"
+            }
+          ]
+        },
+        {
+          "key": "oos15-una-ai/001.webp",
+          "role": "detail",
+          "order": 1,
+          "originalFilename": "001.webp",
+          "title": "Una AI — Identity",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-11f96220-a184-4bc2-a212-3fd24b87b9fa.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/001.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 11496,
+          "sourceSha256": "f24c82c55a59182d1ffe75d66521e374b097e1c4bc23476842628fd250639393",
+          "outputs": [
+            {
+              "path": "assets/oos15-una-ai-001.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 11496,
+              "sha256": "f24c82c55a59182d1ffe75d66521e374b097e1c4bc23476842628fd250639393"
+            }
+          ]
+        },
+        {
+          "key": "oos15-una-ai/002.webp",
+          "role": "detail",
+          "order": 2,
+          "originalFilename": "002.webp",
+          "title": "Una AI — Keyboard",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-c5625e47-0ac2-4e64-8e6a-2960fb4c273e.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/002.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 20356,
+          "sourceSha256": "12db678129001c9d1957a9bcfac230ce2176d3e6aa5f445e054f823f75976e87",
+          "outputs": [
+            {
+              "path": "assets/oos15-una-ai-002.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 20356,
+              "sha256": "12db678129001c9d1957a9bcfac230ce2176d3e6aa5f445e054f823f75976e87"
+            }
+          ]
+        },
+        {
+          "key": "oos15-una-ai/003.webp",
+          "role": "detail",
+          "order": 3,
+          "originalFilename": "003.webp",
+          "title": "Una AI — Article Summary",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-71774703-5984-4488-b6e3-3c4488ba639a.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/003.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 75284,
+          "sourceSha256": "ea73fe6d57bac34895f855e14c801cd6db45596408e5596e59aace233bbda488",
+          "outputs": [
+            {
+              "path": "assets/oos15-una-ai-003.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 75284,
+              "sha256": "ea73fe6d57bac34895f855e14c801cd6db45596408e5596e59aace233bbda488"
+            }
+          ]
+        },
+        {
+          "key": "oos15-una-ai/004.webp",
+          "role": "detail",
+          "order": 4,
+          "originalFilename": "004.webp",
+          "title": "Una AI — Voice Interaction",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-118194a0-0f0a-4087-a628-a2f0676bd057.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/004.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 16964,
+          "sourceSha256": "29295baed4ca8632d222e87d4db6604eeb0d1684902053ab7c90a00718534769",
+          "outputs": [
+            {
+              "path": "assets/oos15-una-ai-004.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 16964,
+              "sha256": "29295baed4ca8632d222e87d4db6604eeb0d1684902053ab7c90a00718534769"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "projectId": 47,
+      "title": "OOS Hummingbird engine",
+      "year": "2024",
+      "tileRatio": 0.75,
+      "detailRatio": "4:3",
+      "coverKey": "oos-hummingbird-engine/cover.webp",
+      "detailItemCount": 5,
+      "ordering": "这是封面.webp is both the Work cover and the first detail page; the following detail pages remain 第一张.webp,第二张.webp,第三张.webp,第四张.webp.",
+      "images": [
+        {
+          "key": "oos-hummingbird-engine/cover.webp",
+          "role": "work-and-detail-cover",
+          "order": 0,
+          "originalFilename": "这是封面.webp",
+          "title": "OOS Hummingbird Engine — Cover",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-b3ecd958-267b-4bcf-aeec-768689a3be55.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/这是封面.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 33720,
+          "sourceSha256": "b71bb5d48c11521decf4bd5207cc8047901ec89facdde6bffbf1072f41827a48",
+          "outputs": [
+            {
+              "path": "assets/oos-hummingbird-engine-cover.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 33720,
+              "sha256": "b71bb5d48c11521decf4bd5207cc8047901ec89facdde6bffbf1072f41827a48"
+            }
+          ]
+        },
+        {
+          "key": "oos-hummingbird-engine/001.webp",
+          "role": "detail",
+          "order": 1,
+          "originalFilename": "第一张.webp",
+          "title": "Hummingbird Engine — Identity",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-baeeb58f-1a39-4482-a7bd-acbb1ae9c3e8.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/第一张.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 15686,
+          "sourceSha256": "094a2818b14a1eb4bd1af3e54383cbb36f2472f5d18cfead7b8daf042ba953d0",
+          "outputs": [
+            {
+              "path": "assets/oos-hummingbird-engine-001.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 15686,
+              "sha256": "094a2818b14a1eb4bd1af3e54383cbb36f2472f5d18cfead7b8daf042ba953d0"
+            }
+          ]
+        },
+        {
+          "key": "oos-hummingbird-engine/002.webp",
+          "role": "detail",
+          "order": 2,
+          "originalFilename": "第二张.webp",
+          "title": "Hummingbird Engine — Product Experience",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-c9771ccf-4caa-41a8-80ca-247ec6765af5.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/第二张.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 159194,
+          "sourceSha256": "38462592805cecddbc27c15210866fe7731fab0202f8464cfcf2b3e6e36ef5df",
+          "outputs": [
+            {
+              "path": "assets/oos-hummingbird-engine-002.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 159194,
+              "sha256": "38462592805cecddbc27c15210866fe7731fab0202f8464cfcf2b3e6e36ef5df"
+            }
+          ]
+        },
+        {
+          "key": "oos-hummingbird-engine/003.webp",
+          "role": "detail",
+          "order": 3,
+          "originalFilename": "第三张.webp",
+          "title": "Hummingbird Engine — Logo Construction",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-d5fd3e6c-577d-4367-9e05-9787f43f79ec.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/第三张.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 22590,
+          "sourceSha256": "740e957b864ad15509554c5ba3b3b5f3e445893c6bb79d0f4ba1ea7535963b90",
+          "outputs": [
+            {
+              "path": "assets/oos-hummingbird-engine-003.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 22590,
+              "sha256": "740e957b864ad15509554c5ba3b3b5f3e445893c6bb79d0f4ba1ea7535963b90"
+            }
+          ]
+        },
+        {
+          "key": "oos-hummingbird-engine/004.webp",
+          "role": "detail",
+          "order": 4,
+          "originalFilename": "第四张.webp",
+          "title": "Hummingbird Engine — Design Overview",
+          "source": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-ccabe27b-f561-4216-bfd7-9a4e1326a3e3.webp",
+          "matchedOriginalSource": "/Users/dragonlee/Downloads/第四张.webp",
+          "sourceWidth": 1504,
+          "sourceHeight": 1128,
+          "sourceBytes": 49790,
+          "sourceSha256": "8dc645db71bd8f8c11347ac0fdd4db7131b626553ad9aa7236e80aaaf8c71ce6",
+          "outputs": [
+            {
+              "path": "assets/oos-hummingbird-engine-004.webp",
+              "width": 1504,
+              "height": 1128,
+              "copiedOriginal": true,
+              "bytes": 49790,
+              "sha256": "8dc645db71bd8f8c11347ac0fdd4db7131b626553ad9aa7236e80aaaf8c71ce6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "projectId": 48,
+      "title": "ColorOS System Apps",
+      "year": "2025",
+      "tileRatio": 0.5625,
+      "detailRatio": "16:9",
+      "coverKey": "coloros-system-apps/cover.mp4",
+      "detailItemCount": 1,
+      "sourceProjectId": 23,
+      "sourcePageNumber": 25,
+      "sourceKey": "color16/22-classic-apps.png",
+      "referenceScreenshot": "/private/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-0bb5f992-db3c-4df2-b565-7259879ad262.png",
+      "reusedMedia": {
+        "background": "/assets/color16-22-classic-apps.png",
+        "screenVideos": [
+          {
+            "src": "/assets/color16-world-clock.mp4",
+            "poster": "/assets/color16-world-clock-poster.jpg",
+            "w": 1080,
+            "h": 2400,
+            "left": 5.520833333333333,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          },
+          {
+            "src": "/assets/color16-stopwatch.mp4",
+            "poster": "/assets/color16-stopwatch-poster.jpg",
+            "w": 1080,
+            "h": 2400,
+            "left": 28.958333333333336,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          },
+          {
+            "src": "/assets/color16-calculator.mp4",
+            "poster": "/assets/color16-calculator-poster.jpg",
+            "w": 1080,
+            "h": 2400,
+            "left": 52.39583333333333,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          },
+          {
+            "src": "/assets/color16-level.mp4",
+            "poster": "/assets/color16-level-poster.jpg",
+            "w": 1080,
+            "h": 2372,
+            "left": 75.83333333333333,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          }
+        ]
+      },
+      "composition": "Independent four-phone project. Work plays a muted looping H.264 composite of the existing page background and all four original screen videos; the native detail continues to play the four separate source videos with their original geometry and masks.",
+      "coverCapture": {
+        "status": "complete",
+        "method": "Browser screenshot of the complete native rendered four-screen composite",
+        "format": "JPEG",
+        "url": "http://127.0.0.1:4174/",
+        "viewport": {
+          "height": 720,
+          "width": 1280
+        },
+        "clip": {
+          "height": 453.75,
+          "width": 806.6640625,
+          "x": 443.328125,
+          "y": 19.8125
+        },
+        "videoFrames": [
+          {
+            "paused": false,
+            "readyState": 4,
+            "src": "/assets/color16-world-clock.mp4",
+            "time": 3.629336
+          },
+          {
+            "paused": false,
+            "readyState": 4,
+            "src": "/assets/color16-stopwatch.mp4",
+            "time": 2.69348
+          },
+          {
+            "paused": false,
+            "readyState": 4,
+            "src": "/assets/color16-calculator.mp4",
+            "time": 33.524983
+          },
+          {
+            "paused": false,
+            "readyState": 4,
+            "src": "/assets/color16-level.mp4",
+            "time": 6.299729
+          }
+        ],
+        "width": 806,
+        "height": 453,
+        "sha256": "3e363f9f237a73153b2a7ba84774d39428dcd53d61a73f6670b8a659e8ec486f",
+        "evidence": "../utilities-cover-source.jpg"
+      },
+      "outputs": [
+        {
+          "path": "assets/coloros-utilities-cover.jpg",
+          "width": 806,
+          "height": 453,
+          "bytes": 44384,
+          "sha256": "3e363f9f237a73153b2a7ba84774d39428dcd53d61a73f6670b8a659e8ec486f",
+          "derived": true
+        },
+        {
+          "path": "assets/coloros-system-apps-cover.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 35.7,
+          "fps": 30,
+          "codec": "H.264",
+          "audio": false,
+          "bytes": 14180505,
+          "sha256": "23d54d7d124f0cdc0d46a0edbacb0bada0b224ed09864c815259ae7b4ede92f1",
+          "derived": true
+        },
+        {
+          "path": "assets/coloros-system-apps-cover-poster.jpg",
+          "width": 1920,
+          "height": 1080,
+          "posterTime": 2.7,
+          "bytes": 306259,
+          "sha256": "8285173db99bdf7c7e84ecb41d261bc7d7d0c8293564d8ffbad15189b802272f",
+          "derived": true
+        }
+      ],
+      "previousCoverKey": "coloros-utilities/cover.jpg",
+      "coverVideo": {
+        "status": "complete",
+        "src": "/assets/coloros-system-apps-cover.mp4",
+        "poster": "/assets/coloros-system-apps-cover-poster.jpg",
+        "format": "H.264 MP4",
+        "background": "/assets/color16-22-classic-apps.png",
+        "screenVideos": [
+          {
+            "src": "/assets/color16-world-clock.mp4",
+            "poster": "/assets/color16-world-clock-poster.jpg",
+            "w": 1080,
+            "h": 2400,
+            "left": 5.520833333333333,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          },
+          {
+            "src": "/assets/color16-stopwatch.mp4",
+            "poster": "/assets/color16-stopwatch-poster.jpg",
+            "w": 1080,
+            "h": 2400,
+            "left": 28.958333333333336,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          },
+          {
+            "src": "/assets/color16-calculator.mp4",
+            "poster": "/assets/color16-calculator-poster.jpg",
+            "w": 1080,
+            "h": 2400,
+            "left": 52.39583333333333,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          },
+          {
+            "src": "/assets/color16-level.mp4",
+            "poster": "/assets/color16-level-poster.jpg",
+            "w": 1080,
+            "h": 2372,
+            "left": 75.83333333333333,
+            "top": 12.962962962962962,
+            "width": 18.697916666666668,
+            "height": 74.07407407407408,
+            "radius": "12.5348189415% / 5.625%",
+            "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+          }
+        ],
+        "nameSource": "User explicitly selected ColorOS System Apps ·2025",
+        "width": 1920,
+        "height": 1080,
+        "duration": 35.7,
+        "fps": 30,
+        "audio": false,
+        "posterTime": 2.7,
+        "sourceLooping": "Each shorter screen video repeats independently; all four retain their original frame timing at 30fps output.",
+        "compositionGeometry": "Original3840×2160 canvas scaled0.5. Original inner-screen x212/1112/2012/2912,y280,w718,h1600,r90. Camera centersx570/1470/2370/3270,y318,r22. Original background, rounded glass, object-fit cover and camera aperture preserved."
+      }
+    },
+    {
+      "projectId": 49,
+      "title": "OPPO AI",
+      "year": "2025",
+      "tileRatio": 0.5625,
+      "detailRatio": "16:9",
+      "coverKey": "oppo-ai/cover.png",
+      "detailItemCount": 16,
+      "ordering": "User explicitly chose ordering by visible overview numbers and semantic content: OPPO AI logo cover, supplied product film, overview02/03/04/05, One-click Flash Memo divider, flash-memory overview, pickup-code, voice-note, bills, multiple-images, video-summary, daily-briefing, memory-suggestions, personalized-answers.",
+      "orderingBasis": "Original filenames were not retained by the attachments and no original Downloads matches were found. User approved the semantic-order option.",
+      "requestedPageNumberRange": "02–18",
+      "suppliedDetailItemCount": 16,
+      "requestedRangeItemCount": 17,
+      "unprovidedPageCount": 1,
+      "missingPagePosition": null,
+      "order": [
+        "oppo-ai/cover.png",
+        "oppo-ai/product-film.mp4",
+        "oppo-ai/overview-02-multisensory.png",
+        "oppo-ai/overview-03-information.png",
+        "oppo-ai/overview-04-brand-vi.png",
+        "oppo-ai/overview-05-brand-guidelines.png",
+        "oppo-ai/flash-memo-divider.png",
+        "oppo-ai/flash-memo-overview.png",
+        "oppo-ai/pickup-code.png",
+        "oppo-ai/voice-note.png",
+        "oppo-ai/expense-records.png",
+        "oppo-ai/multiple-images.png",
+        "oppo-ai/video-summary.png",
+        "oppo-ai/daily-briefing.png",
+        "oppo-ai/memory-suggestions.png",
+        "oppo-ai/personalized-answers.png"
+      ],
+      "images": [
+        {
+          "key": "oppo-ai/cover.png",
+          "role": "work-and-detail-cover",
+          "order": 0,
+          "inputIndex": 3,
+          "title": "OPPO AI标志；黑底彩色星形图标与白字，适合作为封面",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-9a0662ec-5941-4268-b72e-c19fe69968c3.png",
+          "originalFilename": null,
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 55111,
+          "sourceSha256": "9ae1a5d3a1bdcf3794d58ae6a80c30294b86750b64590d0689d0e2abeefb4195",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-cover.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 55111,
+              "sha256": "9ae1a5d3a1bdcf3794d58ae6a80c30294b86750b64590d0689d0e2abeefb4195",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/overview-02-multisensory.png",
+          "role": "detail",
+          "order": 2,
+          "inputIndex": 8,
+          "title": "智慧多感官体验；白底，左侧章节号02，六组ColorOS16体验示例",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-1f32f12d-8072-4059-bae8-ba33baa4201c.png",
+          "originalFilename": null,
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 596295,
+          "sourceSha256": "81383a43a2b46bbceb3e0b2f3b484419756f13cfa1c6e95918a146015e5b9b34",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-overview-02-multisensory.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 596295,
+              "sha256": "81383a43a2b46bbceb3e0b2f3b484419756f13cfa1c6e95918a146015e5b9b34",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/overview-03-information.png",
+          "role": "detail",
+          "order": 3,
+          "inputIndex": 10,
+          "title": "智慧信息化设计；白底，左侧章节号03，AI卡片与信息设计",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-f771fd56-d034-4f9b-aaf5-e933e0777a2f.png",
+          "originalFilename": null,
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 630502,
+          "sourceSha256": "701e7bd9e20b433c379d032e195187c0bf003c3d557c66711d6ee13c6cf114b4",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-overview-03-information.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 630502,
+              "sha256": "701e7bd9e20b433c379d032e195187c0bf003c3d557c66711d6ee13c6cf114b4",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/overview-04-brand-vi.png",
+          "role": "detail",
+          "order": 4,
+          "inputIndex": 7,
+          "title": "品牌VI设计；白底，左侧章节号04，Logo与色彩系统",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-6a0251d0-7b2b-4cfe-8cfa-eb15130e21bb.png",
+          "originalFilename": null,
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 203396,
+          "sourceSha256": "6f8d215205dcd078dda5b807638a3af45cb3c7c27796729a1b98d73242127123",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-overview-04-brand-vi.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 203396,
+              "sha256": "6f8d215205dcd078dda5b807638a3af45cb3c7c27796729a1b98d73242127123",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/overview-05-brand-guidelines.png",
+          "role": "detail",
+          "order": 5,
+          "inputIndex": 1,
+          "title": "品牌使用规范；白底，左侧章节号05，六组应用规范示例",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-15defa77-c019-493d-8ebb-9c08445f8b99.png",
+          "originalFilename": null,
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 528467,
+          "sourceSha256": "3ba3cb80ae8b53f7d947abc3799fe710a4d5d5dd2a0d9608b525219cab4d2586",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-overview-05-brand-guidelines.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 528467,
+              "sha256": "3ba3cb80ae8b53f7d947abc3799fe710a4d5d5dd2a0d9608b525219cab4d2586",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/flash-memo-divider.png",
+          "role": "detail",
+          "order": 6,
+          "inputIndex": 2,
+          "title": "01 ONE-CLICK FLASH MEMO；黑底章节标题，页脚02",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-3d001a61-18c0-4136-a5cb-50c9336b2ada.png",
+          "originalFilename": null,
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 35920,
+          "sourceSha256": "fb333f9da1fc8a24538fb848e36ba449ae0bfe130cb066035cad8f955fb21c3d",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-flash-memo-divider.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 35920,
+              "sha256": "fb333f9da1fc8a24538fb848e36ba449ae0bfe130cb066035cad8f955fb21c3d",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/flash-memo-overview.png",
+          "role": "detail",
+          "order": 7,
+          "inputIndex": 4,
+          "title": "一键闪记，啥都能记；白底手持手机与渐变标题",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-c31c1fc7-7e58-4574-b237-4653bd2424a7.png",
+          "originalFilename": null,
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 623321,
+          "sourceSha256": "ad591a837c089e2818273ca731e8fa2963a8d3973904b33654da915a325541c5",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-flash-memo-overview.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 623321,
+              "sha256": "ad591a837c089e2818273ca731e8fa2963a8d3973904b33654da915a325541c5",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/pickup-code.png",
+          "role": "detail",
+          "order": 8,
+          "inputIndex": 5,
+          "title": "记取餐码，订单上云尽在掌握；黑底手持手机",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-9f94a5da-0835-420b-ba5d-369d14cb72fe.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 925887,
+          "sourceSha256": "17411fb071436e9100fb7919fcfb010e7e984d44cf8989fcce11f4c8e33017b4",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-pickup-code.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 925887,
+              "sha256": "17411fb071436e9100fb7919fcfb010e7e984d44cf8989fcce11f4c8e33017b4",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/voice-note.png",
+          "role": "detail",
+          "order": 9,
+          "inputIndex": 6,
+          "title": "随口记，灵感、待办、动动嘴轻松记；黑底文字",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-017bd810-0b30-49fc-961b-eb64d5e08c96.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 363487,
+          "sourceSha256": "17ba37eb64f026cbe9eb6b5029f89e8c792cb686ed84c88502e2920d8f698ac5",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-voice-note.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 363487,
+              "sha256": "17ba37eb64f026cbe9eb6b5029f89e8c792cb686ed84c88502e2920d8f698ac5",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/expense-records.png",
+          "role": "detail",
+          "order": 10,
+          "inputIndex": 9,
+          "title": "记账单，明细清晰、花钱明白；白底订单详情手机界面",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-2ae74cb1-31e4-4eae-9e42-53fa157283c5.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 1285901,
+          "sourceSha256": "be3cec70132cfec01076af71eb01d9b91e46c4f696fd349e102eb2a4edc6c370",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-expense-records.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 1285901,
+              "sha256": "be3cec70132cfec01076af71eb01d9b91e46c4f696fd349e102eb2a4edc6c370",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/multiple-images.png",
+          "role": "detail",
+          "order": 11,
+          "inputIndex": 12,
+          "title": "记多图，一键批量保存更便捷；白底手持美食照片手机",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-0d3ea104-b29f-4a0d-87df-48fc7b7f83fe.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 3227719,
+          "sourceSha256": "77718fc7f6dcc204fd9a911e2e24415d8175de7c0486721b59bab5be05ecbe42",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-multiple-images.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 3227719,
+              "sha256": "77718fc7f6dcc204fd9a911e2e24415d8175de7c0486721b59bab5be05ecbe42",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/video-summary.png",
+          "role": "detail",
+          "order": 12,
+          "inputIndex": 15,
+          "title": "记视频，分段摘要、重点秒知道；黑底横屏手机",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-64e6c9ac-82d8-4e20-90b8-b7f46ca46fc9.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 7511114,
+          "sourceSha256": "0e48a430971627a24c64f3baa02dcf44bc45e05da812be5240d7b5983bbf672a",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-video-summary.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 7511114,
+              "sha256": "0e48a430971627a24c64f3baa02dcf44bc45e05da812be5240d7b5983bbf672a",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/daily-briefing.png",
+          "role": "detail",
+          "order": 13,
+          "inputIndex": 11,
+          "title": "AI简报，专属你的每日头条；白底手机新闻卡片",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-89618243-3dbd-46b1-b93b-04c463d542a9.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 2027323,
+          "sourceSha256": "976f976e68f8eac746ff987e18049fda8c90feb1ca966cbb5dce21f2849c6820",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-daily-briefing.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 2027323,
+              "sha256": "976f976e68f8eac746ff987e18049fda8c90feb1ca966cbb5dce21f2849c6820",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/memory-suggestions.png",
+          "role": "detail",
+          "order": 14,
+          "inputIndex": 13,
+          "title": "记忆推荐，个性化服务一步直达；白底周围卡片",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-70c1fdfa-2d33-43c5-8cfb-7f48210feef6.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 3392294,
+          "sourceSha256": "e97a92ed4e20ca43a9d25bbba0086b79bb7fa9778510b45f0b372f7c0570abce",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-memory-suggestions.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 3392294,
+              "sha256": "e97a92ed4e20ca43a9d25bbba0086b79bb7fa9778510b45f0b372f7c0570abce",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/personalized-answers.png",
+          "role": "detail",
+          "order": 15,
+          "inputIndex": 14,
+          "title": "个性问答，记得你才能更好回答你；渐变色卡与手机问答",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-d8a0af48-dcf6-4a0b-8b27-a19adb50cc73.png",
+          "originalFilename": null,
+          "sourceWidth": 5760,
+          "sourceHeight": 3240,
+          "sourceBytes": 5296758,
+          "sourceSha256": "68d0e0245e5498f575151f00c631c2b9cbb992b6c20c7ab9b7677c131e009a57",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-personalized-answers.png",
+              "width": 5760,
+              "height": 3240,
+              "bytes": 5296758,
+              "sha256": "68d0e0245e5498f575151f00c631c2b9cbb992b6c20c7ab9b7677c131e009a57",
+              "copiedOriginal": true
+            }
+          ]
+        }
+      ],
+      "videos": [
+        {
+          "key": "oppo-ai/product-film.mp4",
+          "role": "detail",
+          "order": 1,
+          "title": "OPPO AI — Product Film",
+          "source": "/Users/dragonlee/Downloads/27ac082de8f1263afa6ff35f7bd29340a68e4ba6.mov",
+          "sourceWidth": 640,
+          "sourceHeight": 360,
+          "sourceBytes": 42764182,
+          "sourceSha256": "e6ab144b66ea102bed311a3da66eda680a220cb11890750bbd00a01f7aef3aa8",
+          "sourceDuration": 137.90208333333334,
+          "sourceFps": 29.99954605102539,
+          "conversion": "AVFoundation passthrough MOV-to-MP4 remux; no video/audio re-encoding",
+          "encodedTracksExactlyPreserved": true,
+          "sourceEncodedTracks": [
+            {
+              "handler": "soun",
+              "codec": "mp4a",
+              "sampleCount": 5939,
+              "encodedBytes": 2168022,
+              "encodedSamplesSha256": "6b4f5ce37276e16265c80abfc907c5898e1aea72b2d58471cfec28f07e21afd8"
+            },
+            {
+              "handler": "vide",
+              "codec": "avc1",
+              "sampleCount": 4137,
+              "encodedBytes": 40539535,
+              "encodedSamplesSha256": "e721349b7efd6e57f9480de4b777c674f84bf844a66cc0f651e74c66c80b063d"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-demo.mp4",
+              "width": 640,
+              "height": 360,
+              "duration": 137.90208333333334,
+              "fps": 30,
+              "codec": "H.264",
+              "audio": {
+                "codec": "AAC",
+                "channels": 2,
+                "sampleRate": 44100
+              },
+              "bytes": 42762972,
+              "sha256": "7d6efbac6581d0e71dec480414dfbb266ff1a9a50708c31a91cc5933ab8e4166",
+              "remuxedOriginal": true
+            },
+            {
+              "path": "assets/oppo-ai-demo-poster.jpg",
+              "width": 640,
+              "height": 360,
+              "posterTime": 0.5,
+              "bytes": 78510,
+              "sha256": "5e650358ad880dc7922c30fac2b045f8954d44c216d307eb425ccce9073dd2d2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "favicon",
+      "title": "Dragonlee black circle favicon",
+      "referenceScreenshot": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-67200d66-09bf-497f-8d76-4e5dfce11e9a.png",
+      "sourceURL": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/circle-fill.svg",
+      "sourceLibrary": "Phosphor Icons core / fill / circle-fill.svg",
+      "sourceSha256": "196c9eaad1db595b456841b93a407f932b281d5ba9f1038c03a93a3a6969cb12",
+      "adaptation": "Preserved official path and viewBox; changed currentColor fill to explicit #000000. Added terminal newline.",
+      "outputs": [
+        {
+          "path": "assets/dragonlee-favicon.svg",
+          "bytes": 154,
+          "sha256": "e6357283141d3fd974d333ca95f48721e7651f6ffe5cbc2184a612f777bed2f0"
+        }
+      ]
+    }
+  ]
+}

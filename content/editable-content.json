@@ -1,0 +1,322 @@
+{
+  "name": "Dragonlee",
+  "copyright": "© 2026 Jason Yuan",
+  "bio": [
+    "I’m a designer with over a decade of experience in product design, brand design, and team leadership.",
+    "I believe in finding order in complexity and richness in simplicity. Starting with business strategy, I turn ideas about the future into clear, practical design.",
+    "At Alibaba, I led design for Quark’s core product experience. At OPPO, my work spanned design planning for ColorOS releases, visual direction, and AI product experiences. I’ve also led brand refreshes and defined experience standards for core businesses.",
+    "I’m now exploring design workflows powered by AI to help teams collaborate more effectively, leaving more room for judgment and creativity.",
+    "I’ve served as a judge at the UXPA Design Summit and a speaker at IXDC. I’ve received a Red Dot Award and hold multiple design patents."
+  ],
+  "bioPhone": "I’m a designer with over a decade of experience in product design, brand design, and team leadership.",
+  "words": {
+    "0": {
+      "title": "I Have No Enemies",
+      "year": "2017",
+      "text": "Screw-bound book containing Chinese activist Liu Xiaobo’s Nobel acceptance speech printed on sheets of transparent acrylic.",
+      "credits": "",
+      "links": ""
+    },
+    "1": {
+      "title": "Nox",
+      "year": "2018",
+      "text": "Typographic short film inspired by theatrical shadow play.",
+      "credits": "",
+      "links": ""
+    },
+    "3": {
+      "title": "The Society of the Spectacle",
+      "year": "2018",
+      "text": "A hand-bound edition of Guy Debord’s The Society of the Spectacle, interleaved with Kanye West’s tweets.",
+      "credits": "",
+      "links": ""
+    },
+    "4": {
+      "title": "Unsolicited Apple Music Redesign",
+      "year": "2017",
+      "text": "The case study that launched my career. From a simpler time.",
+      "credits": "",
+      "links": "Original case study | https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf"
+    },
+    "5": {
+      "title": "Count the Clock",
+      "year": "2016",
+      "text": "Count the Clock was an independent, microbudget film collective at Northwestern. Its identity was one of the first I ever designed.",
+      "credits": "",
+      "links": ""
+    },
+    "8": {
+      "title": "Fear",
+      "year": "2017",
+      "text": "A poem I wrote about domestic violence, suspended in a Mason jar filled with hair gel.",
+      "credits": "",
+      "links": ""
+    },
+    "9": {
+      "title": "Treblemakers: Uncharted",
+      "year": "2015",
+      "text": "I made my first album artwork overnight in a dorm room in 2015. By 5 a.m., I had decided to become a designer.",
+      "credits": "",
+      "links": ""
+    },
+    "10": {
+      "title": "Undertones: Spit It Out",
+      "year": "2015",
+      "text": "Album artwork and packaging design.",
+      "credits": "",
+      "links": ""
+    },
+    "11": {
+      "title": "Pentatonix",
+      "year": "2016",
+      "text": "Album artwork for Pentatonix’s 2016 Japanese release of their namesake album.",
+      "credits": "Annie Stoll, Jason Yuan",
+      "links": ""
+    },
+    "13": {
+      "title": "Klim Type Foundry - Maelstrom Sans",
+      "year": "2019",
+      "text": "Launch campaign design direction for Maelstrom Sans by Klim Type Foundry.",
+      "credits": "Kris Sowersby, Blanco Type, Jason Yuan",
+      "links": "Maelstrom Sans at Klim | https://klim.co.nz/retail-fonts/maelstrom-sans/"
+    },
+    "15": {
+      "title": "Mercury OS",
+      "year": "2019",
+      "text": "Speculative operating system featuring a language-driven interface that generated and transformed UI in response to human intent, anticipating today’s generative interfaces.",
+      "credits": "Jason Yuan; Dennis Jin",
+      "links": "2019 essay | #essay\n2019 website | https://www.mercuryos.com"
+    },
+    "16": {
+      "title": "Klim Type Foundry - The Future Mono",
+      "year": "2020",
+      "text": "Launch campaign design direction for The Future Mono by Klim Type Foundry.",
+      "credits": "Kris Sowersby, Blanco Type, Foster Type, Jason Yuan",
+      "links": "The Future Mono on Future Fonts | https://www.futurefonts.xyz/klim/the-future-mono"
+    },
+    "17": {
+      "title": "Gia Woods",
+      "year": "2023",
+      "text": "Logo, album artwork, and motion design for Gia Woods’ Your Engine era.",
+      "credits": "Brian Ziff, Jason Yuan",
+      "links": ""
+    },
+    "18": {
+      "title": "FKA Twigs & The Weeknd - Tears in the Club",
+      "year": "2021",
+      "text": "Title concept and design for the Tears in the Club music video.",
+      "credits": "Amber Grace Johnson, SIM, Sasha Nitze, Marisa Lu, Object & Animal, Chiao Chen, Jason Yuan",
+      "links": ""
+    },
+    "19": {
+      "title": "Chanel × Jennie Kim",
+      "year": "2021",
+      "text": "Title card concept and design in collaboration with Inez & Vinoodh, for Chanel’s Coco Neige film featuring Jennie of Blackpink.",
+      "credits": "Inez & Vinoodh; Lucia Pica, Damien Boissinot, Max Pearmain, Jodokus Driessen, Edouard Boutinaud, Jan Rubens, @kledortz_colorist, @emmaohsnap, StereoHorse, Tucker Birbilis, Christophe Starkman, Jason Yuan",
+      "links": ""
+    },
+    "20": {
+      "title": "Deafheaven - Infinite Granite",
+      "year": "2021",
+      "text": "Design and motion for the album art and tour of Infinite Granite by Deafheaven.",
+      "credits": "Nick Steinhardt, Drew Tetz, Jason Yuan",
+      "links": ""
+    },
+    "21": {
+      "title": "LiveWire (Harley-Davidson)",
+      "year": "2021",
+      "text": "I designed the startup animation for LiveWire, Harley-Davidson’s electric motorcycle. If you own one, you’ll see it every day!",
+      "credits": "Manual, Jason Yuan",
+      "links": "LiveWire at Manual | https://manual.studio/work/livewire"
+    },
+    "22": {
+      "title": "Blackpink - Lovesick Girls Visualizer",
+      "year": "2020",
+      "text": "Animation for Interscope Records to promote Lovesick Girls by Blackpink.",
+      "credits": "",
+      "links": ""
+    },
+    "23": {
+      "title": "Color16",
+      "year": "2025",
+      "text": "Dot was a personal AI agent I built at New Computer, the company I co-founded. At its core was one of the first narrative long-term memory systems, designed to help people remember, organize, and navigate their lives.",
+      "credits": "Sam Whitmore (co-founder and CEO), Jason Yuan; Daniel Stratton, Devin Fan, Luca Beetz, Julian Kelly, Alex Widua, Louis Harboe, Max Kuwertz, Joe Tsao",
+      "links": "Launch website | https://web.archive.org/web/20231110000241/https://new.computer/\nFastCo Coverage | https://www.fastcompany.com/90975882/meet-dot-an-ai-companion-designed-by-an-apple-alum-here-to-help-you-live-your-best-life\nDefining the relationship (Config 2024) | https://www.youtube.com/watch?v=xwGm957Dzss"
+    },
+    "24": {
+      "title": "Hivemind",
+      "year": "2025 –",
+      "text": "Hivemind is a social AI that has one-on-one conversations with many people at once. It exists to answer the universal human question: “What do people really think about ___?” In addition to being its founder, I lead the harness and cognitive/memory design for Hivemind.",
+      "credits": "Jason Yuan; Harsh Patel (logomark), Max Kuwertz (images)",
+      "links": "hivemind.ai | https://hivemind.ai"
+    },
+    "25": {
+      "title": "Christina Aguilera - La Tormenta",
+      "year": "2022",
+      "text": "Motion design for the cover of Christina Aguilera’s La Tormenta.",
+      "credits": "Danna Takako, Rudy Grazziani; Marisa Lu, Original Creative Agency, Tessa Tinglof, Jason Yuan",
+      "links": ""
+    },
+    "41": {
+      "title": "Closet",
+      "year": "2014",
+      "text": "A musical I wrote and directed in 2014. I’ve never been a particularly subtle person.",
+      "credits": "",
+      "links": ""
+    },
+    "42": {
+      "title": "MakeSpace",
+      "year": "2020",
+      "text": "MakeSpace was a multiplayer spatial browser I co-created with Aza Raskin as a pandemic project. It let people browse, talk, move, and create together on a shared canvas. Its interaction model directly influenced the creation of products like FigJam.",
+      "credits": "Jason Yuan, Aza Raskin; Julius Tarng, Mayli Khoe, Weiwei Hsu, and others",
+      "links": "makespace.fun, June 2020 | https://web.archive.org/web/20200618173915/https://makespace.fun/"
+    },
+    "43": {
+      "title": "Focus / Gee",
+      "year": "2016",
+      "text": "A single by the Northwestern Treblemakers. I designed the artwork, wrote the arrangement, and—if you listen closely—sang one of the solos.",
+      "credits": "",
+      "links": "Spotify | https://open.spotify.com/album/2PO2yXe5So94demZnuFTcG\nApple Music | https://music.apple.com/us/artist/northwestern-treblemakers/506443431"
+    },
+    "45": {
+      "title": "ColorOS Startup",
+      "year": "2025",
+      "text": "",
+      "credits": "",
+      "links": ""
+    },
+    "46": {
+      "title": "OOS 15 Una AI",
+      "year": "2024",
+      "text": "",
+      "credits": "",
+      "links": ""
+    },
+    "47": {
+      "title": "OOS Hummingbird engine",
+      "year": "2024",
+      "text": "",
+      "credits": "",
+      "links": ""
+    },
+    "48": {
+      "title": "ColorOS System Apps",
+      "year": "2025",
+      "text": "",
+      "credits": "",
+      "links": ""
+    },
+    "49": {
+      "title": "OPPO AI",
+      "year": "2025",
+      "text": "",
+      "credits": "",
+      "links": ""
+    },
+    "posters": {
+      "title": "Posters",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": ""
+    }
+  },
+  "tiles": {
+    "2": {
+      "label": "Posters",
+      "year": "2018"
+    },
+    "3": {
+      "label": "The Society of the Spectacle",
+      "year": "2018"
+    },
+    "13": {
+      "label": "Maelstrom Sans",
+      "year": "2019"
+    },
+    "14": {
+      "label": "Apple",
+      "year": "2018, 2021–2023"
+    },
+    "15": {
+      "label": "Mercury OS",
+      "year": "2019"
+    },
+    "16": {
+      "label": "The Future Mono",
+      "year": "2020"
+    },
+    "17": {
+      "label": "Gia Woods",
+      "year": "2023"
+    },
+    "18": {
+      "label": "FKA Twigs & The Weeknd",
+      "year": "2021"
+    },
+    "19": {
+      "label": "Chanel × Jennie Kim",
+      "year": "2021"
+    },
+    "20": {
+      "label": "Deafheaven",
+      "year": "2021"
+    },
+    "21": {
+      "label": "LiveWire (Harley-Davidson)",
+      "year": "2021"
+    },
+    "22": {
+      "label": "Blackpink",
+      "year": "2020"
+    },
+    "23": {
+      "label": "Color16",
+      "year": "2025"
+    },
+    "24": {
+      "label": "Hivemind",
+      "year": "2025 –"
+    },
+    "25": {
+      "label": "Christina Aguilera",
+      "year": "2022"
+    },
+    "42": {
+      "label": "MakeSpace",
+      "year": "2020"
+    },
+    "45": {
+      "label": "ColorOS Startup",
+      "year": "2025"
+    },
+    "46": {
+      "label": "OOS 15 Una AI",
+      "year": "2024"
+    },
+    "47": {
+      "label": "OOS Hummingbird engine",
+      "year": "2024"
+    },
+    "48": {
+      "label": "ColorOS System Apps",
+      "year": "2025"
+    },
+    "49": {
+      "label": "OPPO AI",
+      "year": "2025"
+    }
+  },
+  "email": "liyunlong625188@gmail.com",
+  "socialLinks": [
+    {
+      "label": "Dribbble",
+      "url": "https://dribbble.com/dragon5244"
+    },
+    {
+      "label": "RedNote",
+      "url": "https://www.xiaohongshu.com/user/profile/63ea61b00000000026006447"
+    }
+  ],
+  "tabTitle": "Dragonlee"
+}
