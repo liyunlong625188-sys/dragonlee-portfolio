@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "mode": "high-quality",
+  "preserveDimensions": true,
+  "preserveAlpha": true,
+  "preserveOriginalSource": true,
+  "note": "Full-resolution deployment WebP with measured quality and lossless fallback. Original public images and videos remain unchanged. Selected to reduce native archive upload timeouts."
+}

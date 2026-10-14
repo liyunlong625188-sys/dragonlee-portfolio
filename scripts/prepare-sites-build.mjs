@@ -26,6 +26,9 @@ const index = path.join(dist, "client", "index.html");
 const worker = path.join(root, "worker", "index.js");
 const hosting = path.join(root, ".openai", "hosting.json");
 const client = path.join(dist, "client");
+const imagePolicyFile = path.join(root, "content", "sites-image-policy.json");
+const imagePolicy = existsSync(imagePolicyFile) ? JSON.parse(readFileSync(imagePolicyFile, "utf8")) : { mode: "lossless" };
+if (!["lossless", "high-quality"].includes(imagePolicy.mode)) throw new Error("Invalid Sites image encoding policy");
 const staticAssetLimit = 25 * 1024 * 1024;
 const chunkSize = 8 * 1024 * 1024;
 const indexMarker = "/* SITES_MEDIA_INDEX */ {}";
@@ -54,8 +57,8 @@ const mediaIndex = {};
 const deadAssets = pruneSitesDeadAssetBindings({ root, clientDirectory: client });
 const transformedScriptHashes = Object.fromEntries(deadAssets.changedFiles.map(relative => [relative, createHash('sha256').update(readFileSync(path.join(client, relative))).digest('hex')]));
 const unusedMedia = pruneSitesUnusedMedia({ root, clientDirectory: client });
-console.log("Preparing lossless deployment images; removed " + unusedMedia.removedFiles.length + " unused historical media files");
-const images = await optimizeSitesImages({ clientDirectory: client, cacheDirectory: path.join(root, ".sites-image-cache") });
+console.log("Preparing " + imagePolicy.mode + " deployment images; removed " + unusedMedia.removedFiles.length + " unused historical media files");
+const images = await optimizeSitesImages({ clientDirectory: client, cacheDirectory: path.join(root, ".sites-image-cache"), mode: imagePolicy.mode });
 // Only the build copy changes; public keeps the original videos byte for byte.
 for (const file of [...filesIn(client)]) {
   const size = statSync(file).size;
@@ -111,5 +114,5 @@ writeFileSync(path.join(dist, ".openai", "media-optimization.json"), JSON.string
 
 console.log(
   "Prepared Sites build: dist/server/index.js and dist/.openai/hosting.json; " +
-    Object.keys(mediaIndex).length + " large video(s) split into static chunks; " + images.count + " lossless images saved " + images.savedBytes + " bytes",
+    Object.keys(mediaIndex).length + " large video(s) split into static chunks; " + images.count + " " + imagePolicy.mode + " images saved " + images.savedBytes + " bytes",
 );

@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import sharp from 'sharp';
+import { inspectImageEncoding } from './optimize-sites-images.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(readFileSync(path.join(root, 'content/capture-manifest.json'), 'utf8'));
@@ -52,6 +52,11 @@ const imageIndex = urlMap(worker.imageIndex);
 const sourceVideoIndex = urlMap(sourceVideos);
 const removedFiles = new Set((optimization.unusedMedia?.removedFiles ?? []).map(file => relativeFromUrl('/' + file)));
 const transformedScripts = optimization.transformedScriptHashes ?? {};
+const imagePolicyFile = path.join(root, 'content/sites-image-policy.json');
+const imagePolicy = existsSync(imagePolicyFile) ? JSON.parse(readFileSync(imagePolicyFile, 'utf8')) : { mode: 'lossless' };
+const imageMode = optimization.images?.mode ?? 'lossless';
+if (locations.includes('dist/client')) assert.equal(imageMode, imagePolicy.mode, 'Built image encoding policy differs from source');
+const imageRecords = new Map((optimization.images?.records ?? []).map(record => [record.sourceUrl, record]));
 
 function videoBytes(location, url, video) {
   assert.ok(Number.isSafeInteger(video.size) && video.size > 0, 'Invalid video size: ' + url);
@@ -87,12 +92,17 @@ if (locations.includes('dist/client')) {
   for (const [url, optimizedUrl] of imageIndex) {
     const source = publicBytes(relativeFromUrl(url));
     const optimized = readFileSync(fileForUrl('dist/client', optimizedUrl));
-    const before = await sharp(source).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
-    const after = await sharp(optimized).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
-    assert.equal(after.info.width, before.info.width, 'Optimized image width differs: ' + url);
-    assert.equal(after.info.height, before.info.height, 'Optimized image height differs: ' + url);
-    assert.equal(after.info.channels, before.info.channels, 'Optimized image channels differ: ' + url);
-    assert.equal(hash(after.data), hash(before.data), 'Optimized image pixels differ: ' + url);
+    const result = await inspectImageEncoding(source, optimized, { mode: imageMode });
+    assert.equal(result.acceptable, true, 'Optimized image fails encoding policy: ' + url);
+    if (imageMode === 'high-quality') {
+      const record = imageRecords.get(url);
+      assert.ok(record, 'Missing image encoding evidence: ' + url);
+      assert.equal(record.deployedUrl, optimizedUrl, 'Image encoding target differs: ' + url);
+      assert.equal(record.sourceSHA256, hash(source), 'Image source checksum differs: ' + url);
+      assert.equal(record.optimizedSHA256, hash(optimized), 'Image build checksum differs: ' + url);
+      if (record.codec === 'webp-lossless') assert.equal(result.pixelIdentical, true, 'Lossless fallback pixels differ: ' + url);
+      else assert.equal(record.codec, 'webp-lossy', 'Unknown image encoding: ' + url);
+    }
   }
 }
 
@@ -107,7 +117,7 @@ for (const [source, record] of Object.entries(manifest.assets)) {
       assert.equal(existsSync(fileForUrl(location, url)), false, 'Recorded removed asset is still present: ' + record.path);
       continue;
     } else if (imageIndex.has(url)) {
-      // Every mapped image was checked against public pixels above. The public
+      // Every mapped image was checked against the encoding policy above. The public
       // iteration still checks the original capture checksum and overrides.
       continue;
     } else if (mediaIndex.has(url)) data = videoBytes(location, url, mediaIndex.get(url));
@@ -136,4 +146,4 @@ const bootstrap = readFileSync(path.join(root, 'src/main.jsx'), 'utf8');
 assert.match(bootstrap, /@vite-ignore/);
 assert.doesNotMatch(bootstrap, /createRoot|styles\.css|React\.StrictMode/);
 assert.match(readFileSync(path.join(root, 'index.html'), 'utf8'), /\/assets\/index-C_PdSvtp\.css/);
-console.log(`Verified ${verified} source assets with recorded content overrides in ${locations.join(' and ')}; ${imageIndex.size} lossless image mappings and ${mediaIndex.size} chunked video mappings verified; developer modules excluded.`);
+console.log(`Verified ${verified} source assets with recorded content overrides in ${locations.join(' and ')}; ${imageIndex.size} ${imageMode} image mappings and ${mediaIndex.size} chunked video mappings verified; developer modules excluded.`);
