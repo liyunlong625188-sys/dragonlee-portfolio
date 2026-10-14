@@ -15,6 +15,7 @@ import {
 } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildSourceVideoIndex } from "./source-video-chunks.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
@@ -80,6 +81,14 @@ for (const file of [...filesIn(client)]) {
     chunks,
   };
   rmSync(file);
+}
+
+const hostedIndex = buildSourceVideoIndex({ contentDirectory: path.join(root, "content"), clientDirectory: client });
+for (const [url, video] of Object.entries(hostedIndex)) {
+  if (mediaIndex[url] && (mediaIndex[url].size !== video.size || mediaIndex[url].etag !== video.etag)) {
+    throw new Error("Source-video manifest does not match original: " + url);
+  }
+  mediaIndex[url] = video;
 }
 
 const workerSource = readFileSync(worker, "utf8");

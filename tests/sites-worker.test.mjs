@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { createReadStream } from "node:fs";
-import { access, mkdir, mkdtemp, open, readdir, rm, stat, symlink, writeFile } from "node:fs/promises";
+import { access, mkdir, mkdtemp, open, readFile, readdir, rm, stat, symlink, writeFile } from "node:fs/promises";
 import { createServer } from "node:http";
 import { tmpdir } from "node:os";
 import path from "node:path";
@@ -289,7 +289,19 @@ test("build chunks preserve every large MP4 byte and remain under the static upl
     }
     assert.equal(total, video.size);
     assert.equal(await hashFiles(files), video.etag);
-    assert.equal(await hashFiles([new URL("../public" + url, import.meta.url)]), video.etag);
+    const original = new URL("../public" + url, import.meta.url);
+    const originalExists = await access(original).then(() => true, error => {
+      if (error.code === "ENOENT") return false;
+      throw error;
+    });
+    if (originalExists) assert.equal(await hashFiles([original]), video.etag);
+    else {
+      const sourceManifest = JSON.parse(await readFile(new URL("../content/source-video-chunks.json", import.meta.url), "utf8"));
+      const sourceVideo = sourceManifest.videos[url];
+      assert.ok(sourceVideo, "Missing hosted source-video entry: " + url);
+      assert.equal(sourceVideo.etag, video.etag);
+      assert.equal(await hashFiles(sourceVideo.chunks.map(chunk => new URL("../public" + chunk.path, import.meta.url))), video.etag);
+    }
   }
 
   async function checkDirectory(directory) {

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "chunk_size": 8388608,
+  "videos": {
+    "/assets/dragonlee-work-01.mp4": {
+      "size": 35565853,
+      "contentType": "video/mp4",
+      "sha256": "053dddca43b0a7d7926a3fd4b9d8f52bccd8ea4c47b60aca9b0a4e27cd697fe7",
+      "etag": "\"053dddca43b0a7d7926a3fd4b9d8f52bccd8ea4c47b60aca9b0a4e27cd697fe7\"",
+      "chunks": [
+        {
+          "path": "/.source-video-chunks/assets/dragonlee-work-01.mp4.parts/000000.bin",
+          "size": 8388608,
+          "sha256": "96166f6a01cec57e310a90575a9c61ea46122b5cb5ddc15cd37c36379c3808c5"
+        },
+        {
+          "path": "/.source-video-chunks/assets/dragonlee-work-01.mp4.parts/000001.bin",
+          "size": 8388608,
+          "sha256": "3de9702f85f63e7e467e0e9cc679f22657861f3664deea1cf97fa0819abb45a7"
+        },
+        {
+          "path": "/.source-video-chunks/assets/dragonlee-work-01.mp4.parts/000002.bin",
+          "size": 8388608,
+          "sha256": "3d4dcf52d9c70968ca31b7e66eadbdb58a697a03ed8eab4804deca9e2687d18c"
+        },
+        {
+          "path": "/.source-video-chunks/assets/dragonlee-work-01.mp4.parts/000003.bin",
+          "size": 8388608,
+          "sha256": "e2a81c656f5f0d0369be20a29f86425eda3b8876d38f6ad8df79be28ca21d85c"
+        },
+        {
+          "path": "/.source-video-chunks/assets/dragonlee-work-01.mp4.parts/000004.bin",
+          "size": 2011421,
+          "sha256": "ac64bdd31bb66a52c3ec18223783d7caa4e7bdea0ecad84880965b2546d3d929"
+        }
+      ]
+    },
+    "/assets/oppo-ai-demo.mp4": {
+      "size": 42762972,
+      "contentType": "video/mp4",
+      "sha256": "7d6efbac6581d0e71dec480414dfbb266ff1a9a50708c31a91cc5933ab8e4166",
+      "etag": "\"7d6efbac6581d0e71dec480414dfbb266ff1a9a50708c31a91cc5933ab8e4166\"",
+      "chunks": [
+        {
+          "path": "/.source-video-chunks/assets/oppo-ai-demo.mp4.parts/000000.bin",
+          "size": 8388608,
+          "sha256": "c12bcda874b45aa0710af27add4d67448a796d7cc48cb1e46fcff7a8742a6852"
+        },
+        {
+          "path": "/.source-video-chunks/assets/oppo-ai-demo.mp4.parts/000001.bin",
+          "size": 8388608,
+          "sha256": "6102eb2fab109056f2be56c9bb9db36c347d6aff5261f0a05966fd86502819f9"
+        },
+        {
+          "path": "/.source-video-chunks/assets/oppo-ai-demo.mp4.parts/000002.bin",
+          "size": 8388608,
+          "sha256": "9f1b7edf252a67eab4d1f1c9d68945fa12eb8642e887860cc61814edfb5c3875"
+        },
+        {
+          "path": "/.source-video-chunks/assets/oppo-ai-demo.mp4.parts/000003.bin",
+          "size": 8388608,
+          "sha256": "88e010964e9e9804d31e267600702428cbd1cff5831c86a94a63b70f77b6d8db"
+        },
+        {
+          "path": "/.source-video-chunks/assets/oppo-ai-demo.mp4.parts/000004.bin",
+          "size": 8388608,
+          "sha256": "7127069a603f2433c033a93885cf2be9c673f5fc258c99579ab2c29885a39bd5"
+        },
+        {
+          "path": "/.source-video-chunks/assets/oppo-ai-demo.mp4.parts/000005.bin",
+          "size": 819932,
+          "sha256": "0a7bd9a6dd0fc5f1a6f6ef835ca524a75fec27d3bf9dec535fd3729cee4822c5"
+        }
+      ]
+    }
+  }
+}

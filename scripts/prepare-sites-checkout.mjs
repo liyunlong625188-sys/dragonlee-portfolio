@@ -1,6 +1,7 @@
 import { cpSync, existsSync, lstatSync, mkdirSync, readFileSync, rmSync, symlinkSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { prepareSourceVideoChunks } from './source-video-chunks.mjs';
 
 // Only this website's source is mirrored; Git history and local runtime state stay in place.
 const source = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -32,8 +33,12 @@ for (const name of entries) {
 }
 mkdirSync(path.dirname(destinationManifest), { recursive: true });
 cpSync(path.join(source, '.openai/hosting.json'), destinationManifest);
+const chunkManifest = prepareSourceVideoChunks({
+  publicDirectory: path.join(destination, 'public'),
+  contentDirectory: path.join(destination, 'content'),
+});
 const dependencies = path.join(destination, 'node_modules');
 if (!lstatSync(dependencies, { throwIfNoEntry: false }) && existsSync(path.join(source, 'node_modules'))) {
   symlinkSync(path.join(source, 'node_modules'), dependencies, 'dir');
 }
-console.log(JSON.stringify({ project_id: manifest.project_id, checkout_path: destination, source_directory: source }));
+console.log(JSON.stringify({ project_id: manifest.project_id, checkout_path: destination, source_directory: source, chunked_source_videos: Object.keys(chunkManifest.videos).length }));
