@@ -3,22 +3,32 @@
     {
       "id": 23,
       "title": "Color16",
-      "text": "Dot was a personal AI agent I built at New Computer, the company I co-founded. At its core was one of the first narrative long-term memory systems, designed to help people remember, organize, and navigate their lives.",
-      "credits": [
-        "Sam Whitmore (co-founder and CEO), Jason Yuan; Daniel Stratton, Devin Fan, Luca Beetz, Julian Kelly, Alex Widua, Louis Harboe, Max Kuwertz, Joe Tsao"
-      ],
+      "text": "ColorOS 16 explores a more personal, comfortable mobile experience through natural visual cues, immersive lock screens, expressive themes, and everyday system apps. This project connects UX strategy with a coherent visual language, using light, color, and motion to make daily interactions clear and expressive.",
+      "credits": [],
       "links": [
         [
-          "Launch website",
-          "https://web.archive.org/web/20231110000241/https://new.computer/"
+          "Global Launch Video",
+          "https://www.youtube.com/watch?v=wRYEKkKjOR4"
         ],
         [
-          "FastCo Coverage",
-          "https://www.fastcompany.com/90975882/meet-dot-an-ai-companion-designed-by-an-apple-alum-here-to-help-you-live-your-best-life"
+          "Design Preview — OPPO",
+          "https://www.bilibili.com/video/BV13bxkz9ESH/"
         ],
         [
-          "Defining the relationship (Config 2024)",
-          "https://www.youtube.com/watch?v=xwGm957Dzss"
+          "Design Principles — OPPO",
+          "https://www.bilibili.com/video/BV1SinFznETf/"
+        ],
+        [
+          "Design & Animation Review",
+          "https://www.bilibili.com/video/BV1PP4tzBEfL/"
+        ],
+        [
+          "IT Home Hands-on Review",
+          "https://www.ithome.com/0/889/589.htm"
+        ],
+        [
+          "Smartprix Review",
+          "https://www.smartprix.com/bytes/coloros-16-review"
         ]
       ],
       "items": [
@@ -397,26 +407,6 @@
           ]
         },
         {
-          "key": "color16/26-cinematic-lockscreen.png",
-          "tile": 23,
-          "src": "/assets/color16-26-cinematic-lockscreen.png",
-          "w": 3840,
-          "h": 2160,
-          "video": false,
-          "screenVideo": {
-            "src": "/assets/color16-cinematic-lockscreen.mp4",
-            "poster": "/assets/color16-cinematic-lockscreen-poster.jpg",
-            "w": 720,
-            "h": 1280,
-            "left": 50.67708333333333,
-            "top": 17.546296296296298,
-            "width": 24.0625,
-            "height": 95.06172839506173,
-            "radius": "12.554112554112553% / 5.649350649350649%",
-            "mask": "radial-gradient(ellipse 2.922077922077922% 1.3149350649350648% at 49.83766233766234% 2.2646103896103895%, transparent 98%, #000 100%)"
-          }
-        },
-        {
           "key": "color16/27-theme-gallery.png",
           "tile": 23,
           "src": "/assets/color16-27-theme-gallery.png",
@@ -573,6 +563,1854 @@
       ]
     },
     {
+      "id": 56,
+      "title": "ColorOS 14.1 Flod N5",
+      "text": "App frameworks and responsive layouts for foldable phones and large screens.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "coloros-14-1-flod-n5/01.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-01.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/02.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-02.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/03.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-03.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/04.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-04.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/05.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-01.mp4",
+            "poster": "/assets/coloros-14-1-demo-01-poster.png",
+            "w": 2210,
+            "h": 2352,
+            "left": 30.972576530612244,
+            "top": 14,
+            "width": 38.05484693877551,
+            "height": 72,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "coloros-14-1-flod-n5/06.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-02.mp4",
+            "poster": "/assets/coloros-14-1-demo-02-poster.png",
+            "w": 2210,
+            "h": 2352,
+            "left": 30.972576530612244,
+            "top": 14,
+            "width": 38.05484693877551,
+            "height": 72,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "coloros-14-1-flod-n5/07.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-03.mp4",
+            "poster": "/assets/coloros-14-1-demo-03-poster.png",
+            "w": 2210,
+            "h": 2352,
+            "left": 30.972576530612244,
+            "top": 14,
+            "width": 38.05484693877551,
+            "height": 72,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "coloros-14-1-flod-n5/08.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-04.mp4",
+            "poster": "/assets/coloros-14-1-demo-04-poster.png",
+            "w": 2094,
+            "h": 2252,
+            "left": 31.17073712255773,
+            "top": 14,
+            "width": 37.65852575488454,
+            "height": 72,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "coloros-14-1-flod-n5/demo-05.svg",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-05.mp4",
+            "poster": "/assets/coloros-14-1-demo-05-poster.png",
+            "w": 2094,
+            "h": 2252,
+            "left": 31.17073712255773,
+            "top": 14,
+            "width": 37.65852575488454,
+            "height": 72,
+            "radius": "7% / 6.5%",
+            "deviceFrame": true
+          }
+        },
+        {
+          "key": "coloros-14-1-flod-n5/09.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-09.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/10.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-10.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/11.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-11.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/12.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-12.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/13.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-13.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/14.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-14.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/15.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-15.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/16.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-16.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/17.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-17.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/18.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-18.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/19.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-19.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/20.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-20.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/21.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-21.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/22.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-22.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/23.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-23.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/24.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-24.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/25.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-25.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/26.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-26.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/27.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-27.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/28.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-28.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/29.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-29.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/30.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-30.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/31.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-31.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/32.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-32.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/33.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-33.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/34.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-34.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/35.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-35.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "coloros-14-1-flod-n5/36.png",
+          "tile": 56,
+          "src": "/assets/coloros-14-1-flod-n5-36.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        }
+      ],
+      "year": "2023"
+    },
+    {
+      "id": 58,
+      "title": "Visual Effects Technology",
+      "text": "A study of spatial hierarchy, materials, lighting, and visual depth for ColorOS.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "visual-effects-technology/01.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/02.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/03.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/04.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/05.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/06.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/07.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/08.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "visual-effects-technology/09.png",
+          "tile": 58,
+          "src": "/assets/visual-effects-technology-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ],
+      "year": "2024"
+    },
+    {
+      "id": 68,
+      "title": "AI Full Stack Design Methodology",
+      "year": "2026",
+      "text": "An AI-powered design workflow connecting intent, structured prototypes and product implementation.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "ai-full-stack-design-methodology/01.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/02.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/03.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/04.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/05.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/06.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/07.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/08.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/09.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/10.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-10.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/11.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-11.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/12.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-12.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/13.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-13.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/14.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-14.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/15.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-15.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/16.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-16.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/17.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-17.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/18.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-18.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/19.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-19.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/20.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-20.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/21.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-21.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/22.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-22.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/23.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-23.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/24.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-24.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/25.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-25.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/26.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-26.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/27.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-27.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/28.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-28.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/29.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-29.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/30.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-30.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/31.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-31.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/32.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-32.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/33.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-33.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/34.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-34.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/35.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-35.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/36.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-36.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/37.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-37.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/38.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-38.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/39.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-39.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/40.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-40.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/41.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-41.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/42.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-42.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/43.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-43.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/44.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-44.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/45.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-45.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/46.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-46.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/47.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-47.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/48.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-48.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/49.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-49.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/50.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-50.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "ai-full-stack-design-methodology/51.png",
+          "tile": 68,
+          "src": "/assets/ai-full-stack-design-methodology-51.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Momcozy Probation Plan",
+      "year": "2026",
+      "text": "A 90-day design plan for Momcozy, connecting business priorities, team capability, design systems and measurable delivery.",
+      "credits": [],
+      "links": [
+        [
+          "Open interactive plan",
+          "/projects/momcozy-work-plan/index.html"
+        ]
+      ],
+      "items": [
+        {
+          "key": "momcozy-probation-plan/01",
+          "tile": 70,
+          "src": "/projects/momcozy-work-plan/assets/images/profile/momcozy-app-poster.jpg",
+          "w": 2640,
+          "h": 2868,
+          "video": false
+        },
+        {
+          "key": "momcozy-probation-plan/02",
+          "tile": 70,
+          "src": "/projects/momcozy-work-plan/assets/images/projects/Covers/momcozy-app-3-ui-design.png",
+          "w": 3840,
+          "h": 2160,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "ColorOS 13.2",
+      "text": "Interface and cover screen design for ColorOS 13.2.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "coloros-13-2/cover.mp4",
+          "src": "/assets/coloros-13-2-cover.mp4",
+          "w": 1920,
+          "h": 1080,
+          "video": true,
+          "poster": "/assets/coloros-13-2-cover-poster.png",
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/01.png",
+          "src": "/assets/coloros-13-2-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/2.png",
+          "src": "/assets/coloros-13-2-extra-2.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/02.png",
+          "src": "/assets/coloros-13-2-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/03.png",
+          "src": "/assets/coloros-13-2-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/5.png",
+          "src": "/assets/coloros-13-2-extra-5.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/04.png",
+          "src": "/assets/coloros-13-2-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/05.png",
+          "src": "/assets/coloros-13-2-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/06.png",
+          "src": "/assets/coloros-13-2-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/7.png",
+          "src": "/assets/coloros-13-2-extra-7.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/app-design-principles.png",
+          "src": "/assets/coloros-13-2-app-design-principles.png",
+          "w": 3840,
+          "h": 2160,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/8.png",
+          "src": "/assets/coloros-13-2-extra-8.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "ColorOS System Apps",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "coloros-utilities/overview.png",
+          "tile": 48,
+          "src": "/assets/color16-22-classic-apps.png",
+          "w": 3840,
+          "h": 2160,
+          "video": false,
+          "screenVideos": [
+            {
+              "src": "/assets/color16-world-clock.mp4",
+              "poster": "/assets/color16-world-clock-poster.jpg",
+              "w": 1080,
+              "h": 2400,
+              "left": 5.520833333333333,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            },
+            {
+              "src": "/assets/color16-stopwatch.mp4",
+              "poster": "/assets/color16-stopwatch-poster.jpg",
+              "w": 1080,
+              "h": 2400,
+              "left": 28.958333333333336,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            },
+            {
+              "src": "/assets/color16-calculator.mp4",
+              "poster": "/assets/color16-calculator-poster.jpg",
+              "w": 1080,
+              "h": 2400,
+              "left": 52.39583333333333,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            },
+            {
+              "src": "/assets/color16-level.mp4",
+              "poster": "/assets/color16-level-poster.jpg",
+              "w": 1080,
+              "h": 2372,
+              "left": 75.83333333333333,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "OPPO AI",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oppo-ai/product-film.mp4",
+          "tile": 49,
+          "src": "/assets/oppo-ai-demo.mp4",
+          "w": 640,
+          "h": 360,
+          "video": true,
+          "poster": "/assets/oppo-ai-demo-poster.jpg"
+        },
+        {
+          "key": "oppo-ai/flash-memo-divider.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-flash-memo-divider.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/cover.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-cover.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/flash-memo-overview.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-flash-memo-overview.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/pickup-code.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-pickup-code.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/video-summary.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-video-summary.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/expense-records.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-expense-records.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/voice-note.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-voice-note.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/multiple-images.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-multiple-images.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/personalized-answers.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-personalized-answers.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/daily-briefing.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-daily-briefing.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/memory-suggestions.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-memory-suggestions.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/design-system-divider.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-design-system-divider.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-01-memory.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-01-memory.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-02-multisensory.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-02-multisensory.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-03-information.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-03-information.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-04-brand-vi.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-04-brand-vi.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-05-brand-guidelines.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-05-brand-guidelines.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "OPPO AI Brand Design",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oppo-ai-brand/cover.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-cover.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/01.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/02.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/03.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/04.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/05.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/06.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/07.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/08.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/09.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/10.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-10.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/11.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-11.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/12.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-12.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/13.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-13.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/14.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-14.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/15.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-15.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/16.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-16.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/17.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-17.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/18.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-18.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/19.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-19.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/20.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-20.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/21.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-21.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/22.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-22.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/23.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-23.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/24.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-24.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/25.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-25.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/26.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-26.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/27.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-27.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/28.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-28.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/29.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-29.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/30.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-30.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/31.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-31.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/32.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-32.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/33.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-33.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/34.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-34.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/35.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-35.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/36.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-36.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/37.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-37.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/38.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-38.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/39.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-39.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/40.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-40.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "OPPO AI IP",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oppo-ai-ip/cover.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-cover.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/01.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/02.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/03.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/04.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/05.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/06.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/07.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/08.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/09.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/10.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-10.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/11.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-11.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/12.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-12.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/13.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-13.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/14.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-14.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/15.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-15.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/16.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-16.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/17.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-17.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/18.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-18.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/19.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-19.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/20.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-20.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/21.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-21.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/22.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-22.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/23.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-23.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/24.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-24.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/25.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-25.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/26.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-26.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/27.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-27.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/28.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-28.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/29.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-29.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/30.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-30.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/31.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-31.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/32.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-32.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Ideal Life",
+      "year": "2026",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "ideal-life/artwork.png",
+          "tile": 61,
+          "src": "/assets/ideal-life.png",
+          "w": 3840,
+          "h": 2160,
+          "video": false
+        }
+      ]
+    },
+    {
       "id": 46,
       "title": "OOS 15 Una AI",
       "text": "",
@@ -671,1650 +2509,868 @@
       ]
     },
     {
-      "id": 48,
-      "title": "ColorOS System Apps",
-      "text": "",
+      "id": 52,
+      "title": "Instagram Data Management",
+      "text": "Interface design for Instagram account management and analytics.",
       "credits": [],
       "links": [],
       "items": [
         {
-          "key": "coloros-utilities/overview.png",
-          "tile": 48,
-          "src": "/assets/color16-22-classic-apps.png",
-          "w": 3840,
-          "h": 2160,
+          "key": "instagram-data-management/01.webp",
+          "src": "/assets/instagram-data-management-01.webp",
+          "w": 1504,
+          "h": 1128,
           "video": false,
-          "screenVideos": [
-            {
-              "src": "/assets/color16-world-clock.mp4",
-              "poster": "/assets/color16-world-clock-poster.jpg",
-              "w": 1080,
-              "h": 2400,
-              "left": 5.520833333333333,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            },
-            {
-              "src": "/assets/color16-stopwatch.mp4",
-              "poster": "/assets/color16-stopwatch-poster.jpg",
-              "w": 1080,
-              "h": 2400,
-              "left": 28.958333333333336,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            },
-            {
-              "src": "/assets/color16-calculator.mp4",
-              "poster": "/assets/color16-calculator-poster.jpg",
-              "w": 1080,
-              "h": 2400,
-              "left": 52.39583333333333,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            },
-            {
-              "src": "/assets/color16-level.mp4",
-              "poster": "/assets/color16-level-poster.jpg",
-              "w": 1080,
-              "h": 2372,
-              "left": 75.83333333333333,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            }
-          ]
+          "tile": 52
+        },
+        {
+          "key": "instagram-data-management/02.webp",
+          "src": "/assets/instagram-data-management-02.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 52
         }
       ]
     },
     {
-      "id": 49,
-      "title": "OPPO AI",
-      "text": "",
+      "id": 65,
+      "title": "Volog",
+      "year": "2020",
+      "text": "Interface design for a video community, covering discovery, playback and creator profiles.",
+      "credits": [
+        "Dragonlee (Orizon)"
+      ],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/11585605-Volog-APP"
+        ]
+      ],
+      "items": [
+        {
+          "key": "volog/01.png",
+          "tile": 65,
+          "src": "/assets/dribbble-volog-01.png",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        },
+        {
+          "key": "volog/02.png",
+          "tile": 65,
+          "src": "/assets/dribbble-volog-02.png",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        },
+        {
+          "key": "volog/03.png",
+          "tile": 65,
+          "src": "/assets/dribbble-volog-03.png",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Illustration",
+      "text": "A collection of illustration work.",
       "credits": [],
       "links": [],
       "items": [
         {
-          "key": "oppo-ai/cover.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-cover.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
+          "key": "illustration/01.webp",
+          "src": "/assets/illustration-01.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/product-film.mp4",
-          "tile": 49,
-          "src": "/assets/oppo-ai-demo.mp4",
-          "w": 640,
-          "h": 360,
-          "video": true,
-          "poster": "/assets/oppo-ai-demo-poster.jpg"
+          "key": "illustration/02.webp",
+          "src": "/assets/illustration-02.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/overview-02-multisensory.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-02-multisensory.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
+          "key": "illustration/03.webp",
+          "src": "/assets/illustration-03.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/overview-03-information.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-03-information.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
+          "key": "illustration/04.webp",
+          "src": "/assets/illustration-04.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/overview-04-brand-vi.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-04-brand-vi.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
+          "key": "illustration/05.webp",
+          "src": "/assets/illustration-05.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/overview-05-brand-guidelines.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-05-brand-guidelines.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
+          "key": "illustration/06.webp",
+          "src": "/assets/illustration-06.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/flash-memo-divider.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-flash-memo-divider.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
+          "key": "illustration/07.webp",
+          "src": "/assets/illustration-07.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/flash-memo-overview.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-flash-memo-overview.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
+          "key": "illustration/08.webp",
+          "src": "/assets/illustration-08.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/pickup-code.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-pickup-code.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
+          "key": "illustration/09.webp",
+          "src": "/assets/illustration-09.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/voice-note.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-voice-note.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
+          "key": "illustration/10.webp",
+          "src": "/assets/illustration-10.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/expense-records.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-expense-records.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
+          "key": "illustration/11.webp",
+          "src": "/assets/illustration-11.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
         },
         {
-          "key": "oppo-ai/multiple-images.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-multiple-images.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/video-summary.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-video-summary.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/daily-briefing.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-daily-briefing.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/memory-suggestions.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-memory-suggestions.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/personalized-answers.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-personalized-answers.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
+          "key": "illustration/12.webp",
+          "src": "/assets/illustration-12.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
         }
       ]
     },
     {
-      "id": 24,
-      "title": "Hivemind",
-      "text": "Hivemind is a social AI that has one-on-one conversations with many people at once. It exists to answer the universal human question: “What do people really think about ___?” In addition to being its founder, I lead the harness and cognitive/memory design for Hivemind.",
-      "credits": [
-        "Jason Yuan; Harsh Patel (logomark), Max Kuwertz (images)"
-      ],
+      "id": 64,
+      "title": "Customize Air Jordan Web",
+      "year": "2018",
+      "text": "An illustrated web design study inspired by Air Jordan sneaker customization.",
+      "credits": [],
       "links": [
         [
-          "hivemind.ai",
-          "https://hivemind.ai"
+          "Dribbble",
+          "https://dribbble.com/shots/5071294-Customize-Air-Jordan-Web"
         ]
       ],
       "items": [
         {
-          "key": "reels/hivemind.jpg",
-          "tile": 24,
-          "src": "/assets/hivemind-3yL6MsH2.jpg",
-          "w": 1440,
-          "h": 1800,
-          "video": false,
-          "set": [
-            [
-              "/assets/hivemind-w1200-CFY-qfjG.webp",
-              1200
-            ],
-            [
-              "/assets/hivemind-3yL6MsH2.jpg",
-              1440
-            ]
-          ]
-        },
-        {
-          "key": "reels/hivemind-masthead.svg",
-          "tile": 24,
-          "src": "/assets/hivemind-masthead-DEgRNPej.svg",
-          "w": 1200,
-          "h": 675,
-          "video": false,
-          "mark": true
-        },
-        {
-          "key": "reels/hivemind-2.jpg",
-          "tile": 24,
-          "src": "/assets/hivemind-2-vt2cONiC.jpg",
-          "w": 1440,
-          "h": 1788,
-          "video": false,
-          "set": [
-            [
-              "/assets/hivemind-2-w1200-CIsZaCOZ.webp",
-              1200
-            ],
-            [
-              "/assets/hivemind-2-vt2cONiC.jpg",
-              1440
-            ]
-          ]
-        },
-        {
-          "key": "reels/hivemind-3.jpg",
-          "tile": 24,
-          "src": "/assets/hivemind-3-CJchFdZu.jpg",
-          "w": 1440,
-          "h": 1800,
-          "video": false,
-          "set": [
-            [
-              "/assets/hivemind-3-w1200-DaMRLyIA.webp",
-              1200
-            ],
-            [
-              "/assets/hivemind-3-CJchFdZu.jpg",
-              1440
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "Gia Woods",
-      "text": "Logo, album artwork, and motion design for Gia Woods’ Your Engine era.",
-      "credits": [
-        "Brian Ziff, Jason Yuan"
-      ],
-      "items": [
-        {
-          "key": "reels/giawoods-wide.mp4",
-          "tile": 17,
-          "src": "/assets/giawoods-wide-lhY-VSr4.mp4",
-          "w": 720,
-          "h": 404,
-          "video": true,
-          "poster": "/assets/giawoods-wide-poster-CNgHCvd8.jpg"
-        },
-        {
-          "key": "reels/giawoods-cover.jpg",
-          "tile": 17,
-          "src": "/assets/giawoods-cover-mNxHMCFV.jpg",
-          "w": 640,
-          "h": 640,
+          "key": "air-jordan-web/01.png",
+          "tile": 64,
+          "src": "/assets/dribbble-air-jordan-01.png",
+          "w": 1600,
+          "h": 1200,
           "video": false
         }
       ]
     },
     {
-      "id": 18,
-      "title": "FKA Twigs & The Weeknd - Tears in the Club",
-      "text": "Title concept and design for the Tears in the Club music video.",
-      "credits": [
-        "Amber Grace Johnson, SIM, Sasha Nitze, Marisa Lu, Object & Animal, Chiao Chen, Jason Yuan"
-      ],
+      "id": 54,
+      "title": "Meditation Product Design",
+      "text": "Interface design for a meditation and focus app.",
+      "credits": [],
+      "links": [],
       "items": [
         {
-          "key": "reels/thursday.mp4",
-          "tile": 18,
-          "src": "/assets/thursday-qEvRdnCV.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/thursday-poster-Cy64K84K.jpg"
+          "key": "meditation-product-design/01.webp",
+          "src": "/assets/meditation-product-design-01.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/02.webp",
+          "src": "/assets/meditation-product-design-02.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/03.webp",
+          "src": "/assets/meditation-product-design-03.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/04.webp",
+          "src": "/assets/meditation-product-design-04.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/05.webp",
+          "src": "/assets/meditation-product-design-05.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
         }
       ]
     },
     {
-      "id": 19,
-      "title": "Chanel × Jennie Kim",
-      "text": "Title card concept and design in collaboration with Inez & Vinoodh, for Chanel’s Coco Neige film featuring Jennie of Blackpink.",
+      "id": 66,
+      "title": "Video Editing",
+      "year": "",
+      "text": "A mobile video editing interface and UI kit for media selection, playback, text and audio.",
       "credits": [
-        "Inez & Vinoodh; Lucia Pica, Damien Boissinot, Max Pearmain, Jodokus Driessen, Edouard Boutinaud, Jan Rubens, @kledortz_colorist, @emmaohsnap, StereoHorse, Tucker Birbilis, Christophe Starkman, Jason Yuan"
-      ],
-      "items": [
-        {
-          "key": "reels/chanel-1.mp4",
-          "tile": 19,
-          "src": "/assets/chanel-1-BQGxF60p.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/chanel-1-poster-BvKSOWKu.jpg",
-          "hq": "/assets/chanel-1-hq-C7vdaipM.mp4"
-        },
-        {
-          "key": "reels/chanel-2.mp4",
-          "tile": 19,
-          "src": "/assets/chanel-2-0Np6c8tr.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/chanel-2-poster-CaNXPfE4.jpg"
-        },
-        {
-          "key": "reels/chanel-3.mp4",
-          "tile": 19,
-          "src": "/assets/chanel-3-ChFInCx1.mp4",
-          "w": 1600,
-          "h": 900,
-          "video": true,
-          "poster": "/assets/chanel-3-poster-EtdgyfQv.jpg"
-        },
-        {
-          "key": "reels/chanel-4.jpg",
-          "tile": 19,
-          "src": "/assets/chanel-4-DF9mn_8k.jpg",
-          "w": 1600,
-          "h": 900,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Mercury OS",
-      "text": "Speculative operating system featuring a language-driven interface that generated and transformed UI in response to human intent, anticipating today’s generative interfaces.",
-      "credits": [
-        "Jason Yuan; Dennis Jin"
+        "Dragonlee (Orizon)"
       ],
       "links": [
         [
-          "2019 essay",
-          "#essay"
+          "Dribbble",
+          "https://dribbble.com/shots/5825956-Video-Editing"
         ],
         [
-          "2019 website",
-          "https://www.mercuryos.com"
+          "UI Kit",
+          "https://dribbble.com/shots/5832052-Video-Kit"
         ]
       ],
       "items": [
         {
-          "key": "mercury/mercuryhero.mp4",
-          "tile": 15,
-          "src": "/assets/mercuryhero-DWJ5-ZMA.mp4",
-          "w": 2000,
-          "h": 1499,
-          "video": true,
-          "poster": "/assets/mercuryhero-B8U21NqY.jpg",
-          "sqp": true
-        },
-        {
-          "key": "mercury/article/00.webp",
-          "tile": 15,
-          "src": "/assets/00-DIFl3MHK.webp",
-          "w": 2000,
-          "h": 1499,
-          "video": false,
-          "set": [
-            [
-              "/assets/00-w1200-CwlmHbI0.webp",
-              1200
-            ],
-            [
-              "/assets/00-DIFl3MHK.webp",
-              2000
-            ]
-          ]
-        },
-        {
-          "key": "mercury/article/08.webp",
-          "tile": 15,
-          "src": "/assets/08-up4lz7eB.webp",
-          "w": 2000,
-          "h": 1125,
-          "video": false,
-          "set": [
-            [
-              "/assets/08-w1200-DglqMWyC.webp",
-              1200
-            ],
-            [
-              "/assets/08-up4lz7eB.webp",
-              2000
-            ]
-          ]
-        },
-        {
-          "key": "mercury/article/11.webp",
-          "tile": 15,
-          "src": "/assets/11-B1BU0O4A.webp",
-          "w": 2000,
-          "h": 1499,
-          "video": false,
-          "set": [
-            [
-              "/assets/11-w1200-B_QSEq2b.webp",
-              1200
-            ],
-            [
-              "/assets/11-B1BU0O4A.webp",
-              2000
-            ]
-          ]
-        },
-        {
-          "key": "mercury/article/12.mp4",
-          "tile": 15,
-          "src": "/assets/12-D_S-LnfW.mp4",
-          "w": 960,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/12-poster-dfG1edEP.jpg"
-        },
-        {
-          "key": "mercury/article/13.webp",
-          "tile": 15,
-          "src": "/assets/13-J1HGc-bU.webp",
-          "w": 2000,
-          "h": 1125,
-          "video": false,
-          "set": [
-            [
-              "/assets/13-w1200-dSGChVoc.webp",
-              1200
-            ],
-            [
-              "/assets/13-J1HGc-bU.webp",
-              2000
-            ]
-          ]
-        },
-        {
-          "key": "mercury/article/15.mp4",
-          "tile": 15,
-          "src": "/assets/15-DftrSReA.mp4",
-          "w": 1200,
-          "h": 842,
-          "video": true,
-          "poster": "/assets/15-poster-DcEcZFyM.jpg"
-        },
-        {
-          "key": "mercury/article/23.webp",
-          "tile": 15,
-          "src": "/assets/23-DSGADC2F.webp",
-          "w": 1764,
-          "h": 1322,
-          "video": false,
-          "set": [
-            [
-              "/assets/23-w1200-Cfiw8pUE.webp",
-              1200
-            ],
-            [
-              "/assets/23-DSGADC2F.webp",
-              1764
-            ]
-          ],
-          "cut": true
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Christina Aguilera - La Tormenta",
-      "text": "Motion design for the cover of Christina Aguilera’s La Tormenta.",
-      "credits": [
-        "Danna Takako, Rudy Grazziani; Marisa Lu, Original Creative Agency, Tessa Tinglof, Jason Yuan"
-      ],
-      "items": [
-        {
-          "key": "reels/tormenta.mp4",
-          "tile": 25,
-          "src": "/assets/tormenta-C8tFzotV.mp4",
-          "w": 1440,
-          "h": 1440,
-          "video": true,
-          "poster": "/assets/tormenta-poster-SnlxqK-H.jpg"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Deafheaven - Infinite Granite",
-      "text": "Design and motion for the album art and tour of Infinite Granite by Deafheaven.",
-      "credits": [
-        "Nick Steinhardt, Drew Tetz, Jason Yuan"
-      ],
-      "items": [
-        {
-          "key": "reels/granite-1.mp4",
-          "tile": 20,
-          "src": "/assets/granite-1-BQT_52mv.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/granite-1-poster-C0Flu4po.jpg"
-        },
-        {
-          "key": "reels/gravity-1.mp4",
-          "tile": 20,
-          "src": "/assets/gravity-1-Wx3N3qp3.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/gravity-1-poster-D3P3hNHV.jpg"
-        },
-        {
-          "key": "reels/gravity-2.mp4",
-          "tile": 20,
-          "src": "/assets/gravity-2-C4LlhVjf.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "data:image/jpeg;base64,/9j//gAQTGF2YzYyLjI4LjEwMgD/2wBDAAgICAkICQsLCwsLCw0MDQ0NDQ0NDQ0NDQ0ODg4REREODg4NDQ4OEBARERITEhERERETExQUFBgYFxccHB0iIin/xABLAAEBAAAAAAAAAAAAAAAAAAAACAEBAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAAAP/AABEIAtAC0AMBIgACEQADEQD/2gAMAwEAAhEDEQA/AJ/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//Z"
-        },
-        {
-          "key": "reels/gravity-3.jpg",
-          "tile": 20,
-          "src": "/assets/gravity-3-DgzLQwQj.jpg",
-          "w": 899,
-          "h": 899,
-          "video": false
-        },
-        {
-          "key": "reels/granite-2.mp4",
-          "tile": 20,
-          "src": "/assets/granite-2-Csq9yhAy.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/granite-2-poster-gLIuYmU2.jpg"
-        },
-        {
-          "key": "reels/granite-3.mp4",
-          "tile": 20,
-          "src": "/assets/granite-3-D_AwKxXQ.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "data:image/jpeg;base64,/9j//gAQTGF2YzYyLjI4LjEwMgD/2wBDAAgICAkICQsLCwsLCw0MDQ0NDQ0NDQ0NDQ0ODg4REREODg4NDQ4OEBARERITEhERERETExQUFBgYFxccHB0iIin/xABLAAEBAAAAAAAAAAAAAAAAAAAACAEBAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAAAP/AABEIAtAC0AMBIgACEQADEQD/2gAMAwEAAhEDEQA/AJ/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//Z"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Klim Type Foundry - Maelstrom Sans",
-      "text": "Launch campaign design direction for Maelstrom Sans by Klim Type Foundry.",
-      "credits": [
-        "Kris Sowersby, Blanco Type, Jason Yuan"
-      ],
-      "links": [
-        [
-          "Maelstrom Sans at Klim",
-          "https://klim.co.nz/retail-fonts/maelstrom-sans/"
-        ]
-      ],
-      "items": [
-        {
-          "key": "reels/maelstrom-1.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-1-Cf6BLh-E.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-1-poster-BVEfGdAr.jpg"
-        },
-        {
-          "key": "reels/maelstrom-2.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-2-BrysA5-M.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-2-poster-5pXd_b7_.jpg"
-        },
-        {
-          "key": "reels/maelstrom-3.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-3-Ch-a9BRe.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-3-poster-C-HOMLPO.jpg"
-        },
-        {
-          "key": "reels/maelstrom-4.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-4-C8GkFi6o.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-4-poster-BOo16htS.jpg"
-        },
-        {
-          "key": "reels/maelstrom-5.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-5-DsdEsIEA.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-5-poster-BL5iBvVP.jpg"
-        },
-        {
-          "key": "reels/maelstrom-6.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-6-DYE-iMsF.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-6-poster-CXnAge5W.jpg"
-        },
-        {
-          "key": "reels/maelstrom-7.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-7-aDDQwlSf.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-7-poster-DyBM_xjK.jpg"
-        },
-        {
-          "key": "reels/maelstrom-8.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom-8-BDGbyHOr.mp4",
-          "w": 640,
-          "h": 640,
-          "video": true,
-          "poster": "/assets/maelstrom-8-poster-Bbt3Zcdo.jpg"
-        },
-        {
-          "key": "maelstrom_thumb.mp4",
-          "tile": 13,
-          "src": "/assets/maelstrom_thumb-DG4-5W6O.mp4",
-          "w": 1080,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/maelstrom_thumb-poster-5o9eQS_N.jpg"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "title": "Klim Type Foundry - The Future Mono",
-      "text": "Launch campaign design direction for The Future Mono by Klim Type Foundry.",
-      "credits": [
-        "Kris Sowersby, Blanco Type, Foster Type, Jason Yuan"
-      ],
-      "links": [
-        [
-          "The Future Mono on Future Fonts",
-          "https://www.futurefonts.xyz/klim/the-future-mono"
-        ]
-      ],
-      "items": [
-        {
-          "key": "futuremono_thumb.mp4",
-          "tile": 16,
-          "src": "/assets/futuremono_thumb-C__nX_Vu.mp4",
-          "w": 1080,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/futuremono_thumb-poster-DerXr4Vn.jpg"
-        },
-        {
-          "key": "reels/futuremono-1.mp4",
-          "tile": 16,
-          "src": "/assets/futuremono-1-aoNT-qRJ.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/futuremono-1-poster-QomgzRHB.jpg"
-        },
-        {
-          "key": "reels/futuremono-7.mp4",
-          "tile": 16,
-          "src": "/assets/futuremono-7-CH9tqGY1.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/futuremono-7-poster-DyKz_D7N.jpg"
-        },
-        {
-          "key": "reels/futuremono-5.mp4",
-          "tile": 16,
-          "src": "/assets/futuremono-5-Dvgp-zTN.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/futuremono-5-poster-Bl5rCL9D.jpg"
-        },
-        {
-          "key": "reels/futuremono-4.mp4",
-          "tile": 16,
-          "src": "/assets/futuremono-4-CyAxlGQu.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/futuremono-4-poster-CuNbG_ER.jpg"
-        },
-        {
-          "key": "reels/futuremono-3.mp4",
-          "tile": 16,
-          "src": "/assets/futuremono-3-C16xuilr.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/futuremono-3-poster-e7v3XnFF.jpg"
-        },
-        {
-          "key": "reels/futuremono-2.mp4",
-          "tile": 16,
-          "src": "/assets/futuremono-2-BmmIOuwz.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/futuremono-2-poster-CgMbR6F1.jpg"
-        }
-      ]
-    },
-    {
-      "id": 42,
-      "title": "MakeSpace",
-      "text": "MakeSpace was a multiplayer spatial browser I co-created with Aza Raskin as a pandemic project. It let people browse, talk, move, and create together on a shared canvas. Its interaction model directly influenced the creation of products like FigJam.",
-      "credits": [
-        "Jason Yuan, Aza Raskin; Julius Tarng, Mayli Khoe, Weiwei Hsu, and others"
-      ],
-      "links": [
-        [
-          "makespace.fun, June 2020",
-          "https://web.archive.org/web/20200618173915/https://makespace.fun/"
-        ]
-      ],
-      "items": [
-        {
-          "key": "makespace/hero.mp4",
-          "tile": 42,
-          "src": "/assets/hero-zMjLbn7g.mp4",
-          "w": 1620,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/hero-poster-CThWXgwd.jpg",
-          "trim": true
-        },
-        {
-          "key": "makespace/facedock.mp4",
-          "tile": 42,
-          "src": "/assets/facedock-Gp1sFe1V.mp4",
-          "w": 1728,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/facedock-poster-d9kk9_9c.jpg",
-          "trim": true
-        },
-        {
-          "key": "makespace/browse.mp4",
-          "tile": 42,
-          "src": "/assets/browse-CkpBCJN9.mp4",
-          "w": 1552,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/browse-poster-BimOy5Xn.jpg",
-          "trim": true
-        },
-        {
-          "key": "makespace/dragdrop.mp4",
-          "tile": 42,
-          "src": "/assets/dragdrop-H8i21icS.mp4",
-          "w": 1552,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/dragdrop-poster-DYSWmOjA.jpg",
-          "trim": true
-        },
-        {
-          "key": "makespace/stika.mp4",
-          "tile": 42,
-          "src": "/assets/stika-IpNytHKu.mp4",
-          "w": 2160,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/stika-poster-Dg_3UsWD.jpg",
-          "trim": true
-        },
-        {
-          "key": "makespace/facedock-one.mp4",
-          "tile": 42,
-          "src": "/assets/facedock-one-CG5ZpXP_.mp4",
-          "w": 1440,
-          "h": 960,
-          "video": true,
-          "poster": "/assets/facedock-one-poster-Cn1kOARP.jpg",
-          "trim": true
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Blackpink - Lovesick Girls Visualizer",
-      "text": "Animation for Interscope Records to promote Lovesick Girls by Blackpink.",
-      "items": [
-        {
-          "key": "reels/lovesick.mp4",
-          "tile": 22,
-          "src": "/assets/lovesick-CfLGPTpe.mp4",
-          "w": 1080,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/lovesick-poster-CCKonmFk.jpg"
-        },
-        {
-          "key": "reels/lovesick-still.jpg",
-          "tile": 22,
-          "src": "/assets/lovesick-still-Cp3s4B-o.jpg",
-          "w": 1440,
-          "h": 1440,
-          "video": false,
-          "set": [
-            [
-              "/assets/lovesick-still-w1200-B3REXFX2.webp",
-              1200
-            ],
-            [
-              "/assets/lovesick-still-Cp3s4B-o.jpg",
-              1440
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "title": "LiveWire (Harley-Davidson)",
-      "text": "I designed the startup animation for LiveWire, Harley-Davidson’s electric motorcycle. If you own one, you’ll see it every day!",
-      "credits": [
-        "Manual, Jason Yuan"
-      ],
-      "links": [
-        [
-          "LiveWire at Manual",
-          "https://manual.studio/work/livewire"
-        ]
-      ],
-      "items": [
-        {
-          "key": "reels/livewire.mp4",
-          "tile": 21,
-          "src": "/assets/livewire-CgEoNIOP.mp4",
-          "w": 720,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/livewire-poster-BlLUqrZM.jpg"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "The Society of the Spectacle",
-      "text": "A hand-bound edition of Guy Debord’s The Society of the Spectacle, interleaved with Kanye West’s tweets.",
-      "items": [
-        {
-          "key": "spectacle/spectacle1.jpg",
-          "tile": 3,
-          "src": "/assets/spectacle1-CP2CmLUQ.jpg",
-          "w": 1920,
-          "h": 1280,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacle1-w1200-4aW_kJ_0.webp",
-              1200
-            ],
-            [
-              "/assets/spectacle1-CP2CmLUQ.jpg",
-              1920
-            ]
-          ]
-        },
-        {
-          "key": "spectacle/cut/spectacleinside1.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside1-Bl3UuO0N.webp",
-          "w": 1562,
-          "h": 1039,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside1-w1200-sBkHCnWt.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside1-Bl3UuO0N.webp",
-              1562
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside0.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside0-_e7Uqxgg.webp",
-          "w": 1568,
-          "h": 1046,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside0-w1200-dcCaUmzw.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside0-_e7Uqxgg.webp",
-              1568
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside2.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside2-D9FSN9x1.webp",
-          "w": 1570,
-          "h": 1039,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside2-w1200-BJbJbJ-O.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside2-D9FSN9x1.webp",
-              1570
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside3.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside3-BdIf1rX9.webp",
-          "w": 1542,
-          "h": 1059,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside3-w1200-DB482zHS.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside3-BdIf1rX9.webp",
-              1542
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside4.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside4-BtToj3Tt.webp",
-          "w": 1530,
-          "h": 1057,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside4-w1200-CZIqBmy3.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside4-BtToj3Tt.webp",
-              1530
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside5.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside5-C0xHR19a.webp",
-          "w": 1522,
-          "h": 1046,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside5-w1200-CDdR7eCX.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside5-C0xHR19a.webp",
-              1522
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside6.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside6-B0hmS-N3.webp",
-          "w": 1500,
-          "h": 1036,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside6-w1200-DxPDEHpQ.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside6-B0hmS-N3.webp",
-              1500
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside7.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside7-SZbRS6B0.webp",
-          "w": 1525,
-          "h": 1032,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside7-w1200-Bt-WoH69.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside7-SZbRS6B0.webp",
-              1525
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside8.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside8-C3GDE_gA.webp",
-          "w": 1538,
-          "h": 1037,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside8-w1200-BXnZov13.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside8-C3GDE_gA.webp",
-              1538
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside9.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside9-Dv81kxhK.webp",
-          "w": 1500,
-          "h": 1031,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside9-w1200-BTHVTiwD.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside9-Dv81kxhK.webp",
-              1500
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleinside10.webp",
-          "tile": 3,
-          "src": "/assets/spectacleinside10-DD5MZPvW.webp",
-          "w": 1467,
-          "h": 1017,
-          "video": false,
-          "set": [
-            [
-              "/assets/spectacleinside10-w1200-QQumBrUf.webp",
-              1200
-            ],
-            [
-              "/assets/spectacleinside10-DD5MZPvW.webp",
-              1467
-            ]
-          ],
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacle2.webp",
-          "tile": 3,
-          "src": "/assets/spectacle2-K_CS16H4.webp",
-          "w": 717,
-          "h": 878,
-          "video": false,
-          "cut": true
-        },
-        {
-          "key": "spectacle/cut/spectacleback.webp",
-          "tile": 3,
-          "src": "/assets/spectacleback-CUT83pGE.webp",
-          "w": 827,
-          "h": 1023,
-          "video": false,
-          "cut": true
-        }
-      ]
-    },
-    {
-      "id": "posters",
-      "title": "Posters",
-      "year": "2015–2018",
-      "items": [
-        {
-          "key": "posters/wormhole.jpg",
-          "tile": 2,
-          "src": "/assets/wormhole-C1KSLKlh.jpg",
-          "w": 1280,
-          "h": 1920,
-          "video": false
-        },
-        {
-          "key": "posters/future.jpg",
-          "tile": 44,
-          "src": "/assets/future-CzFwPArr.jpg",
-          "w": 2000,
-          "h": 2799,
-          "video": false,
-          "set": [
-            [
-              "/assets/future-w1200-DmTPhP5X.webp",
-              1200
-            ],
-            [
-              "/assets/future-CzFwPArr.jpg",
-              2000
-            ]
-          ]
-        },
-        {
-          "key": "posters/light.jpg",
-          "tile": 26,
-          "src": "/assets/light-CjrnPWql.jpg",
-          "w": 4000,
-          "h": 6000,
-          "video": false,
-          "set": [
-            [
-              "/assets/light-w1200-BFv8fRh7.webp",
-              1200
-            ],
-            [
-              "/assets/light-w2000-DUoDyqZb.webp",
-              2000
-            ],
-            [
-              "/assets/light-CjrnPWql.jpg",
-              4000
-            ]
-          ]
-        },
-        {
-          "key": "posters/hamlet.mp4",
-          "tile": 32,
-          "src": "/assets/hamlet-Bx0QNr6U.mp4",
-          "w": 1296,
-          "h": 1728,
-          "video": true,
-          "poster": "/assets/hamlet-poster-ByJWPNkH.jpg"
-        },
-        {
-          "key": "posters/mother.jpg",
-          "tile": 28,
-          "src": "/assets/mother-KPg3Yi2U.jpg",
-          "w": 1280,
-          "h": 1941,
-          "video": false
-        },
-        {
-          "key": "posters/streetcar.jpg",
-          "tile": 31,
-          "src": "/assets/streetcar-EZZDbRoB.jpg",
-          "w": 1294,
-          "h": 2000,
-          "video": false
-        },
-        {
-          "key": "hammy.mp4",
-          "tile": 6,
-          "src": "/assets/hammy-CHkMbcGv.mp4",
-          "w": 1024,
-          "h": 1024,
-          "video": true,
-          "poster": "/assets/hammy-poster-BreZY96y.jpg"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Unsolicited Apple Music Redesign",
-      "text": "The case study that launched my career. From a simpler time.",
-      "links": [
-        [
-          "Original case study",
-          "https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf"
-        ]
-      ],
-      "items": [
-        {
-          "key": "applemusic/applemusic_hero2.mp4",
-          "tile": 4,
-          "src": "/assets/applemusic_hero2-1PGJiEQ7.mp4",
-          "w": 1280,
-          "h": 720,
-          "video": true,
-          "poster": "/assets/applemusic_hero2-poster-ADfd9Fye.jpg"
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "title": "Nox",
-      "text": "Typographic short film inspired by theatrical shadow play.",
-      "items": [
-        {
-          "key": "nox_thumb.mp4",
-          "tile": 1,
-          "src": "/assets/nox_thumb-BTSXAbWO.mp4",
-          "w": 1024,
-          "h": 1024,
-          "video": true,
-          "poster": "/assets/nox_thumb-poster-DZi-sR0T.jpg"
-        },
-        {
-          "key": "films/nox.mp4",
-          "tile": 1,
-          "src": "/assets/nox-Dda6S8Wi.mp4",
-          "w": 1920,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/nox-poster-CK_Mzutm.jpg"
-        },
-        {
-          "key": "nox/3.jpg",
-          "tile": 1,
-          "src": "/assets/3-Mm8132-k.jpg",
-          "w": 2800,
-          "h": 1575,
-          "video": false,
-          "set": [
-            [
-              "/assets/3-w1200-BOgNLhjz.webp",
-              1200
-            ],
-            [
-              "/assets/3-w2000-Do88pYPX.webp",
-              2000
-            ],
-            [
-              "/assets/3-Mm8132-k.jpg",
-              2800
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "title": "I Have No Enemies",
-      "text": "Screw-bound book containing Chinese activist Liu Xiaobo’s Nobel acceptance speech printed on sheets of transparent acrylic.",
-      "id": 0,
-      "items": [
-        {
-          "key": "no-enemies-banner.jpg",
-          "tile": 0,
-          "src": "/assets/no-enemies-banner-DvxPYSq6.jpg",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "set": [
-            [
-              "/assets/no-enemies-banner-w1200-DVaYWGvK.webp",
-              1200
-            ],
-            [
-              "/assets/no-enemies-banner-DvxPYSq6.jpg",
-              1920
-            ]
-          ],
-          "sqp": true
-        },
-        {
-          "key": "no_enemies/2.jpg",
-          "tile": 0,
-          "src": "/assets/2-Dqy_xcJf.jpg",
-          "w": 1920,
-          "h": 1440,
-          "video": false,
-          "set": [
-            [
-              "/assets/2-w1200-B9xU9TUm.webp",
-              1200
-            ],
-            [
-              "/assets/2-Dqy_xcJf.jpg",
-              1920
-            ]
-          ],
-          "sqp": true
-        },
-        {
-          "key": "no_enemies/5.jpg",
-          "tile": 0,
-          "src": "/assets/5-DWkKwL-C.jpg",
-          "w": 1920,
-          "h": 1440,
-          "video": false,
-          "set": [
-            [
-              "/assets/5-w1200-qfnUxg7T.webp",
-              1200
-            ],
-            [
-              "/assets/5-DWkKwL-C.jpg",
-              1920
-            ]
-          ],
-          "sqp": true
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Count the Clock",
-      "text": "Count the Clock was an independent, microbudget film collective at Northwestern. Its identity was one of the first I ever designed.",
-      "items": [
-        {
-          "key": "counttheclock/countwide.mp4",
-          "tile": 5,
-          "src": "/assets/countwide-DkFJuita.mp4",
-          "w": 1080,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/countwide-poster-DjWMpoGO.jpg"
-        },
-        {
-          "key": "films/count-credits.mp4",
-          "tile": 5,
-          "src": "/assets/count-credits-Cd12Ru-i.mp4",
-          "w": 1920,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/count-credits-poster-dfU5ymu9.jpg"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Fear",
-      "text": "A poem I wrote about domestic violence, suspended in a Mason jar filled with hair gel.",
-      "items": [
-        {
-          "key": "fear/fearhero.jpg",
-          "tile": 8,
-          "src": "/assets/fearhero-ChArXpmq.jpg",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "set": [
-            [
-              "/assets/fearhero-w1200-DEuy2ZTR.webp",
-              1200
-            ],
-            [
-              "/assets/fearhero-ChArXpmq.jpg",
-              1920
-            ]
-          ],
-          "sqp": true
-        },
-        {
-          "key": "fear/fear4.jpg",
-          "tile": 8,
-          "src": "/assets/fear4-C67JWg1l.jpg",
-          "w": 2160,
-          "h": 1440,
-          "video": false,
-          "set": [
-            [
-              "/assets/fear4-w1200-CMFL44ca.webp",
-              1200
-            ],
-            [
-              "/assets/fear4-C67JWg1l.jpg",
-              2160
-            ]
-          ],
-          "sqp": true
-        },
-        {
-          "key": "fear/fear3.jpg",
-          "tile": 8,
-          "src": "/assets/fear3-D88l7qsA.jpg",
-          "w": 2160,
-          "h": 1440,
-          "video": false,
-          "set": [
-            [
-              "/assets/fear3-w1200-BXfwyEnR.webp",
-              1200
-            ],
-            [
-              "/assets/fear3-D88l7qsA.jpg",
-              2160
-            ]
-          ],
-          "sqp": true
-        },
-        {
-          "key": "fear/fear2.jpg",
-          "tile": 8,
-          "src": "/assets/fear2-ByGIHT0M.jpg",
-          "w": 2160,
-          "h": 1440,
-          "video": false,
-          "set": [
-            [
-              "/assets/fear2-w1200-Bh7AKkKN.webp",
-              1200
-            ],
-            [
-              "/assets/fear2-ByGIHT0M.jpg",
-              2160
-            ]
-          ],
-          "sqp": true
-        },
-        {
-          "key": "fear/fear5.jpg",
-          "tile": 8,
-          "src": "/assets/fear5-l6lldfFM.jpg",
-          "w": 2160,
-          "h": 1440,
-          "video": false,
-          "set": [
-            [
-              "/assets/fear5-w1200-CIGEIjRU.webp",
-              1200
-            ],
-            [
-              "/assets/fear5-l6lldfFM.jpg",
-              2160
-            ]
-          ],
-          "sqp": true
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Undertones: Spit It Out",
-      "text": "Album artwork and packaging design.",
-      "items": [
-        {
-          "key": "spititoutthumb.mp4",
-          "tile": 10,
-          "src": "/assets/spititoutthumb-BlSyXDU-.mp4",
-          "w": 1280,
-          "h": 1280,
-          "video": true,
-          "poster": "/assets/spititoutthumb-poster-CHjB3BBT.jpg"
-        },
-        {
-          "key": "spititout/cd.png",
-          "tile": 10,
-          "src": "/assets/cd-Dt5hKrdZ.png",
-          "w": 1086,
-          "h": 1086,
-          "video": false,
-          "disc": true
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "Pentatonix",
-      "text": "Album artwork for Pentatonix’s 2016 Japanese release of their namesake album.",
-      "credits": [
-        "Annie Stoll, Jason Yuan"
-      ],
-      "items": [
-        {
-          "key": "pentatonix/cover.jpg",
-          "tile": 11,
-          "src": "/assets/cover-DvN7ZjCo.jpg",
-          "w": 1200,
+          "key": "video-editing/01.png",
+          "tile": 66,
+          "src": "/assets/dribbble-video-editing-01.png",
+          "w": 1600,
           "h": 1200,
           "video": false
         },
         {
-          "key": "pentatonix/cd.png",
-          "tile": 11,
-          "src": "/assets/cd-D6V6NJML.png",
-          "w": 1080,
+          "key": "video-editing/02.png",
+          "tile": 66,
+          "src": "/assets/dribbble-video-editing-02.png",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Universal Search",
+      "text": "Search and browsing experience design for ColorOS 13.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "universal-search/06.png",
+          "tile": 57,
+          "src": "/assets/universal-search-06.png",
+          "w": 1920,
           "h": 1080,
-          "video": false,
-          "disc": true
-        }
-      ]
-    },
-    {
-      "id": 43,
-      "title": "Focus / Gee",
-      "text": "A single by the Northwestern Treblemakers. I designed the artwork, wrote the arrangement, and—if you listen closely—sang one of the solos.",
-      "links": [
-        [
-          "Spotify",
-          "https://open.spotify.com/album/2PO2yXe5So94demZnuFTcG"
-        ],
-        [
-          "Apple Music",
-          "https://music.apple.com/us/artist/northwestern-treblemakers/506443431"
-        ]
-      ],
-      "year": 2016,
-      "items": [
-        {
-          "key": "focusgee.webp",
-          "tile": 43,
-          "src": "/assets/focusgee-BYBVauJY.webp",
-          "w": 2000,
-          "h": 2000,
-          "video": false,
-          "set": [
-            [
-              "/assets/focusgee-w1200-D-1lCQDg.webp",
-              1200
-            ],
-            [
-              "/assets/focusgee-BYBVauJY.webp",
-              2000
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Treblemakers: Uncharted",
-      "text": "I made my first album artwork overnight in a dorm room in 2015. By 5 a.m., I had decided to become a designer.",
-      "year": 2015,
-      "items": [
-        {
-          "key": "uncharted/trebles3.png",
-          "tile": 9,
-          "src": "/assets/trebles3-Coc8f5KY.png",
-          "w": 1280,
-          "h": 1280,
           "video": false
         },
         {
-          "key": "uncharted/cd.png",
-          "tile": 9,
-          "src": "/assets/cd-BL-DlXNi.png",
-          "w": 1200,
-          "h": 1200,
-          "video": false,
-          "disc": true
+          "key": "universal-search/01.png",
+          "tile": 57,
+          "src": "/assets/universal-search-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/02.png",
+          "tile": 57,
+          "src": "/assets/universal-search-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/03.png",
+          "tile": 57,
+          "src": "/assets/universal-search-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/04.png",
+          "tile": 57,
+          "src": "/assets/universal-search-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/05.png",
+          "tile": 57,
+          "src": "/assets/universal-search-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/07.png",
+          "tile": 57,
+          "src": "/assets/universal-search-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/08.png",
+          "tile": 57,
+          "src": "/assets/universal-search-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/09.png",
+          "tile": 57,
+          "src": "/assets/universal-search-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/10.png",
+          "tile": 57,
+          "src": "/assets/universal-search-10.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/11.png",
+          "tile": 57,
+          "src": "/assets/universal-search-11.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/12.png",
+          "tile": 57,
+          "src": "/assets/universal-search-12.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "universal-search/13.png",
+          "tile": 57,
+          "src": "/assets/universal-search-13.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ],
+      "year": "2019"
+    },
+    {
+      "id": 67,
+      "title": "Alibaba Design",
+      "year": "",
+      "text": "Product and brand design across Alibaba gaming services, Quark, UC campaigns and new businesses.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "alibaba-design/01.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/02.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/03.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/04.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/05.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/06.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/07.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/08.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/09.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/10.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-10.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "alibaba-design/11.png",
+          "tile": 67,
+          "src": "/assets/alibaba-design-11.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
         }
       ]
     },
     {
-      "id": 41,
-      "title": "Closet",
-      "text": "A musical I wrote and directed in 2014. I’ve never been a particularly subtle person.",
-      "year": 2014,
+      "id": 59,
+      "title": "Quark Smart Camera 4.0",
+      "year": "2018",
+      "text": "Smart camera experience design for Quark 4.0, covering visual recognition, user journeys, interaction flows, and interface design.",
+      "credits": [],
+      "links": [],
       "items": [
         {
-          "key": "closet.webp",
-          "tile": 41,
-          "src": "/assets/closet-BQml-chk.webp",
-          "w": 1415,
-          "h": 2000,
-          "video": false,
-          "set": [
-            [
-              "/assets/closet-w1200-Dp_ZT9an.webp",
-              1200
-            ],
-            [
-              "/assets/closet-BQml-chk.webp",
-              1415
-            ]
-          ]
+          "key": "quark-smart-camera-4-0/01.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-01.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/02.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-02.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/03.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-03.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/04.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-04.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/05.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-05.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/06.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-06.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/07.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-07.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/08.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-08.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-smart-camera-4-0/09.png",
+          "tile": 59,
+          "src": "/assets/quark-smart-camera-4-0-09.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Quark Search Experience",
+      "year": "2018",
+      "text": "Search experience strategy and interface design for Quark.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "quark-search-experience/01.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-01.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/02.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-02.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/03.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-03.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/04.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-04.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/05.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-05.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/06.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-06.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/07.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-07.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/08.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-08.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/09.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-09.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/10.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-10.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/11.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-11.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/12.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-12.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/13.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-13.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/14.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-14.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/15.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-15.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/16.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-16.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/17.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-17.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/18.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-18.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/19.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-19.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/20.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-20.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/21.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-21.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/22.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-22.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/23.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-23.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/24.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-24.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/25.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-25.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/26.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-26.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        },
+        {
+          "key": "quark-search-experience/27.png",
+          "tile": 60,
+          "src": "/assets/quark-search-experience-27.png",
+          "w": 1280,
+          "h": 720,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Other Work",
+      "year": "",
+      "text": "Design thinking, experience reviews and collaboration across teams.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "other-work/01.png",
+          "tile": 69,
+          "src": "/assets/other-work-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "other-work/02.png",
+          "tile": 69,
+          "src": "/assets/other-work-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "other-work/03.png",
+          "tile": 69,
+          "src": "/assets/other-work-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "other-work/04.png",
+          "tile": 69,
+          "src": "/assets/other-work-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "other-work/05.png",
+          "tile": 69,
+          "src": "/assets/other-work-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "other-work/06.png",
+          "tile": 69,
+          "src": "/assets/other-work-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "other-work/07.png",
+          "tile": 69,
+          "src": "/assets/other-work-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
         }
       ]
     }
@@ -2339,6 +3395,99 @@
       "title": "coloros-startup"
     },
     {
+      "id": 56,
+      "ratio": 0.5625,
+      "label": "ColorOS 14.1 Flod N5",
+      "year": "2023",
+      "title": "coloros-14-1-flod-n5",
+      "image": "/assets/coloros-14-1-flod-n5-01.png"
+    },
+    {
+      "id": 58,
+      "ratio": 1,
+      "label": "Visual Effects Technology",
+      "year": "2024",
+      "title": "visual-effects-technology",
+      "image": "/assets/visual-effects-technology-01.png"
+    },
+    {
+      "id": 68,
+      "ratio": 1,
+      "label": "AI Full Stack Design Methodology",
+      "year": "2026",
+      "title": "ai-full-stack-design-methodology",
+      "image": "/assets/ai-full-stack-design-methodology-01.png"
+    },
+    {
+      "id": 70,
+      "ratio": 1.0863636363636364,
+      "label": "Momcozy Probation Plan",
+      "year": "2026",
+      "title": "momcozy-probation-plan",
+      "image": "/projects/momcozy-work-plan/assets/images/profile/momcozy-app-poster.jpg"
+    },
+    {
+      "id": 55,
+      "ratio": 0.5625,
+      "label": "ColorOS 13.2",
+      "year": "2022",
+      "title": "coloros-13-2",
+      "video": "/assets/coloros-13-2-cover.mp4",
+      "poster": "/assets/coloros-13-2-cover-poster.png"
+    },
+    {
+      "id": 48,
+      "ratio": 1,
+      "label": "ColorOS System Apps",
+      "year": "2025",
+      "title": "coloros-system-apps",
+      "video": "/assets/coloros-system-apps-cover.mp4",
+      "poster": "/assets/coloros-system-apps-cover-poster.jpg"
+    },
+    {
+      "id": 62,
+      "ratio": 1,
+      "label": "OPPO",
+      "year": "2020–2026",
+      "title": "company-oppo",
+      "image": "/assets/company-oppo.svg",
+      "locked": true,
+      "company": true
+    },
+    {
+      "id": 49,
+      "ratio": 1,
+      "label": "OPPO AI",
+      "year": "2025",
+      "title": "oppo-ai",
+      "video": "/assets/oppo-ai-demo.mp4",
+      "poster": "/assets/oppo-ai-demo-poster.jpg"
+    },
+    {
+      "id": 51,
+      "ratio": 1,
+      "label": "OPPO AI Brand Design",
+      "year": "2025",
+      "image": "/assets/oppo-ai-cover.png",
+      "title": "oppo-ai-brand-design"
+    },
+    {
+      "id": 50,
+      "ratio": 1,
+      "label": "OPPO AI IP",
+      "year": "2025",
+      "image": "/assets/oppo-ai-ip-cover.png",
+      "title": "oppo-ai-ip"
+    },
+    {
+      "id": 61,
+      "ratio": 0.5625,
+      "label": "Ideal Life",
+      "year": "2026",
+      "title": "ideal-life",
+      "image": "/assets/ideal-life.png"
+    },
+    {
       "id": 46,
       "ratio": 0.75,
       "label": "OOS 15 Una AI",
@@ -2355,507 +3504,108 @@
       "title": "oos-hummingbird-engine"
     },
     {
-      "id": 48,
+      "id": 52,
+      "ratio": 0.75,
+      "label": "Instagram Data Management",
+      "year": "2024",
+      "title": "instagram-data-management",
+      "image": "/assets/instagram-data-management-01.webp"
+    },
+    {
+      "id": 65,
+      "ratio": 0.75,
+      "label": "Volog",
+      "year": "2020",
+      "title": "volog",
+      "image": "/assets/dribbble-volog-01.png"
+    },
+    {
+      "id": 53,
+      "ratio": 0.75,
+      "label": "Illustration",
+      "year": "2017",
+      "title": "illustration",
+      "image": "/assets/illustration-01.webp"
+    },
+    {
+      "id": 64,
+      "ratio": 0.75,
+      "label": "Customize Air Jordan Web",
+      "year": "2018",
+      "title": "air-jordan-web",
+      "image": "/assets/dribbble-air-jordan-01.png"
+    },
+    {
+      "id": 54,
+      "ratio": 0.75,
+      "label": "Meditation Product Design",
+      "year": "2018",
+      "title": "meditation-product-design",
+      "image": "/assets/meditation-product-design-01.webp"
+    },
+    {
+      "id": 66,
+      "ratio": 0.75,
+      "label": "Video Editing",
+      "year": "",
+      "title": "video-editing",
+      "image": "/assets/dribbble-video-editing-01.png"
+    },
+    {
+      "id": 57,
       "ratio": 0.5625,
-      "label": "ColorOS System Apps",
-      "year": "2025",
-      "title": "coloros-system-apps",
-      "video": "/assets/coloros-system-apps-cover.mp4",
-      "poster": "/assets/coloros-system-apps-cover-poster.jpg"
+      "label": "Universal Search",
+      "year": "2019",
+      "title": "universal-search",
+      "image": "/assets/universal-search-06.png"
     },
     {
-      "id": 49,
+      "id": 63,
+      "ratio": 1,
+      "label": "Alibaba",
+      "year": "2018–2019",
+      "title": "company-alibaba",
+      "image": "/assets/company-alibaba.svg",
+      "locked": true,
+      "company": true
+    },
+    {
+      "id": 67,
+      "ratio": 1,
+      "label": "Alibaba Design",
+      "year": "",
+      "title": "alibaba-design",
+      "image": "/assets/alibaba-design-01.png"
+    },
+    {
+      "id": 59,
       "ratio": 0.5625,
-      "label": "OPPO AI",
-      "year": "2025",
-      "image": "/assets/oppo-ai-cover.png",
-      "title": "oppo-ai"
+      "label": "Quark Smart Camera 4.0",
+      "year": "2018",
+      "title": "quark-smart-camera-4-0",
+      "image": "/assets/quark-smart-camera-4-0-01.png"
     },
     {
-      "id": 24,
-      "ratio": 1.25,
-      "label": "Hivemind",
-      "year": "2025 –",
-      "image": "/assets/hivemind-3yL6MsH2.jpg",
-      "title": "hivemind"
+      "id": 60,
+      "ratio": 0.5625,
+      "label": "Quark Search Experience",
+      "year": "2018",
+      "title": "quark-search-experience",
+      "image": "/assets/quark-search-experience-01.png"
     },
     {
-      "id": 17,
-      "ratio": 0.5611,
-      "label": "Gia Woods",
-      "year": 2023,
-      "video": "/assets/giawoods-wide-lhY-VSr4.mp4",
-      "poster": "/assets/giawoods-wide-poster-CNgHCvd8.jpg",
-      "title": "giawoods"
-    },
-    {
-      "id": 18,
+      "id": 69,
       "ratio": 1,
-      "label": "FKA Twigs & The Weeknd",
-      "year": 2021,
-      "video": "/assets/thursday-qEvRdnCV.mp4",
-      "poster": "/assets/thursday-poster-Cy64K84K.jpg",
-      "title": "thursday"
-    },
-    {
-      "id": 19,
-      "ratio": 1,
-      "label": "Chanel × Jennie Kim",
-      "year": 2021,
-      "video": "/assets/chanel-1-BQGxF60p.mp4",
-      "poster": "/assets/chanel-1-poster-BvKSOWKu.jpg",
-      "title": "chanel"
-    },
-    {
-      "id": 15,
-      "ratio": 1,
-      "crop": [
-        0.1667,
-        0,
-        0.6667,
-        1,
-        0,
-        0.6667
-      ],
-      "label": "Mercury OS",
-      "year": 2019,
-      "video": "/assets/mercury_thumb-BGOp-Bmj.mp4",
-      "poster": "/assets/mercury_thumb-poster-BcWcyzVD.jpg",
-      "title": "mercury",
-      "act": {
-        "home": [
-          0,
-          1.233
-        ],
-        "enter": [
-          1.25,
-          1.583,
-          1.767
-        ]
-      }
-    },
-    {
-      "id": 25,
-      "ratio": 1,
-      "label": "Christina Aguilera",
-      "year": 2022,
-      "video": "/assets/tormenta-tile-DTOmbA5B.mp4",
-      "poster": "/assets/tormenta-poster-SnlxqK-H.jpg",
-      "title": "tormenta"
-    },
-    {
-      "id": 20,
-      "ratio": 1,
-      "label": "Deafheaven",
-      "year": 2021,
-      "video": "/assets/granite-1-BQT_52mv.mp4",
-      "poster": "/assets/granite-1-poster-C0Flu4po.jpg",
-      "title": "deafheaven"
-    },
-    {
-      "id": 13,
-      "ratio": 1,
-      "label": "Maelstrom Sans",
-      "year": 2019,
-      "video": "/assets/maelstrom-1-Cf6BLh-E.mp4",
-      "poster": "/assets/maelstrom-1-poster-BVEfGdAr.jpg",
-      "title": "maelstrom"
-    },
-    {
-      "id": 16,
-      "ratio": 1,
-      "label": "The Future Mono",
-      "year": 2020,
-      "video": "/assets/futuremono_thumb-C__nX_Vu.mp4",
-      "poster": "/assets/futuremono_thumb-poster-DerXr4Vn.jpg",
-      "title": "futuremono"
-    },
-    {
-      "id": 42,
-      "ratio": 0.6667,
-      "label": "MakeSpace",
-      "year": 2020,
-      "video": "/assets/hero-zMjLbn7g.mp4",
-      "poster": "/assets/hero-poster-CThWXgwd.jpg",
-      "title": "makespace"
-    },
-    {
-      "id": 22,
-      "ratio": 1,
-      "label": "Blackpink",
-      "year": 2020,
-      "video": "/assets/lovesick-CfLGPTpe.mp4",
-      "poster": "/assets/lovesick-poster-CCKonmFk.jpg",
-      "title": "lovesick"
-    },
-    {
-      "id": 14,
-      "ratio": 1,
-      "label": "Apple",
-      "year": "2018, 2021–2023",
-      "image": "/assets/apple_logo_tile-DQUsp0il.png",
-      "locked": true
-    },
-    {
-      "id": 21,
-      "ratio": 1,
-      "label": "LiveWire (Harley-Davidson)",
-      "year": 2021,
-      "video": "/assets/livewire-CgEoNIOP.mp4",
-      "poster": "/assets/livewire-poster-BlLUqrZM.jpg",
-      "title": "livewire"
-    },
-    {
-      "id": 3,
-      "ratio": 1.5,
-      "crop": [
-        0.373,
-        -0.0483,
-        0.294,
-        0.6607,
-        -0.8
-      ],
-      "label": "The Society of the Spectacle",
-      "year": 2018,
-      "image": "/assets/society-D_cQAT4X.jpg"
-    },
-    {
-      "id": 4,
-      "ratio": 1,
-      "year": 2017,
-      "video": "/assets/AppleMusicLoop-BoU8xidL.mp4",
-      "poster": "/assets/AppleMusicLoop-poster-CNch-ZyF.jpg",
-      "title": "applemusic",
-      "early": true
-    },
-    {
-      "id": 2,
-      "ratio": 1.5,
-      "label": "Posters",
-      "year": 2018,
-      "title": "Wormhole",
-      "image": "/assets/wormhole-C1KSLKlh.jpg",
-      "small": false
-    },
-    {
-      "id": 44,
-      "ratio": 1.3995,
-      "image": "/assets/future-CzFwPArr.jpg",
-      "small": true
-    },
-    {
-      "id": 26,
-      "ratio": 1.5,
-      "image": "/assets/light-CjrnPWql.jpg",
-      "small": true
-    },
-    {
-      "id": 32,
-      "ratio": 1.333,
-      "year": 2018,
-      "video": "/assets/hamlet-Bx0QNr6U.mp4",
-      "poster": "/assets/hamlet-poster-ByJWPNkH.jpg",
-      "small": true
-    },
-    {
-      "id": 27,
-      "ratio": 1.966,
-      "archived": true,
-      "image": "/assets/smlxl-B1jSaNBe.jpg",
-      "small": true
-    },
-    {
-      "id": 28,
-      "ratio": 1.516,
-      "year": 2016,
-      "image": "/assets/mother-KPg3Yi2U.jpg",
-      "small": true
-    },
-    {
-      "id": 29,
-      "ratio": 1.5,
-      "year": 2018,
-      "archived": true,
-      "video": "/assets/lightyears-7toqU4yC.mp4",
-      "poster": "/assets/lightyears-poster-B-NgG4q-.jpg",
-      "small": true
-    },
-    {
-      "id": 30,
-      "ratio": 1.5,
-      "year": 2017,
-      "archived": true,
-      "image": "/assets/city-BJRGDJJY.jpg",
-      "small": true
-    },
-    {
-      "id": 31,
-      "ratio": 1.546,
-      "year": 2017,
-      "image": "/assets/streetcar-EZZDbRoB.jpg",
-      "small": true
-    },
-    {
-      "id": 33,
-      "ratio": 1.545,
-      "year": 2015,
-      "archived": true,
-      "image": "/assets/equivocation-CfRkx5Ra.jpg",
-      "small": true
-    },
-    {
-      "id": 34,
-      "ratio": 1.521,
-      "year": 2017,
-      "archived": true,
-      "image": "/assets/snake-DWYM9W6W.jpg",
-      "small": true
-    },
-    {
-      "id": 35,
-      "ratio": 1.5,
-      "year": 2017,
-      "archived": true,
-      "image": "/assets/akkurat-B1suDyRO.jpg",
-      "small": true
-    },
-    {
-      "id": 37,
-      "ratio": 1,
-      "archived": true,
-      "video": "/assets/side-BnO1HJYe.mp4",
-      "poster": "/assets/side-poster-DDxVHUfz.jpg",
-      "small": true
-    },
-    {
-      "id": 38,
-      "ratio": 1.545,
-      "year": 2017,
-      "archived": true,
-      "image": "/assets/tinats-Rb0Tcd3r.jpg",
-      "small": true
-    },
-    {
-      "id": 39,
-      "ratio": 1.5,
-      "archived": true,
-      "image": "/assets/blackhole-C7aXiNYl.jpg",
-      "small": true
-    },
-    {
-      "id": 1,
-      "ratio": 1,
-      "year": 2018,
-      "video": "/assets/nox_thumb-BTSXAbWO.mp4",
-      "poster": "/assets/nox_thumb-poster-DZi-sR0T.jpg",
-      "title": "nox",
-      "early": true
-    },
-    {
-      "id": 7,
-      "ratio": 1.5,
-      "year": 2016,
-      "image": "/assets/caonima-CgXeDrpO.jpg",
-      "early": true,
-      "archived": true
-    },
-    {
-      "id": 0,
-      "ratio": 1.5,
-      "crop": [
-        0.3207,
-        0.3424,
-        0.256,
-        0.6833
-      ],
-      "year": 2017,
-      "image": "/assets/no-enemies-CAty6yGU.jpg",
-      "title": "no-enemies",
-      "early": true
-    },
-    {
-      "id": 5,
-      "ratio": 1,
-      "year": 2016,
-      "video": "/assets/counttheclock-BafaysQK.mp4",
-      "poster": "/assets/counttheclock-poster-BSuY0aKQ.jpg",
-      "title": "counttheclock",
-      "early": true
-    },
-    {
-      "id": 6,
-      "ratio": 1,
-      "year": 2018,
-      "video": "/assets/hammy-CHkMbcGv.mp4",
-      "poster": "/assets/hammy-poster-BreZY96y.jpg",
-      "early": true
-    },
-    {
-      "id": 8,
-      "ratio": 1.5,
-      "crop": [
-        0.2753,
-        -0.0824,
-        0.436,
-        1.1637
-      ],
-      "year": 2017,
-      "image": "/assets/fear-BafnkdeC.jpg",
-      "early": true
-    },
-    {
-      "id": 10,
-      "ratio": 1,
-      "year": 2015,
-      "video": "/assets/spititoutthumb-BlSyXDU-.mp4",
-      "poster": "/assets/spititoutthumb-poster-CHjB3BBT.jpg",
-      "title": "spititout",
-      "early": true
-    },
-    {
-      "id": 11,
-      "ratio": 1,
-      "year": 2016,
-      "image": "/assets/ptx-DkQDUsIJ.jpg",
-      "early": true
-    },
-    {
-      "empty": true
-    },
-    {
-      "id": 12,
-      "ratio": 1,
-      "year": 2016,
-      "image": "/assets/sony_jetblack-Bw52jMFX.jpg",
-      "early": true,
-      "archived": true
-    },
-    {
-      "id": 43,
-      "ratio": 1,
-      "year": 2016,
-      "image": "/assets/focusgee-BYBVauJY.webp",
-      "early": true
-    },
-    {
-      "id": 9,
-      "ratio": 1,
-      "year": 2015,
-      "image": "/assets/trebles3-Coc8f5KY.png",
-      "early": true
-    },
-    {
-      "id": 41,
-      "ratio": 1.4134,
-      "year": 2014,
-      "image": "/assets/closet-BQml-chk.webp",
-      "early": true
+      "label": "Other Work",
+      "year": "",
+      "title": "other-work",
+      "image": "/assets/other-work-01.png"
     }
   ],
-  "posters": [
-    {
-      "id": 2,
-      "src": "/assets/wormhole-C1KSLKlh.jpg",
-      "ratio": 1.5,
-      "label": "Posters",
-      "year": 2018,
-      "title": "Wormhole"
-    },
-    {
-      "id": 44,
-      "src": "/assets/future-CzFwPArr.jpg",
-      "ratio": 1.3995
-    },
-    {
-      "id": 26,
-      "src": "/assets/light-CjrnPWql.jpg",
-      "ratio": 1.5
-    },
-    {
-      "id": 32,
-      "src": "/assets/hamlet-Bx0QNr6U.mp4",
-      "ratio": 1.333,
-      "year": 2018,
-      "video": "hamlet"
-    },
-    {
-      "id": 27,
-      "src": "/assets/smlxl-B1jSaNBe.jpg",
-      "ratio": 1.966,
-      "archived": true
-    },
-    {
-      "id": 28,
-      "src": "/assets/mother-KPg3Yi2U.jpg",
-      "ratio": 1.516,
-      "year": 2016
-    },
-    {
-      "id": 29,
-      "src": "/assets/lightyears-7toqU4yC.mp4",
-      "ratio": 1.5,
-      "year": 2018,
-      "video": "lightyears",
-      "archived": true
-    },
-    {
-      "id": 30,
-      "src": "/assets/city-BJRGDJJY.jpg",
-      "ratio": 1.5,
-      "year": 2017,
-      "archived": true
-    },
-    {
-      "id": 31,
-      "src": "/assets/streetcar-EZZDbRoB.jpg",
-      "ratio": 1.546,
-      "year": 2017
-    },
-    {
-      "id": 33,
-      "src": "/assets/equivocation-CfRkx5Ra.jpg",
-      "ratio": 1.545,
-      "year": 2015,
-      "archived": true
-    },
-    {
-      "id": 34,
-      "src": "/assets/snake-DWYM9W6W.jpg",
-      "ratio": 1.521,
-      "year": 2017,
-      "archived": true
-    },
-    {
-      "id": 35,
-      "src": "/assets/akkurat-B1suDyRO.jpg",
-      "ratio": 1.5,
-      "year": 2017,
-      "archived": true
-    },
-    {
-      "id": 37,
-      "src": "/assets/side-BnO1HJYe.mp4",
-      "ratio": 1,
-      "video": "side",
-      "archived": true
-    },
-    {
-      "id": 38,
-      "src": "/assets/tinats-Rb0Tcd3r.jpg",
-      "ratio": 1.545,
-      "year": 2017,
-      "archived": true
-    },
-    {
-      "id": 39,
-      "src": "/assets/blackhole-C7aXiNYl.jpg",
-      "ratio": 1.5,
-      "archived": true
-    }
-  ],
+  "posters": [],
   "editableWords": {
     "name": "Dragonlee",
-    "copyright": "© 2026 Jason Yuan",
+    "copyright": "© 2026 Dragonlee",
     "bio": [
       "I’m a designer with over a decade of experience in product design, brand design, and team leadership.",
       "I believe in finding order in complexity and richness in simplicity. Starting with business strategy, I turn ideas about the future into clear, practical design.",
@@ -2865,173 +3615,12 @@
     ],
     "bioPhone": "I’m a designer with over a decade of experience in product design, brand design, and team leadership.",
     "words": {
-      "0": {
-        "title": "I Have No Enemies",
-        "year": "2017",
-        "text": "Screw-bound book containing Chinese activist Liu Xiaobo’s Nobel acceptance speech printed on sheets of transparent acrylic.",
-        "credits": "",
-        "links": ""
-      },
-      "1": {
-        "title": "Nox",
-        "year": "2018",
-        "text": "Typographic short film inspired by theatrical shadow play.",
-        "credits": "",
-        "links": ""
-      },
-      "3": {
-        "title": "The Society of the Spectacle",
-        "year": "2018",
-        "text": "A hand-bound edition of Guy Debord’s The Society of the Spectacle, interleaved with Kanye West’s tweets.",
-        "credits": "",
-        "links": ""
-      },
-      "4": {
-        "title": "Unsolicited Apple Music Redesign",
-        "year": "2017",
-        "text": "The case study that launched my career. From a simpler time.",
-        "credits": "",
-        "links": "Original case study | https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf"
-      },
-      "5": {
-        "title": "Count the Clock",
-        "year": "2016",
-        "text": "Count the Clock was an independent, microbudget film collective at Northwestern. Its identity was one of the first I ever designed.",
-        "credits": "",
-        "links": ""
-      },
-      "8": {
-        "title": "Fear",
-        "year": "2017",
-        "text": "A poem I wrote about domestic violence, suspended in a Mason jar filled with hair gel.",
-        "credits": "",
-        "links": ""
-      },
-      "9": {
-        "title": "Treblemakers: Uncharted",
-        "year": "2015",
-        "text": "I made my first album artwork overnight in a dorm room in 2015. By 5 a.m., I had decided to become a designer.",
-        "credits": "",
-        "links": ""
-      },
-      "10": {
-        "title": "Undertones: Spit It Out",
-        "year": "2015",
-        "text": "Album artwork and packaging design.",
-        "credits": "",
-        "links": ""
-      },
-      "11": {
-        "title": "Pentatonix",
-        "year": "2016",
-        "text": "Album artwork for Pentatonix’s 2016 Japanese release of their namesake album.",
-        "credits": "Annie Stoll, Jason Yuan",
-        "links": ""
-      },
-      "13": {
-        "title": "Klim Type Foundry - Maelstrom Sans",
-        "year": "2019",
-        "text": "Launch campaign design direction for Maelstrom Sans by Klim Type Foundry.",
-        "credits": "Kris Sowersby, Blanco Type, Jason Yuan",
-        "links": "Maelstrom Sans at Klim | https://klim.co.nz/retail-fonts/maelstrom-sans/"
-      },
-      "15": {
-        "title": "Mercury OS",
-        "year": "2019",
-        "text": "Speculative operating system featuring a language-driven interface that generated and transformed UI in response to human intent, anticipating today’s generative interfaces.",
-        "credits": "Jason Yuan; Dennis Jin",
-        "links": "2019 essay | #essay\n2019 website | https://www.mercuryos.com"
-      },
-      "16": {
-        "title": "Klim Type Foundry - The Future Mono",
-        "year": "2020",
-        "text": "Launch campaign design direction for The Future Mono by Klim Type Foundry.",
-        "credits": "Kris Sowersby, Blanco Type, Foster Type, Jason Yuan",
-        "links": "The Future Mono on Future Fonts | https://www.futurefonts.xyz/klim/the-future-mono"
-      },
-      "17": {
-        "title": "Gia Woods",
-        "year": "2023",
-        "text": "Logo, album artwork, and motion design for Gia Woods’ Your Engine era.",
-        "credits": "Brian Ziff, Jason Yuan",
-        "links": ""
-      },
-      "18": {
-        "title": "FKA Twigs & The Weeknd - Tears in the Club",
-        "year": "2021",
-        "text": "Title concept and design for the Tears in the Club music video.",
-        "credits": "Amber Grace Johnson, SIM, Sasha Nitze, Marisa Lu, Object & Animal, Chiao Chen, Jason Yuan",
-        "links": ""
-      },
-      "19": {
-        "title": "Chanel × Jennie Kim",
-        "year": "2021",
-        "text": "Title card concept and design in collaboration with Inez & Vinoodh, for Chanel’s Coco Neige film featuring Jennie of Blackpink.",
-        "credits": "Inez & Vinoodh; Lucia Pica, Damien Boissinot, Max Pearmain, Jodokus Driessen, Edouard Boutinaud, Jan Rubens, @kledortz_colorist, @emmaohsnap, StereoHorse, Tucker Birbilis, Christophe Starkman, Jason Yuan",
-        "links": ""
-      },
-      "20": {
-        "title": "Deafheaven - Infinite Granite",
-        "year": "2021",
-        "text": "Design and motion for the album art and tour of Infinite Granite by Deafheaven.",
-        "credits": "Nick Steinhardt, Drew Tetz, Jason Yuan",
-        "links": ""
-      },
-      "21": {
-        "title": "LiveWire (Harley-Davidson)",
-        "year": "2021",
-        "text": "I designed the startup animation for LiveWire, Harley-Davidson’s electric motorcycle. If you own one, you’ll see it every day!",
-        "credits": "Manual, Jason Yuan",
-        "links": "LiveWire at Manual | https://manual.studio/work/livewire"
-      },
-      "22": {
-        "title": "Blackpink - Lovesick Girls Visualizer",
-        "year": "2020",
-        "text": "Animation for Interscope Records to promote Lovesick Girls by Blackpink.",
-        "credits": "",
-        "links": ""
-      },
       "23": {
         "title": "Color16",
         "year": "2025",
-        "text": "Dot was a personal AI agent I built at New Computer, the company I co-founded. At its core was one of the first narrative long-term memory systems, designed to help people remember, organize, and navigate their lives.",
-        "credits": "Sam Whitmore (co-founder and CEO), Jason Yuan; Daniel Stratton, Devin Fan, Luca Beetz, Julian Kelly, Alex Widua, Louis Harboe, Max Kuwertz, Joe Tsao",
-        "links": "Launch website | https://web.archive.org/web/20231110000241/https://new.computer/\nFastCo Coverage | https://www.fastcompany.com/90975882/meet-dot-an-ai-companion-designed-by-an-apple-alum-here-to-help-you-live-your-best-life\nDefining the relationship (Config 2024) | https://www.youtube.com/watch?v=xwGm957Dzss"
-      },
-      "24": {
-        "title": "Hivemind",
-        "year": "2025 –",
-        "text": "Hivemind is a social AI that has one-on-one conversations with many people at once. It exists to answer the universal human question: “What do people really think about ___?” In addition to being its founder, I lead the harness and cognitive/memory design for Hivemind.",
-        "credits": "Jason Yuan; Harsh Patel (logomark), Max Kuwertz (images)",
-        "links": "hivemind.ai | https://hivemind.ai"
-      },
-      "25": {
-        "title": "Christina Aguilera - La Tormenta",
-        "year": "2022",
-        "text": "Motion design for the cover of Christina Aguilera’s La Tormenta.",
-        "credits": "Danna Takako, Rudy Grazziani; Marisa Lu, Original Creative Agency, Tessa Tinglof, Jason Yuan",
-        "links": ""
-      },
-      "41": {
-        "title": "Closet",
-        "year": "2014",
-        "text": "A musical I wrote and directed in 2014. I’ve never been a particularly subtle person.",
+        "text": "ColorOS 16 explores a more personal, comfortable mobile experience through natural visual cues, immersive lock screens, expressive themes, and everyday system apps. This project connects UX strategy with a coherent visual language, using light, color, and motion to make daily interactions clear and expressive.",
         "credits": "",
-        "links": ""
-      },
-      "42": {
-        "title": "MakeSpace",
-        "year": "2020",
-        "text": "MakeSpace was a multiplayer spatial browser I co-created with Aza Raskin as a pandemic project. It let people browse, talk, move, and create together on a shared canvas. Its interaction model directly influenced the creation of products like FigJam.",
-        "credits": "Jason Yuan, Aza Raskin; Julius Tarng, Mayli Khoe, Weiwei Hsu, and others",
-        "links": "makespace.fun, June 2020 | https://web.archive.org/web/20200618173915/https://makespace.fun/"
-      },
-      "43": {
-        "title": "Focus / Gee",
-        "year": "2016",
-        "text": "A single by the Northwestern Treblemakers. I designed the artwork, wrote the arrangement, and—if you listen closely—sang one of the solos.",
-        "credits": "",
-        "links": "Spotify | https://open.spotify.com/album/2PO2yXe5So94demZnuFTcG\nApple Music | https://music.apple.com/us/artist/northwestern-treblemakers/506443431"
+        "links": "Global Launch Video | https://www.youtube.com/watch?v=wRYEKkKjOR4\nDesign Preview — OPPO | https://www.bilibili.com/video/BV13bxkz9ESH/\nDesign Principles — OPPO | https://www.bilibili.com/video/BV1SinFznETf/\nDesign & Animation Review | https://www.bilibili.com/video/BV1PP4tzBEfL/\nIT Home Hands-on Review | https://www.ithome.com/0/889/589.htm\nSmartprix Review | https://www.smartprix.com/bytes/coloros-16-review"
       },
       "45": {
         "title": "ColorOS Startup",
@@ -3068,78 +3657,144 @@
         "credits": "",
         "links": ""
       },
-      "posters": {
-        "title": "Posters",
-        "year": "",
+      "50": {
+        "title": "OPPO AI IP",
+        "year": "2025",
         "text": "",
         "credits": "",
         "links": ""
+      },
+      "51": {
+        "title": "OPPO AI Brand Design",
+        "year": "2025",
+        "text": "",
+        "credits": "",
+        "links": ""
+      },
+      "52": {
+        "title": "Instagram Data Management",
+        "year": "2024",
+        "text": "Interface design for Instagram account management and analytics.",
+        "credits": "",
+        "links": ""
+      },
+      "53": {
+        "title": "Illustration",
+        "year": "2017",
+        "text": "A collection of illustration work.",
+        "credits": "",
+        "links": ""
+      },
+      "54": {
+        "title": "Meditation Product Design",
+        "year": "2018",
+        "text": "Interface design for a meditation and focus app.",
+        "credits": "",
+        "links": ""
+      },
+      "55": {
+        "title": "ColorOS 13.2",
+        "year": "2022",
+        "text": "Interface and cover screen design for ColorOS 13.2.",
+        "credits": "",
+        "links": ""
+      },
+      "56": {
+        "title": "ColorOS 14.1 Flod N5",
+        "year": "2023",
+        "text": "App frameworks and responsive layouts for foldable phones and large screens.",
+        "credits": "",
+        "links": ""
+      },
+      "57": {
+        "title": "Universal Search",
+        "year": "2019",
+        "text": "Search and browsing experience design for ColorOS 13.",
+        "credits": "",
+        "links": ""
+      },
+      "58": {
+        "title": "Visual Effects Technology",
+        "year": "2024",
+        "text": "A study of spatial hierarchy, materials, lighting, and visual depth for ColorOS.",
+        "credits": "",
+        "links": ""
+      },
+      "59": {
+        "title": "Quark Smart Camera 4.0",
+        "year": "2018",
+        "text": "Smart camera experience design for Quark 4.0, covering visual recognition, user journeys, interaction flows, and interface design.",
+        "credits": "",
+        "links": ""
+      },
+      "60": {
+        "title": "Quark Search Experience",
+        "year": "2018",
+        "text": "Search experience strategy and interface design for Quark.",
+        "credits": "",
+        "links": ""
+      },
+      "61": {
+        "title": "Ideal Life",
+        "year": "2026",
+        "text": "",
+        "credits": "",
+        "links": ""
+      },
+      "64": {
+        "title": "Customize Air Jordan Web",
+        "year": "2018",
+        "text": "An illustrated web design study inspired by Air Jordan sneaker customization.",
+        "credits": "",
+        "links": "Dribbble | https://dribbble.com/shots/5071294-Customize-Air-Jordan-Web"
+      },
+      "65": {
+        "title": "Volog",
+        "year": "2020",
+        "text": "Interface design for a video community, covering discovery, playback and creator profiles.",
+        "credits": "Dragonlee (Orizon)",
+        "links": "Dribbble | https://dribbble.com/shots/11585605-Volog-APP"
+      },
+      "66": {
+        "title": "Video Editing",
+        "year": "",
+        "text": "A mobile video editing interface and UI kit for media selection, playback, text and audio.",
+        "credits": "Dragonlee (Orizon)",
+        "links": "Dribbble | https://dribbble.com/shots/5825956-Video-Editing\nUI Kit | https://dribbble.com/shots/5832052-Video-Kit"
+      },
+      "67": {
+        "title": "Alibaba Design",
+        "year": "",
+        "text": "Product and brand design across Alibaba gaming services, Quark, UC campaigns and new businesses.",
+        "credits": "",
+        "links": ""
+      },
+      "68": {
+        "title": "AI Full Stack Design Methodology",
+        "year": "2026",
+        "text": "An AI-powered design workflow connecting intent, structured prototypes and product implementation.",
+        "credits": "",
+        "links": ""
+      },
+      "69": {
+        "title": "Other Work",
+        "year": "",
+        "text": "Design thinking, experience reviews and collaboration across teams.",
+        "credits": "",
+        "links": ""
+      },
+      "70": {
+        "title": "Momcozy Probation Plan",
+        "year": "2026",
+        "text": "A 90-day design plan for Momcozy, connecting business priorities, team capability, design systems and measurable delivery.",
+        "credits": "",
+        "links": "Open interactive plan | /projects/momcozy-work-plan/index.html"
       }
     },
     "tiles": {
-      "2": {
-        "label": "Posters",
-        "year": "2018"
-      },
-      "3": {
-        "label": "The Society of the Spectacle",
-        "year": "2018"
-      },
-      "13": {
-        "label": "Maelstrom Sans",
-        "year": "2019"
-      },
-      "14": {
-        "label": "Apple",
-        "year": "2018, 2021–2023"
-      },
-      "15": {
-        "label": "Mercury OS",
-        "year": "2019"
-      },
-      "16": {
-        "label": "The Future Mono",
-        "year": "2020"
-      },
-      "17": {
-        "label": "Gia Woods",
-        "year": "2023"
-      },
-      "18": {
-        "label": "FKA Twigs & The Weeknd",
-        "year": "2021"
-      },
-      "19": {
-        "label": "Chanel × Jennie Kim",
-        "year": "2021"
-      },
-      "20": {
-        "label": "Deafheaven",
-        "year": "2021"
-      },
-      "21": {
-        "label": "LiveWire (Harley-Davidson)",
-        "year": "2021"
-      },
-      "22": {
-        "label": "Blackpink",
-        "year": "2020"
-      },
       "23": {
         "label": "Color16",
         "year": "2025"
-      },
-      "24": {
-        "label": "Hivemind",
-        "year": "2025 –"
-      },
-      "25": {
-        "label": "Christina Aguilera",
-        "year": "2022"
-      },
-      "42": {
-        "label": "MakeSpace",
-        "year": "2020"
       },
       "45": {
         "label": "ColorOS Startup",
@@ -3160,6 +3815,90 @@
       "49": {
         "label": "OPPO AI",
         "year": "2025"
+      },
+      "50": {
+        "label": "OPPO AI IP",
+        "year": "2025"
+      },
+      "51": {
+        "label": "OPPO AI Brand Design",
+        "year": "2025"
+      },
+      "52": {
+        "label": "Instagram Data Management",
+        "year": "2024"
+      },
+      "53": {
+        "label": "Illustration",
+        "year": "2017"
+      },
+      "54": {
+        "label": "Meditation Product Design",
+        "year": "2018"
+      },
+      "55": {
+        "label": "ColorOS 13.2",
+        "year": "2022"
+      },
+      "56": {
+        "label": "ColorOS 14.1 Flod N5",
+        "year": "2023"
+      },
+      "57": {
+        "label": "Universal Search",
+        "year": "2019"
+      },
+      "58": {
+        "label": "Visual Effects Technology",
+        "year": "2024"
+      },
+      "59": {
+        "label": "Quark Smart Camera 4.0",
+        "year": "2018"
+      },
+      "60": {
+        "label": "Quark Search Experience",
+        "year": "2018"
+      },
+      "61": {
+        "label": "Ideal Life",
+        "year": "2026"
+      },
+      "62": {
+        "label": "OPPO",
+        "year": "2020–2026"
+      },
+      "63": {
+        "label": "Alibaba",
+        "year": "2018–2019"
+      },
+      "64": {
+        "label": "Customize Air Jordan Web",
+        "year": "2018"
+      },
+      "65": {
+        "label": "Volog",
+        "year": "2020"
+      },
+      "66": {
+        "label": "Video Editing",
+        "year": ""
+      },
+      "67": {
+        "label": "Alibaba Design",
+        "year": ""
+      },
+      "68": {
+        "label": "AI Full Stack Design Methodology",
+        "year": "2026"
+      },
+      "69": {
+        "label": "Other Work",
+        "year": ""
+      },
+      "70": {
+        "label": "Momcozy Probation Plan",
+        "year": "2026"
       }
     },
     "email": "liyunlong625188@gmail.com",
@@ -3173,6 +3912,11 @@
         "url": "https://www.xiaohongshu.com/user/profile/63ea61b00000000026006447"
       }
     ],
-    "tabTitle": "Dragonlee"
+    "tabTitle": "Dragonlee",
+    "resumeLink": {
+      "label": "Resume",
+      "url": "/resume.html",
+      "target": "_blank"
+    }
   }
 }

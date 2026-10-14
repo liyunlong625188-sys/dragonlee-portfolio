@@ -1,0 +1,98 @@
+{
+  "work": "muted autoplay; no sound activation outside detail",
+  "detail": "muted autoplay; click or Enter/Space enables the current video sound; click again mutes",
+  "navigation": "outgoing detail videos pause and mute immediately; returning requires a new click",
+  "audioSources": [
+    "/assets/dragonlee-work-01.mp4",
+    "/assets/oppo-ai-demo.mp4",
+    "/assets/color16-world-clock.mp4",
+    "/assets/color16-stopwatch.mp4",
+    "/assets/color16-level.mp4",
+    "/assets/color16-ai-demo.mp4",
+    "/assets/color16-ai-newjeans.mp4",
+    "/assets/color16-ai-concert.mp4",
+    "/assets/color16-controls-slider.mp4",
+    "/assets/color16-lockdepth-ski.mp4",
+    "/assets/color16-lockdepth-beach.mp4",
+    "/assets/color16-lockdepth-underwater.mp4",
+    "/assets/coloros-13-2-cover.mp4",
+    "/assets/coloros-14-1-demo-01.mp4",
+    "/assets/coloros-14-1-demo-02.mp4",
+    "/assets/coloros-14-1-demo-03.mp4",
+    "/assets/coloros-14-1-demo-04.mp4",
+    "/assets/coloros-14-1-demo-05.mp4"
+  ],
+  "workLogoScale": {
+    "projectId": 51,
+    "scale": 0.8,
+    "scope": "Work card only"
+  },
+  "workProjectOrder": [
+    23,
+    45,
+    56,
+    58,
+    55,
+    48,
+    62,
+    49,
+    51,
+    50,
+    61,
+    46,
+    47,
+    52,
+    53,
+    54,
+    57,
+    63,
+    59,
+    60
+  ],
+  "originalImageCards": {
+    "projectIds": [
+      46,
+      47
+    ],
+    "containerRatio": "4:3",
+    "scope": "Original Work cover ratio; native image fill restored; details unchanged"
+  },
+  "squareCardsWithOriginalMedia": {
+    "projectIds": [
+      48,
+      50
+    ],
+    "cardRatio": 1,
+    "mediaRatio": 0.5625,
+    "verticalOffsetPercent": 21.875,
+    "background": "#ffffff"
+  },
+  "detailProjectOrder": [
+    23,
+    45,
+    56,
+    58,
+    55,
+    48,
+    49,
+    51,
+    50,
+    61,
+    46,
+    47,
+    52,
+    53,
+    54,
+    57,
+    59,
+    60
+  ],
+  "companyCards": {
+    "ids": [
+      62,
+      63
+    ],
+    "interactive": false,
+    "detailNavigation": "Excluded; informational Work cards only."
+  }
+}

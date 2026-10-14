@@ -4,8 +4,8 @@ import { fileURLToPath } from 'node:url';
 
 // Only this website's source is mirrored; Git history and local runtime state stay in place.
 const source = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-if (path.basename(source) !== 'jason-yuan-replica') {
-  throw new Error('Run this synchronization script from the active jason-yuan-replica project, not from the hosted mirror.');
+if (path.basename(source) !== 'dragonlee-portfolio' || path.basename(path.dirname(source)) === 'sites') {
+  throw new Error('Run this synchronization script from the active dragonlee-portfolio project, not from the hosted mirror.');
 }
 const destination = path.resolve(source, '../sites/dragonlee-portfolio');
 const manifest = JSON.parse(readFileSync(path.join(source, '.openai/hosting.json'), 'utf8'));

@@ -1,10 +1,10 @@
 {
-  "origin": "https://jasonyuan.design/",
+  "origin": "http://127.0.0.1:4174/",
   "assets": {
     "/": {
       "path": "index.html",
-      "bytes": 2563,
-      "sha256": "2c89e6b0b48f17016fffbbab17be6d43c6687c9e47c435008440644ace5e1c80"
+      "bytes": 2289,
+      "sha256": "95694bb45a48ff72cb39c3aa7a174d2c3bb555b6ca9218625e660fe318c96a6f"
     },
     "/assets/Mercury-Dv7QL5E-.css": {
       "path": "assets/Mercury-Dv7QL5E-.css",
@@ -13,8 +13,8 @@
     },
     "/assets/Mercury-ARIW0BxH.js": {
       "path": "assets/Mercury-ARIW0BxH.js",
-      "bytes": 32026,
-      "sha256": "316d4d81e78f74d0fbfb386c0bd2c92e447731585843bef00c0df14159d7d6af"
+      "bytes": 117,
+      "sha256": "294857f4ea595b795ff2927419a79e253ec055b0d99b05e47d4ab50113290f4a"
     },
     "/assets/index-C_PdSvtp.css": {
       "path": "assets/index-C_PdSvtp.css",
@@ -23,8 +23,8 @@
     },
     "/assets/index-CtCmjgre.js": {
       "path": "assets/index-CtCmjgre.js",
-      "bytes": 291862,
-      "sha256": "d5edf55856c87db1b819844a0d9048ad229641c448b4aa299148242e6985c263"
+      "bytes": 320975,
+      "sha256": "207d2994db1acce11d5aac31c0c2c57bb37523e5703c1d4b4424cbbf781c7046"
     },
     "/blackstar.svg?v=3": {
       "path": "blackstar.svg",
@@ -63,8 +63,8 @@
     },
     "/manifest.json?v=3": {
       "path": "manifest.json",
-      "bytes": 875,
-      "sha256": "6de861c242ed59595f5fad5ac30277c4e149793d9da2c1dc7bb7a95166eec8d3"
+      "bytes": 954,
+      "sha256": "f558e91aa867dc53f532b3ab2b14fcc069089e5a81bd15bc8f6fef93e7de1569"
     },
     "/assets/NBAkademieStd-EKHmxWeh.woff2": {
       "path": "assets/NBAkademieStd-EKHmxWeh.woff2",
@@ -78,8 +78,8 @@
     },
     "/og.png": {
       "path": "og.png",
-      "bytes": 457330,
-      "sha256": "fe7adc84e511178b0e9eb537734a0cb935be7d2c777c5288a731a2784d0112d5"
+      "bytes": 4547272,
+      "sha256": "6497f019fd9d628cc08d6671e8441268b3cffb94b4d4ad460cc6228e6fbe57f8"
     },
     "/android-chrome-maskable-192x192.png?v=3": {
       "path": "android-chrome-maskable-192x192.png",
@@ -1672,5 +1672,11 @@
     "/assets/design-DMXE0lqJ.js",
     "/assets/perf-DIQmCkM1.js",
     "/assets/tune-CCjrTRCm.js"
-  ]
+  ],
+  "name": "Dragonlee",
+  "baseline": {
+    "date": "2026-10-15",
+    "description": "Current Dragonlee assets after the branding migration. Future explicit runtime changes are recorded in runtime-overrides.json.",
+    "offlineRecovery": "../evidence/branding-migration-20261015/previous-active-source"
+  }
 }

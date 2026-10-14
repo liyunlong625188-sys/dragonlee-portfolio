@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-15",
+  "profile": "https://dribbble.com/dragon5244",
+  "strategy": "Three additions that complement the existing Work rather than reproduce the entire Dribbble feed.",
+  "yearNote": "User asked for actual creation years. Verified publication years are used provisionally for Air Jordan and Volog; Video Editing remains blank pending confirmation.",
+  "projects": [
+    {
+      "id": 64,
+      "title": "Customize Air Jordan Web",
+      "sourceLinks": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/5071294-Customize-Air-Jordan-Web"
+        ]
+      ],
+      "publicationDate": "2018-08-30",
+      "displayYear": "2018",
+      "yearStatus": "publication_year_pending_user_confirmation",
+      "selectionReason": "Adds a desktop web project with expressive illustration; complements the existing system and app work.",
+      "images": [
+        {
+          "order": 1,
+          "source": "https://cdn.dribbble.com/userupload/42024401/file/original-db477ed80e0caad4de140cbe63d87ba4.png",
+          "path": "assets/dribbble-air-jordan-01.png",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 210045,
+          "sha256": "a5c4c7da885ad9f7b417e350168f6daf2e9980a117ba54500984889c70cddb56"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Volog",
+      "sourceLinks": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/11585605-Volog-APP"
+        ]
+      ],
+      "publicationDate": "2020-05-25",
+      "displayYear": "2020",
+      "yearStatus": "publication_year_pending_user_confirmation",
+      "selectionReason": "Adds a media-led community product and creator profile experience. The identical cover attachment is excluded.",
+      "images": [
+        {
+          "order": 1,
+          "source": "https://cdn.dribbble.com/userupload/36960051/file/original-6adb96bcbbcdd66a963bb392e691b4b7.png",
+          "path": "assets/dribbble-volog-01.png",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 1414849,
+          "sha256": "74be353dd2b7d9a7a6251e1fd0de401cdd0686775dbf86a383d545bd43495ec8"
+        },
+        {
+          "order": 2,
+          "source": "https://cdn.dribbble.com/userupload/36960048/file/original-bd890c8f1de8089ec3e44fbd5b1390d4.png",
+          "path": "assets/dribbble-volog-02.png",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 929809,
+          "sha256": "e12c3a12ce376b9aa5d7f831d6893f40674068a5ce0b22747c1488b368677e36"
+        },
+        {
+          "order": 3,
+          "source": "https://cdn.dribbble.com/userupload/36960050/file/original-bb9f2ba6e06deb7d0232f14441b8e302.png",
+          "path": "assets/dribbble-volog-03.png",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 738797,
+          "sha256": "cda776a50b8c4cf07bba5390452592889a4bf9489dbd36a1411babe0c09be7f6"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Video Editing",
+      "sourceLinks": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/5825956-Video-Editing"
+        ],
+        [
+          "UI Kit",
+          "https://dribbble.com/shots/5832052-Video-Kit"
+        ]
+      ],
+      "publicationDate": null,
+      "displayYear": "",
+      "yearStatus": "pending_user_confirmation",
+      "selectionReason": "Adds a creative tool workflow and its component kit within one project rather than two similar cards.",
+      "images": [
+        {
+          "order": 1,
+          "source": "https://cdn.dribbble.com/userupload/42072899/file/original-4e9dc949569ef1127428025a25ed1261.png",
+          "path": "assets/dribbble-video-editing-01.png",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 900850,
+          "sha256": "479bc5423604537d3770e438f3cbeae8649cf419b3dae029bda2875725be30dd"
+        },
+        {
+          "order": 2,
+          "source": "https://cdn.dribbble.com/userupload/42073194/file/original-c9dedecf79b4cf073992e951e59ff54d.png",
+          "path": "assets/dribbble-video-editing-02.png",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 942069,
+          "sha256": "3745dd772fab7a11d2dd3d8fd04eb2aba5f1b91314d92dfc8a9e03d49df30494"
+        }
+      ]
+    }
+  ],
+  "omitted": [
+    {
+      "title": "PANDA NEWS",
+      "reason": "Its angled phone overview repeats Volog visually; existing search work already covers content browsing."
+    },
+    {
+      "title": "Inspiration At Night web",
+      "reason": "Its composition overlaps Air Jordan and the existing Illustration project."
+    },
+    {
+      "title": "Meditation / Muse variants",
+      "reason": "Already represented by Meditation Product Design."
+    },
+    {
+      "title": "Hummingbird engine / System-level AI Entry Point",
+      "reason": "Already present in Work."
+    }
+  ]
+}

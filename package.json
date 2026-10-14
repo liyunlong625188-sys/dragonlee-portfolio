@@ -1,12 +1,12 @@
 {
-  "name": "jason-yuan-replica",
+  "name": "dragonlee-portfolio",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prepare-sites-build.mjs",
-    "preview": "vite preview",
+    "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "preview:persistent": "node scripts/start-preview.mjs",
     "verify:assets": "node scripts/verify-assets.mjs"

@@ -1,0 +1,3 @@
+OPPO: Exact vector path geometry from official website header SVG: https://www.oppo.com/en/ (downloaded 2026-10-15). Original viewBox 0 0 85 22. Fill converted to white on a square black canvas.
+Alibaba: Alibaba English wordmark vector https://upload.wikimedia.org/wikipedia/commons/4/41/Alibaba_en_logo.svg ; attribution/provenance https://commons.wikimedia.org/wiki/File:Alibaba_en_logo.svg lists Alibaba Group Holding Limited as author, PD-textlogo. Official source verified via https://home.alibabagroup.com/en-US/resource-logos . Exact path geometry preserved, orange fill converted to white, placed on square black canvas.
+Both assets contain only SVG path geometry; no remote resources and no font dependency. Logo visible width is 40% of the square canvas.
