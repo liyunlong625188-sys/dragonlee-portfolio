@@ -1,0 +1,64 @@
+import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
+import { cp, mkdir, mkdtemp, readFile, rm, writeFile, access } from 'node:fs/promises';
+import path from 'node:path';
+import { tmpdir } from 'node:os';
+import test from 'node:test';
+import { prepareSourceVideoChunks, buildSourceVideoIndex } from '../scripts/source-video-chunks.mjs';
+import { createWorker } from '../worker/index.js';
+
+test('hosted source chunks preserve originals, hashes, URLs and cross-chunk ranges', async t => {
+  const directory = await mkdtemp(path.join(tmpdir(), 'dragonlee-source-chunks-'));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const originalDirectory = path.join(directory, 'original/public');
+  const hostedDirectory = path.join(directory, 'hosted/public');
+  const contentDirectory = path.join(directory, 'hosted/content');
+  const clientDirectory = path.join(directory, 'dist/client');
+  const bytes = Buffer.from('abcdefghijklmnopqrstuvwxyz0123456789');
+  const relative = 'assets/large video.mp4';
+  await mkdir(path.join(originalDirectory, 'assets'), { recursive: true });
+  await writeFile(path.join(originalDirectory, relative), bytes);
+  await writeFile(path.join(originalDirectory, 'assets/small.mp4'), 'small');
+  await cp(originalDirectory, hostedDirectory, { recursive: true });
+  const manifest = prepareSourceVideoChunks({ publicDirectory: hostedDirectory, contentDirectory, limit: 8, chunkSize: 5 });
+  assert.deepEqual(await readFile(path.join(originalDirectory, relative)), bytes);
+  await assert.rejects(access(path.join(hostedDirectory, relative)), { code: 'ENOENT' });
+  assert.equal(await readFile(path.join(hostedDirectory, 'assets/small.mp4'), 'utf8'), 'small');
+  const url = '/assets/large%20video.mp4';
+  const sourceVideo = manifest.videos[url];
+  assert.equal(sourceVideo.size, bytes.length);
+  assert.equal(sourceVideo.sha256, createHash('sha256').update(bytes).digest('hex'));
+  assert.ok(sourceVideo.chunks.every(chunk => chunk.size <= 5));
+  await cp(hostedDirectory, clientDirectory, { recursive: true });
+  const index = buildSourceVideoIndex({ contentDirectory, clientDirectory });
+  assert.equal(index[url].etag, sourceVideo.etag);
+  assert.ok(index[url].chunks.every(chunk => chunk.path.startsWith('/.media-chunks/')));
+  const env = { ASSETS: { async fetch(request) {
+    const file = path.join(clientDirectory, decodeURIComponent(new URL(request.url).pathname));
+    const value = await readFile(file);
+    return new Response(value, { headers: { 'content-length': String(value.length), 'content-type': 'application/octet-stream' } });
+  } } };
+  const worker = createWorker(index);
+  const complete = await worker.fetch(new Request('https://example.test' + url), env);
+  assert.deepEqual(Buffer.from(await complete.arrayBuffer()), bytes);
+  const range = await worker.fetch(new Request('https://example.test' + url, { headers: { range: 'bytes=3-13' } }), env);
+  assert.equal(range.status, 206);
+  assert.equal(range.headers.get('content-range'), 'bytes 3-13/' + bytes.length);
+  assert.deepEqual(Buffer.from(await range.arrayBuffer()), bytes.subarray(3, 14));
+  const head = await worker.fetch(new Request('https://example.test' + url, { method: 'HEAD' }), env);
+  assert.equal(head.headers.get('content-length'), String(bytes.length));
+  assert.equal(head.headers.get('etag'), sourceVideo.etag);
+});
+
+test('hosted build rejects altered source-video chunks', async t => {
+  const directory = await mkdtemp(path.join(tmpdir(), 'dragonlee-source-chunks-invalid-'));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const publicDirectory = path.join(directory, 'public');
+  const contentDirectory = path.join(directory, 'content');
+  await mkdir(publicDirectory);
+  await writeFile(path.join(publicDirectory, 'large.mp4'), 'abcdefghijk');
+  const manifest = prepareSourceVideoChunks({ publicDirectory, contentDirectory, limit: 4, chunkSize: 5 });
+  const first = manifest.videos['/large.mp4'].chunks[0];
+  await writeFile(path.join(publicDirectory, first.path.slice(1)), 'XXXXX');
+  assert.throws(() => buildSourceVideoIndex({ contentDirectory, clientDirectory: publicDirectory }), /checksum mismatch/);
+});

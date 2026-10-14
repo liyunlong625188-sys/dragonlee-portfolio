@@ -16,6 +16,9 @@ import {
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildSourceVideoIndex } from "./source-video-chunks.mjs";
+import { optimizeSitesImages } from "./optimize-sites-images.mjs";
+import { pruneSitesUnusedMedia } from "./prune-sites-unused-media.mjs";
+import { pruneSitesDeadAssetBindings } from "./prune-sites-dead-asset-bindings.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
@@ -26,6 +29,7 @@ const client = path.join(dist, "client");
 const staticAssetLimit = 25 * 1024 * 1024;
 const chunkSize = 8 * 1024 * 1024;
 const indexMarker = "/* SITES_MEDIA_INDEX */ {}";
+const imageMarker = "/* SITES_IMAGE_INDEX */ {}";
 
 for (const file of [index, worker, hosting]) {
   if (!existsSync(file)) throw new Error("Missing Sites build input: " + file);
@@ -47,6 +51,11 @@ function assetUrl(file) {
 }
 
 const mediaIndex = {};
+const deadAssets = pruneSitesDeadAssetBindings({ root, clientDirectory: client });
+const transformedScriptHashes = Object.fromEntries(deadAssets.changedFiles.map(relative => [relative, createHash('sha256').update(readFileSync(path.join(client, relative))).digest('hex')]));
+const unusedMedia = pruneSitesUnusedMedia({ root, clientDirectory: client });
+console.log("Preparing lossless deployment images; removed " + unusedMedia.removedFiles.length + " unused historical media files");
+const images = await optimizeSitesImages({ clientDirectory: client, cacheDirectory: path.join(root, ".sites-image-cache") });
 // Only the build copy changes; public keeps the original videos byte for byte.
 for (const file of [...filesIn(client)]) {
   const size = statSync(file).size;
@@ -92,14 +101,15 @@ for (const [url, video] of Object.entries(hostedIndex)) {
 }
 
 const workerSource = readFileSync(worker, "utf8");
-if (!workerSource.includes(indexMarker)) throw new Error("Missing media index marker in Sites worker");
+if (!workerSource.includes(indexMarker) || !workerSource.includes(imageMarker)) throw new Error("Missing media/image index marker in Sites worker");
 writeFileSync(
   path.join(dist, "server", "index.js"),
-  workerSource.replace(indexMarker, () => JSON.stringify(mediaIndex)),
+  workerSource.replace(indexMarker, () => JSON.stringify(mediaIndex)).replace(imageMarker, () => JSON.stringify(images.index)),
 );
 copyFileSync(hosting, path.join(dist, ".openai", "hosting.json"));
+writeFileSync(path.join(dist, ".openai", "media-optimization.json"), JSON.stringify({ deadAssets, transformedScriptHashes, unusedMedia, images }, null, 2) + "\n");
 
 console.log(
   "Prepared Sites build: dist/server/index.js and dist/.openai/hosting.json; " +
-    Object.keys(mediaIndex).length + " large video(s) split into static chunks",
+    Object.keys(mediaIndex).length + " large video(s) split into static chunks; " + images.count + " lossless images saved " + images.savedBytes + " bytes",
 );

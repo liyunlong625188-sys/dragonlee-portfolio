@@ -1,5 +1,7 @@
 // Replaced in the build copy; injecting an index also keeps the source worker testable.
 export const mediaIndex = /* SITES_MEDIA_INDEX */ {};
+// Deployment-only lossless images keep their original public URLs.
+export const imageIndex = /* SITES_IMAGE_INDEX */ {};
 
 export function singleRange(header, size) {
   const match = /^bytes=(\d*)-(\d*)$/i.exec(header?.trim() ?? "");
@@ -144,12 +146,20 @@ function mediaResponse(request, env, media) {
   return new Response(body, { status: range ? 206 : 200, headers });
 }
 
-export function createWorker(index = mediaIndex) {
+export function createWorker(index = mediaIndex, images = imageIndex) {
   return {
     async fetch(request, env) {
       const pathname = new URL(request.url).pathname;
       if (["GET", "HEAD"].includes(request.method) && Object.hasOwn(index, pathname)) {
         return mediaResponse(request, env, index[pathname]);
+      }
+
+      if (["GET", "HEAD"].includes(request.method) && Object.hasOwn(images, pathname)) {
+        const assetUrl = new URL(request.url);
+        assetUrl.pathname = images[pathname];
+        // Keep query, HEAD and conditional headers. The asset binding supplies
+        // image/webp, length, ETag, cache validation and status without a redirect.
+        return env.ASSETS.fetch(new Request(assetUrl, request));
       }
 
       const response = await env.ASSETS.fetch(request);
