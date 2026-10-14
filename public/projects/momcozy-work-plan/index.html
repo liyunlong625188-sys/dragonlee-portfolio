@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-i18n-title="index.title">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragonlee</title>
+  <meta name="description" content="Dragonlee Workplan：聚焦业务、组织与体验的 90 天落地。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dragonlee Workplan">
+  <meta property="og:description" content="Dragonlee Workplan：聚焦业务、组织与体验的 90 天落地。">
+  <meta property="og:image" content="assets/images/projects/Covers/momcozy-app-3-ui-design.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="assets/images/projects/Covers/momcozy-app-3-ui-design.png">
+  <meta name="author" content="APP 生态设计组">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" type="image/svg+xml" href="/assets/dragonlee-favicon.svg?v=1">
+  <link rel="preload" href="assets/fonts/Breton.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Machine.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/images/hero%20sequence/0001.jpg?v=20260416-r2" as="image" fetchpriority="high">
+  <link rel="preload" href="assets/images/profile/momcozy-app-poster.jpg" as="image" fetchpriority="low">
+  <link rel="preload" href="assets/images/projects/Covers/cyberDiag_web.avif" as="image" fetchpriority="low">
+  <link rel="preload" href="assets/images/projects/Covers/intelligent-experience-momcozy.jpg" as="image" fetchpriority="low">
+  <link rel="stylesheet" href="styles/index.css?v=20260423-r38">
+
+  <style id="codex-stability-overrides">
+    :root {
+      --accent-red: #770523 !important;
+      --red: #770523 !important;
+      --brand-red: #770523 !important;
+      --color-red: #770523 !important;
+    }
+    .skill-header-title,
+    #skills-right .skill-header-title,
+    #skills-right .skill-group.open .skill-header-title {
+      font-weight: 800 !important;
+      letter-spacing: -0.045em;
+    }
+    .team-structure-inner .language-title:nth-of-type(2),
+    .team-structure-inner .team-member-role {
+      font-weight: 700 !important;
+    }
+    .battle-row,
+    .strategy-row,
+    .priority-row,
+    .key-projects,
+    .roadmap-row,
+    .strategy-table tr,
+    .battle-table tr,
+    [data-no-float-preview="true"] {
+      cursor: default !important;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="intro-bg" id="intro-bg"></div>
+
+  
+  <div class="name-layer" id="name-layer">
+    <div class="preloader-content" id="preloader-content">
+      <div id="preloader-logo">Dragonlee</div>
+      <span id="preloader-luke"></span>
+      <span id="preloader-baffait">Workplan</span>
+      <span id="preloader-dot">.</span>
+    </div>
+  </div>
+
+  
+  <div class="transition-panel" id="transition-panel">
+    <div class="t-panel-dark" id="t-panel-dark"></div>
+    <div class="t-panel-red" id="t-panel-red"></div>
+  </div>
+
+  
+  <div class="scroll-wrap" id="scroll-wrap">
+
+    
+    <section class="hero" id="hero">
+      <h1 class="sr-only" data-i18n="index.h1">Dragonlee Workplan — 业务、组织与体验的 90 天落地。</h1>
+      <div class="hero-canvas" id="hero-canvas"></div>
+
+      <div class="hero-content">
+        <div class="hero-tagline" id="hero-tagline" data-i18n="index.hero.tagline">
+          试用期设计工作规划
+        </div>
+
+        <div class="hero-line" id="hero-line"></div>
+<div class="hero-bar" id="hero-bar">
+  <div class="hero-bar-left">
+    <span class="chr-hover"></span>
+  </div>
+</div>
+      </div>
+    </section>
+  </div>
+
+  
+  <div class="reveal-image-wrap" id="reveal-image-wrap">
+    <canvas class="reveal-image reveal-seq" id="reveal-canvas"></canvas>
+    <div class="reveal-frame reveal-seq">
+      <span class="reveal-corner tl"></span>
+      <span class="reveal-corner tr"></span>
+      <span class="reveal-corner bl"></span>
+      <span class="reveal-corner br"></span>
+    </div>
+    <div class="reveal-overlay" id="reveal-overlay"></div>
+    <p class="reveal-phrase" id="reveal-phrase">APP 生态设计组</p>
+  </div>
+
+  
+  <section class="section-after" id="section-after">
+    <div class="about" id="about">
+      <div class="about-text" id="about-text" data-i18n="index.about.text">
+        <ol class="about-list">
+          <li><span class="about-index">1.</span><span class="about-label">部门核心价值定位理解</span></li>
+          <li><span class="about-index">2.</span><span class="about-label">现状分析与团队盘点</span></li>
+          <li><span class="about-index">3.</span><span class="about-label">试用期目标、策略及排兵布阵</span></li>
+          <li><span class="about-index">4.</span><span class="about-label">组织绩效指标设定</span></li>
+        </ol>
+      </div>
+      <div class="about-sub" id="about-sub" data-i18n="index.about.sub">
+        围绕公司女性健康管理平台战略，建立统一、高质量、可持续的产品体验能力，APP 生态设计组将从用户理解、系统架构、情感化体验、AI 体验赋能、团队与组织能力建设五个方向拆解落地，推动 APP 从单一工具型产品，逐步升级为覆盖女性健康全周期、具备智能化、个性化与可信赖服务能力的平台型产品。
+      </div>
+      <div class="about-meta" id="about-meta">APP 生态设计组</div>
+      <div class="about-version"><svg style="width: 1.25em; height: 1.25em; vertical-align: -0.25em;" viewBox="0 0 84 85" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M11 38H54L37 21H51L73 43L51 65H37L54 48H11Z"/>
+</svg>V3.0</div>
+      <div class="about-photo-wrap" id="about-photo-wrap">
+        <img class="about-photo" src="assets/images/profile/momcozy-app-poster.jpg" alt="Momcozy app poster" decoding="async" width="2640"
+          height="2868">
+      </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <svg class="fluid-line-svg" id="fluid-line-svg" viewBox="0 0 1400 1400" preserveAspectRatio="xMidYMid slice">
+        <path class="fluid-line" id="fluid-line" d="
+          M -80,0
+          C 300,-20  600,150  540,400
+          C 490,650   0,655    300,1050
+          C 600,1385 650,1250 850,1200
+          C 1050,1150 1350,1250 1540,1300
+        " />
+      </svg>
+      <div class="projects-inner">
+        <div class="projects-list" id="projects-list">
+          <div class="proj-item" data-id="cyberdiag" data-img="assets/images/projects/Covers/business-experience-momcozy.jpg"
+            data-date="价值 01">业务体验价值</div>
+          <div class="proj-item" data-id="anima" data-img="assets/images/projects/Covers/intelligent-experience-momcozy.jpg"
+            data-date="价值 02">智能体验价值</div>
+          <div class="proj-item" data-id="cyberdiag-app" data-img="assets/images/projects/Covers/system-experience-momcozy.jpg"
+            data-date="价值 03">体系建设价值</div>
+          <div class="proj-item" data-id="skymcdb" data-img="assets/images/projects/Covers/momcozy-app-3-ui-design.png"
+            data-date="价值 04">组织交付价值</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="circle-gallery" id="circle-gallery">
+    <div class="circle-gallery-pin" id="circle-gallery-pin">
+      <img class="cg-img" src="assets/images/products/circle-gallery/breast-pump-v3-pro.png" alt="V3 Pro 吸奶器" width="2000" height="2000">
+      <img class="cg-img" src="assets/images/products/circle-gallery/baby-monitor-bm08.png" alt="BM08 婴儿监护器" width="2000" height="2000">
+      <img class="cg-img" src="assets/images/products/circle-gallery/baby-bottle-warmer.png" alt="智能暖奶器" width="2000" height="2000">
+      <img class="cg-img" src="assets/images/products/circle-gallery/white-noise-wn02.png" alt="WN02 白噪音设备" width="2000" height="2000">
+      <img class="cg-img" src="assets/images/products/circle-gallery/air-purifier.png" alt="空气净化器" width="2000" height="2000">
+      <img class="cg-img" src="assets/images/products/circle-gallery/t31.png" alt="T31 配件" width="2000" height="2000">
+      <img class="cg-img" src="assets/images/products/circle-gallery/cleaning-machine.png" alt="智能清洗机" width="2000" height="2000">
+      <img class="cg-img" src="assets/images/products/circle-gallery/yoga-ball.png" alt="瑜伽球" width="2000" height="2000">
+      <p class="cg-phrase" id="cg-phrase" data-i18n="index.cg.phrase">每个阶段都聚焦三件事：<br>解决<span class="other-accent">业务问题</span>，沉淀<span class="other-accent">体验标准</span><br>交付可衡量结果。</p>
+    </div>
+  </section>
+
+  
+  <section class="skills" id="skills">
+    <div class="skills-inner">
+      <div class="skills-left">
+        <div class="skills-subtitle" data-i18n="index.skills.subtitle">现状问题</div>
+        <div class="skills-text" data-i18n="index.skills.text">
+          随着业务复杂度上升，设计资源、组织、流程与体系能力尚未完全匹配业务节奏。
+        </div>
+        <div class="skills-separator"></div>
+        <div><a class="skills-contact chr-hover" data-chr="设计组" href="#contact" aria-label="跳转到交流区"></a></div>
+      </div>
+      <div class="skills-right" id="skills-right">
+        <div class="skill-group open" data-group="frontend">
+          <div class="skill-header"><span class="skill-header-title" data-i18n="index.skills.frontend">问题一：<br>问题一：需求复杂度提升，但需求输入与定义阶段不稳定</span><span
+              class="skill-header-icon"></span></div>
+          <div class="skill-body">
+            <ul class="skill-body-inner">
+              <li>具体表现</li>
+              <li>需求来源多（产品、运营、商业化、IoT、AI 等），优先级不统一</li>
+              <li>部分需求在进入设计阶段时目标不清晰、边界不明确</li>
+              <li>用户问题、业务目标、技术约束没有在前期充分对齐</li>
+              <li>需求在设计过程中频繁变更，影响设计稳定性</li>
+              <li>根因分析</li>
+              <li>缺少统一的需求分级与优先级判断机制</li>
+              <li>缺少需求定义阶段的设计参与机制</li>
+              <li>产品、设计、研发对需求完整性的理解不一致</li>
+              <li>当前流程偏线性，缺少通过 Demo 或快速验证提前收敛需求的机制</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-group" data-group="animation">
+          <div class="skill-header"><span class="skill-header-title" data-i18n="index.skills.animation">问题二：<br>设计系统缺失，导致体验不统一</span><span
+              class="skill-header-icon"></span></div>
+          <div class="skill-body">
+            <ul class="skill-body-inner">
+              <li>具体表现</li>
+              <li>App、硬件屏幕、社区、AI、IP 等方向缺少统一设计语言</li>
+              <li>颜色、字体、组件、状态、页面层级等基础规则没有完全沉淀</li>
+              <li>暗黑模式、Design Token、组件库等基础能力还处在建设初期</li>
+              <li>agency 时域融合版本 630 对底层系统与前台体验一致性提出更高要求</li>
+              <li>不同设计师之间的产出标准不完全一致</li>
+              <li>根因分析</li>
+              <li>过去更偏单项目交付，体系化建设投入不足</li>
+              <li>缺少跨 App、IoT、AI、社区的统一体验原则</li>
+              <li>设计标准没有与研发实现、测试验收形成闭环</li>
+              <li>底层系统能力、组件状态、前台页面表达之间缺少统一设计语言</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-group" data-group="backend">
+          <div class="skill-header"><span class="skill-header-title" data-i18n="index.skills.backend">问题三：<br>IoT 与多端体验缺乏统一语境</span><span
+              class="skill-header-icon"></span></div>
+          <div class="skill-body">
+            <ul class="skill-body-inner">
+              <li>具体表现</li>
+              <li>硬件屏幕、设备控制、App 设备页之间体验连接不顺</li>
+              <li>设备状态、异常场景、操作反馈、信息层级不统一</li>
+              <li>不同设备之间体验割裂</li>
+              <li>IoT 体验更多按项目推进，缺少系统性盘点</li>
+              <li>根因分析</li>
+              <li>IoT 涉及硬件、软件、固件、测试多方协同，设计介入深度不稳定</li>
+              <li>缺少统一的硬件屏幕设计规范和设备体验原则</li>
+              <li>设备体验没有从完整用户任务链路进行系统梳理</li>
+              <li>多端之间缺少统一体验语言与状态表达机制</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-group" data-group="database">
+          <div class="skill-header"><span class="skill-header-title" data-i18n="index.skills.database">问题四：<br>流程和排期不稳定，设计交付缺少闭环</span><span
+              class="skill-header-icon"></span></div>
+          <div class="skill-body">
+            <ul class="skill-body-inner">
+              <li>具体表现</li>
+              <li>需求输入质量不稳定，设计介入时机不一致</li>
+              <li>设计方案、研发实现、上线验收之间缺少稳定闭环</li>
+              <li>设计图与上线版本存在还原偏差</li>
+              <li>风险暴露较晚，后期返工成本高</li>
+              <li>根因分析</li>
+              <li>缺少统一的设计工作流和交付标准</li>
+              <li>产品、设计、研发对“设计完成”的定义不一致</li>
+              <li>缺少设计验收、上线复盘、风险预警机制</li>
+              <li>项目排期与资源冲突不可视</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-group" data-group="devops">
+          <div class="skill-header"><span class="skill-header-title" data-i18n="index.skills.devops">问题五：<br>设计资源分配与组织结构未匹配业务复杂度</span><span
+              class="skill-header-icon"></span></div>
+          <div class="skill-body">
+            <ul class="skill-body-inner">
+              <li>具体表现</li>
+              <li>设计需求来源多，覆盖 App、IoT、AI、社区、运营、商业化、IP 等</li>
+              <li>设计资源被多线需求打散</li>
+              <li>项目主责不清晰，支援关系交叉</li>
+              <li>重点项目与临时需求互相影响</li>
+              <li>根因分析</li>
+              <li>缺少设计需求分级机制</li>
+              <li>缺少 P0/P1/P2/P3 优先级判断标准</li>
+              <li>当前团队规模与业务复杂度不匹配</li>
+              <li>主责设计师机制与资源调度机制不清晰</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-group" data-group="sysadmin">
+          <div class="skill-header"><span class="skill-header-title" data-i18n="index.skills.security">问题六：<br>团队能力与组织机制仍偏个人驱动，缺少体系沉淀</span><span
+              class="skill-header-icon"></span></div>
+          <div class="skill-body">
+            <ul class="skill-body-inner">
+              <li>具体表现</li>
+              <li>原有团队分工更多偏向“按事项拆分、按个人承接”，整体呈现为任务驱动而非业务驱动。</li>
+              <li>在业务复杂度提升后，逐渐暴露出以下问题：</li>
+              <li>沟通链路长，信息损耗高</li>
+              <li>设计师多线承接，业务理解不深</li>
+              <li>ownership 不足，责任边界模糊</li>
+              <li>专家能力停留在个人层面，未形成组织能力</li>
+              <li>设计基线不清晰，质量依赖个人判断</li>
+              <li>根因分析</li>
+              <li>原有分工逻辑偏“人力分配”，不是“业务闭环”</li>
+              <li>缺少稳定的业务主责设计师机制</li>
+              <li>专业支撑与业务交付混在一起</li>
+              <li>专家能力缺少组织化传导机制</li>
+              <li>缺少从项目经验到设计标准、流程、AI 工作流上下文的沉淀机制</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-group" data-group="design">
+          <div class="skill-header"><span class="skill-header-title" data-i18n="index.skills.design">其他：当前仍停留在线性流程，尚未进入 AI Native 设计工作模式</span><span
+              class="skill-header-icon"></span></div>
+          <div class="skill-body">
+            <ul class="skill-body-inner">
+              <li>具体表现</li>
+              <li>当前整体流程仍然是：需求 → 设计 → 开发 → 上线</li>
+              <li>设计更多在需求确定后介入，参与产品定义较少</li>
+              <li>AI 仍主要停留在个人效率工具层，没有进入需求定义、方案共创和交付沉淀流程</li>
+              <li>缺少通过 Demo 快速验证需求与体验的机制</li>
+              <li>AI 工具使用零散，没有形成团队级工作流</li>
+              <li>设计评审、验收与复盘缺少 AI 辅助，经验难以快速沉淀为可复用资产</li>
+              <li>根因分析</li>
+              <li>组织尚未建立 AI Native 的协作方式</li>
+              <li>缺少 Demo 驱动的产品设计机制</li>
+              <li>设计规范、组件、文案等尚未沉淀为 AI 可调用的上下文</li>
+              <li>团队对 AI 在设计流程中的角色认知不统一</li>
+              <li>本质问题</li>
+              <li>当前设计体系是为“线性流程”构建的，而未来业务需要的是：一个支持 AI Native、非线性协同、快速验证与持续迭代的设计组织与设计体系。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team structure -->
+  <section class="team-structure" id="team-structure">
+    <div class="team-structure-inner">
+      <div class="skills-subtitle team-eyebrow">团队能力结构初步判断</div>
+      <div class="team-hero">
+        <h2>从“人力分配”转向“能力经营”。</h2>
+        <div class="team-intro">
+          <p>当前团队具备交互、视觉、IoT、品牌、IP、用户研究和 AI 设计探索等多元能力，也有熟悉业务历史、协作关系和存量问题的核心成员。</p>
+          <p>现阶段的关键问题不是能力不足，而是能力与业务位置的匹配度还不够高：主责与支援边界不清，专家能力没有充分进入关键业务，设计基线与日常交付之间尚未形成稳定闭环。</p>
+          <p>后续组织调整将从“按人分任务”转向“按业务经营能力”：让不同能力进入更适合的业务线，通过主线深耕、专家带教和基线共建，提升整体设计交付质量与团队成长效率。</p>
+        </div>
+      </div>
+
+      <div class="team-block">
+        <h3>核心成员能力盘点</h3>
+        <div class="team-members-list language-list">
+          <div class="language-item">
+            <div class="language-kicker">俊杰</div>
+            <div class="language-title">主线 UX 专家 / Component / Journal</div>
+            <div class="language-desc">业务连续性 / 复杂交互判断 / 组件化沉淀</div>
+            <div class="language-meta">主线主设计师</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">刘琼</div>
+            <div class="language-title">主线 UI 专家 / AI 业务 / Journal</div>
+            <div class="language-desc">系统式设计 / 产品结构化 / 2C App 体验</div>
+            <div class="language-meta">主线牵引</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">一鸣</div>
+            <div class="language-title">IOT 设计专家 / 原子化 / 智慧屏 / 吸奶器</div>
+            <div class="language-desc">IoT 连续性 / 内部协作 / 设备体验理解</div>
+            <div class="language-meta">IoT 主责</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">Jony</div>
+            <div class="language-title">IOT 专家 / Design System</div>
+            <div class="language-desc">高质量交付 / 全链路判断 / 组件规范沉淀</div>
+            <div class="language-meta">专家牵引</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">Kenzie</div>
+            <div class="language-title">主线 AI / 海外体验 / 多语言</div>
+            <div class="language-desc">海外语境 / 内容表达 / 全站型设计</div>
+            <div class="language-meta">AI 与海外补位</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">玉博</div>
+            <div class="language-title">IOT UX / 睡眠看护 / 硬件体验</div>
+            <div class="language-desc">主动意识 / 成长潜力 / AI 工具投入</div>
+            <div class="language-meta">重点培养</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">东东</div>
+            <div class="language-title">IOT UX / 婴童健康 / 孕产康</div>
+            <div class="language-desc">设备经验 / 项目主动性 / 硬件体验</div>
+            <div class="language-meta">IoT 深耕</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">燕欣</div>
+            <div class="language-title">社区 UX UI / Design System</div>
+            <div class="language-desc">视觉表现 / 交付效率 / AI 辅助设计</div>
+            <div class="language-meta">视觉质量补位</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">锦波</div>
+            <div class="language-title">品牌 / 视频 / Brand.md</div>
+            <div class="language-desc">品牌视觉 / 视频能力 / 标准沉淀</div>
+            <div class="language-meta">品牌基线</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">莹玉</div>
+            <div class="language-title">IP / 插画 / 用户增长</div>
+            <div class="language-desc">情绪价值 / 母婴表达 / IP 规范</div>
+            <div class="language-meta">情感化基线</div>
+          </div>
+        </div>
+        <p class="team-note">注：具体成员负责方向可根据实际组织调整继续补充。此模块重点用于说明人员能力与组织调配逻辑。</p>
+      </div>
+
+      <div class="team-block">
+        <h3>团队现状评估</h3>
+        <p class="team-lead">当前团队不是单纯“人力不足”，而是需要解决“能力如何放到合适位置、经验如何被组织复用”的问题。</p>
+        <div class="team-card-grid">
+          <div class="team-card">
+            <span>01</span>
+            <h4>主线需要系统化设计 + 2C App + AI 工作流能力</h4>
+            <p>主线业务涉及 AI、社区、Journal、我的、用户增长、商业化、多语言等方向，变化快、探索多、体验定义不确定性高。</p>
+          </div>
+          <div class="team-card">
+            <span>02</span>
+            <h4>IoT 需要硬件体验 + 项目深耕 + 主责意识</h4>
+            <p>IoT 业务跨部门协作复杂、硬件约束强，需要业务连续性和高水平交互、视觉、全链路设计能力共同牵引。</p>
+          </div>
+          <div class="team-card">
+            <span>03</span>
+            <h4>设计基线需要专家共建，而不是单人维护</h4>
+            <p>Design Token、Component.md、Motion.md、Brand.md、IP、交付模板和验收标准，需要从主线和 IoT 项目中持续抽象沉淀。</p>
+          </div>
+          <div class="team-card">
+            <span>04</span>
+            <h4>学习型组织需要通过业务带教形成</h4>
+            <p>专家进入业务线，不只是解决当前项目问题，更重要的是在项目过程中带教新人、提升团队判断力，并沉淀为规范、模板、组件、案例和 AI 工作流上下文。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-block team-two-col">
+        <div>
+          <h3>团队能力缺口与人员补充方向</h3>
+          <p>从当前已盘点的核心成员看，团队约 10 人。若要稳定覆盖主线、AI、IoT、社区、品牌、运营和研究等方向，建议补充 8-10 人，形成约 18-20 人的配置。</p>
+        </div>
+        <div class="team-target">
+          <span>人员缺口</span>
+          <strong>8-10 人</strong>
+          <p>按当前核心成员约 10 人估算，补齐 AI、动效、视觉、交互、运营和研究等专项能力后，可形成更稳定的 18-20 人配置。</p>
+        </div>
+      </div>
+
+      <div class="team-block">
+        <h3>需要补充的关键角色</h3>
+        <div class="language-list role-list">
+          <div class="language-item">
+            <div class="language-kicker">AI 体验设计师</div>
+            <div class="language-title">AI Native 体验 / Demo 验证</div>
+            <div class="language-desc">负责 AI 角色定位、交互方式、文案表达、反馈机制和 Agent 式任务流，推动 Demo 驱动的验证闭环。</div>
+            <div class="language-meta">主线补强</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">视觉设计专家</div>
+            <div class="language-title">关键页面质量 / 品牌一致性</div>
+            <div class="language-desc">把控 App、社区、商业化、运营、IP 与硬件屏幕中的视觉质量标准，统一品牌表达和关键页面质感。</div>
+            <div class="language-meta">质量牵引</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">Motion 设计师</div>
+            <div class="language-title">动效规则 / 状态反馈</div>
+            <div class="language-desc">沉淀设备状态、加载、转场、微交互与 AI 反馈动效规范，让状态和节奏更清晰。</div>
+            <div class="language-meta">Motion.md</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">交互设计专家</div>
+            <div class="language-title">复杂体验 / 结构梳理</div>
+            <div class="language-desc">负责复杂流程、信息层级、关键链路和多端一致性，提升方案可用性与业务理解深度。</div>
+            <div class="language-meta">结构牵引</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-block">
+        <h3>人员补充后的组织目标</h3>
+        <ul class="team-goals">
+          <li>每条重点业务有稳定主责设计师</li>
+          <li>每个设计师稳定 cover 1-2 条产品线</li>
+          <li>专家负责质量牵引和标准沉淀</li>
+          <li>Design System 有稳定建设能力</li>
+          <li>AI 工作流有专门能力承接</li>
+          <li>用研能力支撑体验决策</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Probation strategy -->
+  <section class="strategy-section" id="strategy">
+    <div class="strategy-inner">
+      <div class="skills-subtitle strategy-eyebrow">试用期目标与达成策略</div>
+      <div class="strategy-hero">
+        <h2>从项目交付到体系化设计管理的试用期目标</h2>
+        <div class="strategy-summary">
+          <p>试用期内，设计组织需要完成从“项目式设计交付”向“体系化设计管理”的初步转型。</p>
+          <p>总体目标是：稳定关键业务设计交付，建立设计协作机制，启动设计体系建设，提升团队专业能力，并为 AI + 母婴产品体验升级打下基础。</p>
+        </div>
+      </div>
+
+      <div class="strategy-block">
+        <h3>试用期总体目标</h3>
+        <div class="strategy-card-grid">
+          <article class="strategy-card">
+            <span>01</span>
+            <h4>业务线深耕</h4>
+            <p>让主线和 IoT 各自形成稳定主责，提升设计师对业务、用户、产品和技术边界的理解深度。</p>
+          </article>
+          <article class="strategy-card">
+            <span>02</span>
+            <h4>专家带动团队</h4>
+            <p>让元老和专家进入业务线，不脱离业务、不集中扎堆，通过项目共创、评审、带教和复盘带动其他设计师能力提升。</p>
+          </article>
+          <article class="strategy-card">
+            <span>03</span>
+            <h4>设计基线沉淀</h4>
+            <p>通过 Design System 建设，把设计标准、设计质量、设计流程、品牌 / IP 规范和 AI 工作流上下文沉淀为组织资产。</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="strategy-block">
+        <h3>问题发现 → 根因分析 → 解决目标</h3>
+        <div class="language-list strategy-map-list">
+          <div class="language-item">
+            <div class="language-kicker">需求</div>
+            <div class="language-title">需求复杂度提升，但输入与定义阶段不稳定</div>
+            <div class="language-desc">根因：缺少需求分级、优先级判断与设计前置参与机制。</div>
+            <div class="language-meta">目标：前期对齐 / Demo 验证</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">系统</div>
+            <div class="language-title">设计系统缺失，导致体验不统一</div>
+            <div class="language-desc">根因：Token、组件、暗黑模式、页面层级与交付标准尚未完全沉淀。</div>
+            <div class="language-meta">目标：体系初版 / 一致性基线</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">多端</div>
+            <div class="language-title">IoT 与多端体验缺乏统一语境</div>
+            <div class="language-desc">根因：跨设备体验原则、硬件屏幕规范和状态表达机制不足。</div>
+            <div class="language-meta">目标：IoT 盘点 / 多端规范</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">交付</div>
+            <div class="language-title">流程和排期不稳定，设计交付缺少闭环</div>
+            <div class="language-desc">根因：评审、交付、研发还原、上线验收和复盘机制不稳定。</div>
+            <div class="language-meta">目标：交付闭环</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">资源</div>
+            <div class="language-title">资源分配与组织结构未匹配业务复杂度</div>
+            <div class="language-desc">根因：缺少 P0-P3 分级、主责设计师机制与资源调度机制。</div>
+            <div class="language-meta">目标：优先级 / 资源排布</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">机制</div>
+            <div class="language-title">团队能力与组织机制仍偏个人驱动</div>
+            <div class="language-desc">根因：专家能力没有转化为标准、模板、案例和 AI 工作流上下文。</div>
+            <div class="language-meta">目标：学习型组织</div>
+          </div>
+          <div class="language-item">
+            <div class="language-kicker">AI 模式</div>
+            <div class="language-title">仍停留在线性流程，尚未进入 AI Native 设计工作模式</div>
+            <div class="language-desc">根因：AI 仍停留在工具层，缺少 Demo 驱动、协同机制与可调用上下文沉淀。</div>
+            <div class="language-meta">目标：AI Native 试点</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="strategy-block">
+        <h3>策略优先级</h3>
+        <div class="strategy-priority-list">
+          <article class="strategy-priority">
+            <span>P0</span>
+            <div>
+              <h4>保障关键业务设计交付</h4>
+              <p>优先保障 App 3.1、Journal、社区 Group、IoT、吸奶器、agency 时域融合版本 630、暗黑模式等重点项目设计推进。</p>
+            </div>
+          </article>
+          <article class="strategy-priority">
+            <span>P0</span>
+            <div>
+              <h4>完成组织分工调整和主责机制建立</h4>
+              <p>将团队从原有个人多线承接方式，逐步调整为：主线业务 AI 制、IoT 业务项目制、设计基线 Design System。明确每条业务线的专家牵引、主责设计师和协同方式。</p>
+            </div>
+          </article>
+          <article class="strategy-priority">
+            <span>P1</span>
+            <div>
+              <h4>建立设计流程和交付闭环</h4>
+              <p>建立设计需求分级、设计排期、设计评审、设计交付、研发还原、上线验收和复盘机制。</p>
+            </div>
+          </article>
+          <article class="strategy-priority">
+            <span>P1</span>
+            <div>
+              <h4>启动底层系统与一致性建设</h4>
+              <p>围绕 agency 时域融合版本 630，推进底层系统与前台体验一致性建设，包括 Design Token、组件状态、暗黑模式、多端适配和交付标准。</p>
+            </div>
+          </article>
+          <article class="strategy-priority">
+            <span>P1</span>
+            <div>
+              <h4>明确人员补充和能力建设计划</h4>
+              <p>围绕 AI 体验设计师、视觉设计专家、Motion 设计师、运营设计师、中高级产品设计师、用户研究人员等关键能力，明确补充节奏和岗位要求。</p>
+            </div>
+          </article>
+          <article class="strategy-priority">
+            <span>P2</span>
+            <div>
+              <h4>建设学习型设计组织和 AI 工作流</h4>
+              <p>建立团队 1v1、设计评审圆桌、项目复盘和 AI 辅助设计工作流试点。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key projects -->
+  <section class="awards" id="awards">
+    <div class="awards-inner">
+      <div class="skills-subtitle awards-title">关键项目情况</div>
+      <div class="awards-intro">
+        围绕试用期达成策略，关键项目进入下一层展开：用短期交付验证稳定性，用样板间沉淀标准，用长期建设补足组织能力。
+      </div>
+
+      <div class="awards-module">
+        <div class="awards-module-head is-compact">
+          <span>短期交付</span>
+          <em>0-30 天</em>
+        </div>
+        <div class="awards-list">
+          <div class="award-item long-form">
+            <div class="award-org">项目一</div>
+            <div class="award-site">版本火车设计交付</div>
+            <div class="award-prize">高质高效完成版本火车设计交付，推动落地体验效果可检查、可验收、可复盘。</div>
+            <div class="award-date">短期</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="awards-module">
+        <div class="awards-module-head is-compact">
+          <span>中期样板间</span>
+          <em>30-60 天</em>
+        </div>
+        <div class="awards-list">
+          <div class="award-item long-form">
+            <div class="award-org">项目二</div>
+            <div class="award-site">V3 子首页与硬件屏幕样板间</div>
+            <div class="award-prize">通过 V3 项目子首页与硬件屏幕体验原则样板间，建立设计标准与质量看护方式。</div>
+            <div class="award-date">样板</div>
+          </div>
+          <div class="award-item long-form">
+            <div class="award-org">项目三</div>
+            <div class="award-site">App 体验框架分析与建设</div>
+            <div class="award-prize">从整体视角完成 App 体验框架分析，梳理核心体验结构、页面关系与后续建设路径。</div>
+            <div class="award-date">框架</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="awards-module">
+        <div class="awards-module-head is-compact">
+          <span>长期能力建设</span>
+          <em>60-90 天 +</em>
+        </div>
+        <div class="awards-list">
+          <div class="award-item long-form">
+            <div class="award-org">项目四</div>
+            <div class="award-site">关键设计人才补充</div>
+            <div class="award-prize">补充动效、AI、交互视觉专家等关键设计人才，让团队能力结构匹配业务复杂度。</div>
+            <div class="award-date">人才</div>
+          </div>
+          <div class="award-item long-form">
+            <div class="award-org">项目五</div>
+            <div class="award-site">APP 品牌化&amp; IP 资产化</div>
+            <div class="award-prize">完成 IP 家族的设计规划与落地、APP 品牌周边落地、IP 动效场景化交付，让情感化表达从单点素材进入系统化资产。</div>
+            <div class="award-date">IP</div>
+          </div>
+          <div class="award-item long-form">
+            <div class="award-org">项目六</div>
+            <div class="award-site">Design Token 与组件基线</div>
+            <div class="award-prize">推进 Design Token、组件.md 基线建设与设计标准沉淀，形成可复用、可协作的体验底座。</div>
+            <div class="award-date">基线</div>
+          </div>
+          <div class="award-item long-form">
+            <div class="award-org">项目七</div>
+            <div class="award-site">AI 体验设计工作流</div>
+            <div class="award-prize">建立 AI 体验设计工作流，覆盖 Demo 验证、文案机制、反馈机制与团队上下文沉淀。</div>
+            <div class="award-date">AI</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="awards-module team-battle-map" id="team-battle-map">
+        <div class="awards-module-head is-compact">
+          <span>团队作战地图</span>
+          <em>排兵布阵</em>
+        </div>
+
+        <div class="battle-map-intro">
+          <p>为实现目标，团队从“按人力分配”转向“按业务线作战”：主线采用 AI 试点制，IoT 采用项目制，社区和设计基线作为横向支撑。</p>
+        </div>
+
+        <div class="battle-axis" aria-label="团队作战结构">
+          <article class="battle-pillar">
+            <span>主线-试点 AI 制</span>
+            <h4>AI + 社区 + Journal + 我的</h4>
+            <p>用户增长 / 商业化 / 用户研究 / 多语言</p>
+          </article>
+          <article class="battle-pillar">
+            <span>IoT-项目制</span>
+            <h4>吸奶器 + 原子化 + 智慧屏</h4>
+            <p>睡眠看护 / 白噪音 / 婴童健康 / 孕产康 / 游戏</p>
+          </article>
+          <div class="battle-base">
+            <span>基线 Design System</span>
+            <strong>Design.token + Component.md + Motion.md + Brand + IP</strong>
+          </div>
+        </div>
+
+        <div class="battle-streams">
+          <article class="battle-stream">
+            <div class="battle-stream-head">
+              <span>AI 首页</span>
+              <strong>产品 / PM 直接找对应主 UX</strong>
+            </div>
+            <div class="battle-assignments">
+              <div><span>主 UX - Kenzie</span><p>AI 卡片 - 琪琪；blue 泌乳计划 - 慧慧</p></div>
+              <div><span>主 UX - 刘琼</span><p>睡眠 - 苗苗；周期 - 佳迪；AI tab - 郭嘉</p></div>
+              <div><span>主 UX - 俊杰</span><p>提醒和日历 - 雪寒；记录方式 / 语音 - 佳迪；Journal / 我的定位与 MVP - 雪寒；内容推荐 - 军雄；电商 - 佳迪 / 赵小龙</p></div>
+              <div class="battle-note"><span>补位判断</span><p>一个版本需求大概率 2-3 条并发，需要持续迭代与补充 UX。</p></div>
+            </div>
+          </article>
+
+          <article class="battle-stream">
+            <div class="battle-stream-head">
+              <span>IoT 设备</span>
+              <strong>项目制，产品 / PM 直接找对应主 UX</strong>
+            </div>
+            <div class="battle-assignments compact">
+              <div><span>吸奶器样板间</span><p>主 UX - 一鸣；副 UI - Jony</p></div>
+              <div><span>智慧屏</span><p>主 UX - 一鸣</p></div>
+              <div><span>原子化</span><p>主 UX - 王博；副 UI - Jony</p></div>
+              <div><span>睡眠与看护</span><p>主 UX - 王博</p></div>
+              <div><span>白噪音</span><p>主 UX - 刘琼支援；后一鸣安排</p></div>
+              <div><span>婴童健康</span><p>主 UX - 东东；会补人</p></div>
+              <div><span>孕产康</span><p>主 UX - 东东</p></div>
+              <div><span>游戏</span><p>主 UX - 燕欣</p></div>
+            </div>
+          </article>
+
+          <article class="battle-stream">
+            <div class="battle-stream-head">
+              <span>社区</span>
+              <strong>用户等级 / 任务体系</strong>
+            </div>
+            <div class="battle-assignments compact">
+              <div><span>主 UX - 梁燕欣</span><p>东玮 / 丹倩 / 韵雯</p></div>
+            </div>
+          </article>
+
+          <article class="battle-stream">
+            <div class="battle-stream-head">
+              <span>基线 Design.md</span>
+              <strong>横向能力沉淀</strong>
+            </div>
+            <div class="battle-assignments compact">
+              <div><span>Design.token</span><p>Jony / 刘琼 / Kenzie / 燕欣</p></div>
+              <div><span>Component.md</span><p>俊杰 / 一鸣 / 东东 / 王博</p></div>
+              <div><span>Motion.md</span><p>UX 兼任</p></div>
+              <div><span>Brand.md</span><p>品牌 - 锦波；IP 家族 - 莹玉；用户增长 - 莹玉长线看；物料 - 锦波</p></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Performance goals -->
+  <section class="performance-section" id="performance">
+    <div class="performance-inner">
+      <div class="skills-subtitle performance-eyebrow">组织绩效指标设定</div>
+      <div class="performance-hero">
+        <h2>把试用期目标转化为可对齐、可追踪、可复盘的组织指标。</h2>
+        <div class="performance-summary">
+          <p>基于当前网站内容，试用期核心不是单点项目交付，而是让设计组织稳定承接 App 主线、AI、社区、Journal、IoT、商业化、增长与 Design System 等复杂业务。</p>
+          <p>因此指标需要同时衡量业务交付质量、协同效率、体系沉淀、AI Native 工作方式、人力补位和资源投入有效性。</p>
+        </div>
+      </div>
+
+      <div class="performance-align">
+        <article>
+          <span>上级对齐</span>
+          <p>确认 P0/P1 业务优先级、试用期阶段成果和绩效口径。</p>
+        </article>
+        <article>
+          <span>业务对齐</span>
+          <p>与产品、运营、研发确认需求输入、排期节奏和上线验收标准。</p>
+        </article>
+        <article>
+          <span>人力对齐</span>
+          <p>确认关键岗位画像、补充节奏、面试优先级和团队能力结构。</p>
+        </article>
+      </div>
+
+      <div class="performance-page">
+        <div class="performance-page-head is-compact">
+          <span>业务交付与协同质量</span>
+          <em>0-60 天重点</em>
+        </div>
+
+        <div class="performance-metrics">
+          <article class="performance-metric">
+            <span>01</span>
+            <div>
+              <h4>设计方案准时交付率</h4>
+              <strong>目标值：≥ 90%</strong>
+            </div>
+            <p>承接人：各业务主责 UX；设计负责人负责节奏看护。</p>
+            <p>必要性：直接解决流程和排期不稳定问题，保障版本火车和重点项目不被设计侧阻塞。</p>
+            <p>结果反映：能反映资源排布、需求定义质量和跨团队协同效率。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>02</span>
+            <div>
+              <h4>中心设计评审一次性通过率</h4>
+              <strong>目标值：≥ 90%</strong>
+            </div>
+            <p>承接人：设计负责人、视觉设计专家、交互设计专家、项目主责设计师。</p>
+            <p>必要性：用评审质量控制方案成熟度，减少反复修改和后期返工。</p>
+            <p>结果反映：能反映前置对齐、方案完整性、视觉与交互质量是否稳定。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>03</span>
+            <div>
+              <h4>P0 / P1 项目体验验收通过率</h4>
+              <strong>目标值：≥ 90%</strong>
+            </div>
+            <p>承接人：App 主线、AI 首页、IoT、社区、Design System 各主责 UX。</p>
+            <p>必要性：设计价值必须落到上线体验，不只停留在设计稿交付。</p>
+            <p>结果反映：能反映研发还原、上线验收和体验质量闭环是否成立。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>04</span>
+            <div>
+              <h4>重点业务主责覆盖率</h4>
+              <strong>目标值：100%</strong>
+            </div>
+            <p>承接人：设计负责人；Kenzie、刘琼、俊杰、一鸣、王博、东东、燕欣等业务主责。</p>
+            <p>必要性：业务复杂度提升后，需要明确 owner，避免多线需求靠个人临时响应。</p>
+            <p>结果反映：能反映组织分工、业务理解深度和资源调度是否清晰。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>05</span>
+            <div>
+              <h4>P0 / P1 需求前置参与覆盖率</h4>
+              <strong>目标值：≥ 90%</strong>
+            </div>
+            <p>承接人：设计负责人、业务 PM、项目主责 UX。</p>
+            <p>必要性：需求输入不稳定是当前核心问题，设计需要提前参与目标、边界和验证方式定义。</p>
+            <p>结果反映：能反映需求定义质量、风险前置能力和 Demo 验证机制是否有效。</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="performance-page">
+        <div class="performance-page-head is-compact">
+          <span>体系沉淀、AI工作流与资源规划</span>
+          <em>60-90 天 +</em>
+        </div>
+
+        <div class="performance-metrics">
+          <article class="performance-metric">
+            <span>06</span>
+            <div>
+              <h4>Design System 基线交付</h4>
+              <strong>目标值：Token / Component / Motion / Brand-IP 初版完成</strong>
+            </div>
+            <p>承接人：Jony、刘琼、Kenzie、燕欣、俊杰、一鸣、东东、王博、锦波、莹玉。</p>
+            <p>必要性：设计系统缺失会导致体验不统一，必须把标准沉淀为可复用资产。</p>
+            <p>结果反映：能反映体验一致性、研发协作效率和组织资产沉淀能力。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>07</span>
+            <div>
+              <h4>AI Native Demo 验证闭环数</h4>
+              <strong>目标值：≥ 2 个关键场景</strong>
+            </div>
+            <p>承接人：AI 体验设计师、Kenzie、刘琼、俊杰；协同产品与研发。</p>
+            <p>必要性：团队需要从线性流程进入 AI Native 工作方式，用 Demo 快速验证体验和需求。</p>
+            <p>结果反映：能反映 AI 设计能力、产品探索效率和跨职能协同成熟度。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>08</span>
+            <div>
+              <h4>关键项目复盘与资产沉淀率</h4>
+              <strong>目标值：≥ 90%</strong>
+            </div>
+            <p>承接人：项目主责 UX、专家牵引人、设计负责人。</p>
+            <p>必要性：团队不能只靠个人经验，需要把案例、模板、组件和工作流沉淀下来。</p>
+            <p>结果反映：能反映学习型组织建设、专家带教和组织能力复用效果。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>09</span>
+            <div>
+              <h4>关键岗位补充计划达成率</h4>
+              <strong>目标值：岗位画像与招聘节奏 100% 对齐</strong>
+            </div>
+            <p>承接人：设计负责人、上级负责人、人力；重点岗位为 AI 体验、视觉专家、Motion、交互专家。</p>
+            <p>必要性：当前能力结构与业务复杂度不匹配，必须用人力规划支撑长期目标。</p>
+            <p>结果反映：能反映组织能力缺口识别、招聘优先级和团队结构调整是否可靠。</p>
+          </article>
+
+          <article class="performance-metric">
+            <span>10</span>
+            <div>
+              <h4>关键项目资源投入确认</h4>
+              <strong>目标值：P0 / P1 项目启动前 100% 明确资源</strong>
+            </div>
+            <p>承接人：设计负责人、业务负责人、人力；涉及预算时同步财务。</p>
+            <p>必要性：关键项目不能边做边补人、补外包、补工具，启动前要先确认资源够不够。</p>
+            <p>结果反映：能看出重点项目是否有资源保障，团队投入是否和业务优先级一致。</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design planning -->
+  <section class="design-plan-section" id="design-plan">
+    <div class="design-plan-inner">
+      <div class="performance-page-head is-compact design-plan-head">
+        <span>设计规划</span>
+        <em>下半年重点</em>
+      </div>
+
+      <div class="design-plan-lanes">
+        <article class="design-plan-lane">
+          <span>01 / 开疆扩土</span>
+      <h3>设计探索增长能力</h3>
+          <p>围绕品牌、IP、独立站与软硬一体体验，承接更前置、更探索的设计任务；这条线不只做交付，更要把新方向跑通、形成共识，并让有探索精神和自驱力的设计师持续推进。</p>
+          <div class="design-plan-lane-tags">
+            <em>品牌与 IP</em>
+            <em>独立站</em>
+            <em>软硬一体</em>
+            <em>探索&自驱</em>
+          </div>
+        </article>
+
+        <article class="design-plan-lane">
+          <span>02 / 体系交付</span>
+          <h3>交付体系与工程化能力</h3>
+          <p>围绕版本交付、组件化、样板间和工程化协作，把设计质量从个人经验变成稳定流程、可复用资产和可验收标准，支撑重点项目持续落地。</p>
+          <div class="design-plan-lane-tags">
+            <em>高质交付</em>
+            <em>组件化</em>
+            <em>样板间</em>
+            <em>工程化能力</em>
+          </div>
+        </article>
+      </div>
+
+      <div class="design-plan-grid">
+        <article class="design-plan-item">
+          <span class="design-plan-index">01</span>
+          <div class="design-plan-copy">
+            <span class="design-plan-lane-mark">体系交付</span>
+            <h3>版本火车与体验落地</h3>
+            <p>保障下半年版本火车需求，高质、高效完成设计交付与体验落地。</p>
+          </div>
+          <div class="design-plan-metrics">
+            <span>设计评审 ≥ 90%</span>
+            <span>中心评审 ≥ 90%</span>
+            <span>设计还原度 ≥ 90%</span>
+          </div>
+        </article>
+
+        <article class="design-plan-item">
+          <span class="design-plan-index">02</span>
+          <div class="design-plan-copy">
+            <span class="design-plan-lane-mark">体系交付</span>
+            <h3>IoT 样板间体验框架</h3>
+            <p>通过系统性设计思维，打造稳定一致的体验设计框架；完成吸奶器样板间专项体验规划与交付落地，覆盖子首页、控制页、V3 圆屏等关键场景。</p>
+          </div>
+          <div class="design-plan-metrics">
+            <span>IoT 设计框架指南 100%</span>
+            <span>IoT 体验框架共识 100%</span>
+          </div>
+        </article>
+
+        <article class="design-plan-item">
+          <span class="design-plan-index">03</span>
+          <div class="design-plan-copy">
+            <span class="design-plan-lane-mark">体系交付</span>
+            <h3>设计系统基建升级</h3>
+            <p>通过样板间和设计走查推动体验一致性，完成系统性设计语言、Design Token、组件化、Light/Dark Mode 等专项建设与维护。</p>
+          </div>
+          <div class="design-plan-metrics">
+            <span>Design System + 组件化 100%</span>
+            <span>UX 动效补充 100%</span>
+            <span>md 资产产出 100%</span>
+          </div>
+        </article>
+
+        <article class="design-plan-item">
+          <span class="design-plan-index">04</span>
+          <div class="design-plan-copy">
+            <span class="design-plan-lane-mark">开疆扩土</span>
+            <h3>APP 品牌与 IP 资产化</h3>
+            <p>迭代并落地 APP 品牌设计资产，覆盖周边、IP 家族、IP 资产动画等方向，为用户体验补充情绪价值。</p>
+          </div>
+          <div class="design-plan-metrics">
+            <span>IP 家族 100%</span>
+            <span>阶段性 IP 动画 100%</span>
+            <span>品牌周边 100%</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="contact-bg" id="contact-bg"></div>
+  <div class="contact-blob-wrap" id="contact-blob-wrap">
+    <div class="contact-blob" id="contact-blob"></div>
+  </div>
+  <section class="contact" id="contact">
+    <div class="contact-pin" id="contact-pin">
+      <div class="contact-title" id="contact-title">交流</div>
+
+      <div class="contact-dispo" id="contact-dispo">
+        <p data-i18n="index.contact.dispo1">围绕<span class="other-accent">业务目标、组织分工、关键项目节奏</span>继续校准，让 Workplan 从判断走向共识。</p>
+      </div>
+
+      <div class="contact-frame" id="contact-frame">
+        <img class="contact-frame-img" id="contact-frame-img" src="assets/images/art/Untitled2.png" alt=""
+          loading="lazy" decoding="async">
+        <span class="frame-corner tl"></span>
+        <span class="frame-corner tr"></span>
+        <span class="frame-corner bl"></span>
+        <span class="frame-corner br"></span>
+      </div>
+
+      <div class="contact-dispo" id="contact-dispo-2">
+        <p data-i18n="index.contact.dispo2">下一步聚焦<span class="other-accent">App 3.1、agency 630、IoT 体验盘点</span>与设计基线共建，用可交付成果验证组织价值。</p>
+      </div>
+
+      <div class="contact-frame" id="contact-frame-2">
+        <img class="contact-frame-img" id="contact-frame-img-2" src="assets/images/art/Untitled1.png" alt=""
+          loading="lazy" decoding="async">
+        <span class="frame-corner tl"></span>
+        <span class="frame-corner tr"></span>
+        <span class="frame-corner bl"></span>
+        <span class="frame-corner br"></span>
+      </div>
+
+      <div class="contact-bottom" id="contact-bottom">
+        <nav class="contact-socials" id="contact-socials" aria-label="规划锚点">
+          <a class="chr-hover" data-chr-contact="业务价值" href="#projects" aria-label="跳转到业务价值"></a>
+          <a class="chr-hover" data-chr-contact="现状问题" href="#skills" aria-label="跳转到现状问题"></a>
+          <a class="chr-hover" data-chr-contact="关键项目" href="#awards" aria-label="跳转到关键项目"></a>
+        </nav>
+        <a class="contact-mail" id="contact-mail" href="#hero">敬请交流</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="footer-transition" id="footer-transition"></div>
+  <footer class="footer" id="footer">
+    <div class="footer-content" id="footer-content">
+      <div class="footer-top">
+        <div class="footer-top-col">
+          <a class="chr-hover footer-mail" data-chr-footer="Dragonlee Workplan"
+            href="#hero" aria-label="返回首页"></a>
+          <span class="chr-hover footer-date" data-chr-footer="© 2026"></span>
+        </div>
+        <nav class="footer-top-col" aria-label="组织模式">
+          <a class="chr-hover" data-chr-footer="主线 AI 制" href="#awards" aria-label="主线 AI 制"></a>
+          <a class="chr-hover" data-chr-footer="IoT 项目制" href="#awards" aria-label="IoT 项目制"></a>
+          <a class="chr-hover" data-chr-footer="Design System" href="#projects" aria-label="Design System"></a>
+        </nav>
+        <nav class="footer-top-col" aria-label="页脚导航">
+          <a class="chr-hover" data-chr-footer="目录" href="#about" aria-label="目录"></a>
+          <a class="chr-hover" data-chr-footer="问题" href="#skills" aria-label="问题"></a>
+          <a class="chr-hover" data-chr-footer="交流" href="#contact" aria-label="交流"></a>
+        </nav>
+      </div>
+      <div class="footer-ascii-wrap">
+        <div class="footer-ascii left">
+          <pre id="ascii-left"></pre>
+        </div>
+        <div class="footer-ascii right">
+          <pre id="ascii-right"></pre>
+        </div>
+      </div>
+      <div class="footer-name">
+        <span class="footer-name-luke">Dragonlee </span><span
+          class="footer-name-baffait-wrap"><span class="footer-name-baffait">Workplan</span><span
+            class="footer-name-dot">.</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="proj-preview" id="proj-preview">
+    <div class="proj-card" id="proj-card">
+      <div class="proj-meta">
+        <span class="proj-date" id="proj-date">价值 01</span>
+        <span class="proj-label">详情</span>
+      </div>
+      <img id="proj-cover" src="assets/images/projects/Covers/business-experience-momcozy.jpg" alt="" width="2000" height="1500">
+    </div>
+  </div>
+  <div class="proj-cursor" id="proj-cursor">查看详情</div>
+
+  <div class="page-fade" id="page-fade"></div>
+  <div class="flying-title" id="flying-title"></div>
+  <div class="work-transition-overlay" id="work-transition-overlay"></div>
+  <div class="work-flying-text" id="work-flying-text">规划</div>
+
+  <section class="project-detail" id="project-detail">
+    <div class="detail-back chr-hover" id="detail-back" data-chr="🡼返回" data-i18n-attr="data-chr:index.detail.back"></div>
+    <div class="detail-info">
+      <div class="detail-title-wrap" id="detail-title-wrap">
+        <h1 class="detail-title" id="detail-title"></h1>
+        <span class="detail-year" id="detail-year"></span>
+      </div>
+      <p class="detail-desc" id="detail-desc"></p>
+      <div class="detail-tags" id="detail-tags"></div>
+    </div>
+    <div class="detail-gallery-wrap" id="detail-gallery-wrap">
+      <div class="detail-thumbs" id="detail-thumbs">
+        <div class="detail-thumbs-inner" id="detail-thumbs-inner"></div>
+      </div>
+      <div class="detail-selected" id="detail-selected"></div>
+    </div>
+  </section>
+
+  <div class="scroll-pct" id="scroll-pct">(0)</div>
+  <div class="scroll-timeline" id="scroll-timeline">
+    <span class="st-label" id="st-label"></span>
+    <div class="st-bar" id="st-bar"></div>
+  </div>
+
+  <script defer src="js/offline-assets.js"></script>
+  <script defer src="js/core-renderer.js"></script>
+  <script defer src="js/hero-project.js"></script>
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/vendor/gsap.min.js"></script>
+  <script defer src="js/vendor/ScrollTrigger.min.js"></script>
+  <script defer src="js/vendor/lenis.min.js"></script>
+  <script defer src="js/index.js?v=20260423-r27"></script>
+
+  <script id="codex-disable-war-cursor">
+    (function () {
+      var warPattern = /战役|关键战役|达成策略|底层系统|一致性建设|AI 工作流|设计交付闭环|试用期目标/;
+      document.querySelectorAll('[data-cursor-img]').forEach(function (el) {
+        if (warPattern.test(el.textContent || '')) {
+          el.removeAttribute('data-cursor-img');
+          el.setAttribute('data-no-float-preview', 'true');
+        }
+      });
+    })();
+  </script>
+</body>
+
+</html>
