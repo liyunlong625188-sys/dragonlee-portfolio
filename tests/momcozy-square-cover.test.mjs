@@ -1,0 +1,40 @@
+import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import test from 'node:test';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const readJSON = filename => JSON.parse(readFileSync(path.join(root, 'content', filename), 'utf8'));
+
+test('Momcozy uses a square cover while retaining the complete homepage screenshot and direct interactive link', () => {
+  const data = readJSON('content-data.json');
+  const editable = readJSON('editable-content.json');
+  const project = data.projects.find(project => project.id === 70);
+  const tile = data.tiles.find(tile => tile.id === 70);
+  const media = readJSON('user-media.json').replacements.find(project => project.projectId === 70);
+  const runtime = readFileSync(path.join(root, 'public/assets/index-CtCmjgre.js'), 'utf8');
+  const cover = readFileSync(path.join(root, 'public', tile.image));
+  const stylesheet = readFileSync(path.join(root, 'src/portfolio-media.css'), 'utf8');
+  const cardRule = stylesheet.split('}').find(rule => rule.includes('#grid .tile[data-project="70"] .galleryCard,') && !rule.includes('> img'));
+  const imageRule = stylesheet.split('}').find(rule => rule.includes('#grid .tile[data-project="70"] .galleryCard > img'));
+  assert.equal(tile.ratio, 1);
+  assert.equal(editable.tiles[70].ratio, tile.ratio);
+  assert.deepEqual(data.editableWords, editable);
+  assert.equal(media.tileRatio, 1);
+  assert.equal(tile.directUrl, '/projects/momcozy-work-plan/index.html');
+  assert.equal(project.directUrl, tile.directUrl);
+  assert.equal(tile.image, '/assets/momcozy-work-plan-website-cover.jpg');
+  assert.equal(media.outputs[0].width, 1280);
+  assert.equal(media.outputs[0].height, 720);
+  assert.equal(cover.length, media.outputs[0].bytes);
+  assert.equal(createHash('sha256').update(cover).digest('hex'), media.outputs[0].sha256);
+  assert.equal(media.coverDisplay.originalPixelsPreserved, true);
+  assert.match(cardRule, /background:\s*#000/);
+  assert.match(imageRule, /top:\s*21\.875%/);
+  assert.match(imageRule, /height:\s*56\.25%/);
+  assert.match(imageRule, /object-fit:\s*contain/);
+  assert.ok(runtime.includes(JSON.stringify(data.projects)));
+  assert.ok(runtime.includes(JSON.stringify(data.tiles)));
+});

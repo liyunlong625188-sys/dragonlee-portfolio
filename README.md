@@ -47,3 +47,11 @@ Sites 原生归档上传目前失败，既有项目、源码历史和恢复记�
 2026-10-15：新增 Other Work（id69），放在 Work 末尾。七张 1920 × 1080 原图按 1.png–7.png 顺序展示，封面复用首图。用户明确要求该项目不写时间：Work、详情与可读内容中的年份均保持空值，不再询问该项目年份。
 
 2026-10-15：新增 Momcozy Probation Plan（id70），年份 2026，位于 AI 方法论之后。Work 与详情复用包内 Momcozy 海报和 App 3.0 标题页，详情提供 Open interactive plan 新标签页入口。完整 H5 位于 `public/projects/momcozy-work-plan/index.html`，保留本地字体、交互与 341 帧序列；参考人物 OG 图已离线归档，当前分享图使用 Momcozy 素材。
+
+2026-10-15：新增 Quark Brand Guidelines（id71），位于现有 Quark Search Experience 之后、Other Work 之前。用户提供的 Quark 品牌规范 PDF 全部 16 页按原顺序渲染为 1920 × 1080 PNG，封面复用原始第一页并保留 16:9 比例。年份未提供，保持空白，不采用 PDF 元数据日期；原 PDF 只读保留。当前为 4174 本地预览，尚未发布。
+
+2026-10-15：新增 Search Results Consistency（id72），位于 Quark Brand Guidelines 之后、Other Work 之前。用户提供的搜索结果页方案 PDF 是单页长画布，完整长图 1920 × 22627 PNG 保留为规范源，详情按空白位置划分为 21 个连续阅读分段，确保所有内容完整且可读，Work 封面从原始标题区直接渲染为 1920 × 1080。年份未提供，保持空白；原 PDF 只读保留。当前仅更新 4174 本地预览，尚未发布。
+
+2026-10-16：新增 Wuqu Brand Identity（物区品牌，id73），位于 Search Results Consistency 之后、Other Work 之前。年份 2019 由文档正文明确确认；原彩色首屏作 16:9 封面，完整长画布保留，详情按 31 个无损连续阅读分段展示。原 PDF 未改动，当前仅更新 4174 本地预览，尚未发布。
+
+2026-10-16：新增 Some Songs Are Timeless（id74），位于 Wuqu Brand Identity 之后、Other Work 之前。用户提供的 MP4 按字节保留原画幅、帧率和音轨，使用原片截图作 poster；Work 继承现有静音播放行为，详情保留原有声音控制。年份与作者署名未提供，不按下载文件名推断。当前仅更新 4174 本地预览，尚未发布。

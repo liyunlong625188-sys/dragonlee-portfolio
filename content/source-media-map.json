@@ -1990,5 +1990,517 @@
     "w": 3840,
     "h": 2160,
     "video": false
+  },
+  "quark-brand-guidelines/page-001.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-001.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-002.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-002.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-003.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-003.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-004.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-004.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-005.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-005.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-006.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-006.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-007.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-007.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-008.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-008.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-009.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-009.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-010.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-010.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-011.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-011.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-012.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-012.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-013.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-013.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-014.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-014.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-015.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-015.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "quark-brand-guidelines/page-016.png": {
+    "tile": 71,
+    "src": "/assets/quark-brand-guidelines/page-016.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/page-001.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/page-001.png",
+    "w": 1920,
+    "h": 22627,
+    "video": false
+  },
+  "search-results-consistency/cover.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/cover.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-001.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-001.png",
+    "w": 1920,
+    "h": 1076,
+    "video": false
+  },
+  "search-results-consistency/section-002.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-002.png",
+    "w": 1920,
+    "h": 1189,
+    "video": false
+  },
+  "search-results-consistency/section-003.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-003.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-004.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-004.png",
+    "w": 1920,
+    "h": 1064,
+    "video": false
+  },
+  "search-results-consistency/section-005.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-005.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-006.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-006.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-007.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-007.png",
+    "w": 1920,
+    "h": 1074,
+    "video": false
+  },
+  "search-results-consistency/section-008.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-008.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-009.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-009.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-010.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-010.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-011.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-011.png",
+    "w": 1920,
+    "h": 1088,
+    "video": false
+  },
+  "search-results-consistency/section-012.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-012.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-013.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-013.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-014.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-014.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-015.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-015.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-016.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-016.png",
+    "w": 1920,
+    "h": 1067,
+    "video": false
+  },
+  "search-results-consistency/section-017.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-017.png",
+    "w": 1920,
+    "h": 1153,
+    "video": false
+  },
+  "search-results-consistency/section-018.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-018.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-019.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-019.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-020.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-020.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "search-results-consistency/section-021.png": {
+    "tile": 72,
+    "src": "/assets/search-results-consistency/section-021.png",
+    "w": 1920,
+    "h": 876,
+    "video": false
+  },
+  "wuqu-brand-identity/section-001.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-001.png",
+    "w": 1920,
+    "h": 1115,
+    "video": false
+  },
+  "wuqu-brand-identity/section-002.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-002.png",
+    "w": 1920,
+    "h": 1186,
+    "video": false
+  },
+  "wuqu-brand-identity/section-003.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-003.png",
+    "w": 1920,
+    "h": 1087,
+    "video": false
+  },
+  "wuqu-brand-identity/section-004.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-004.png",
+    "w": 1920,
+    "h": 1095,
+    "video": false
+  },
+  "wuqu-brand-identity/section-005.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-005.png",
+    "w": 1920,
+    "h": 1089,
+    "video": false
+  },
+  "wuqu-brand-identity/section-006.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-006.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-007.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-007.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-008.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-008.png",
+    "w": 1920,
+    "h": 1087,
+    "video": false
+  },
+  "wuqu-brand-identity/section-009.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-009.png",
+    "w": 1920,
+    "h": 1072,
+    "video": false
+  },
+  "wuqu-brand-identity/section-010.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-010.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-011.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-011.png",
+    "w": 1920,
+    "h": 1094,
+    "video": false
+  },
+  "wuqu-brand-identity/section-012.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-012.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-013.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-013.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-014.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-014.png",
+    "w": 1920,
+    "h": 1049,
+    "video": false
+  },
+  "wuqu-brand-identity/section-015.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-015.png",
+    "w": 1920,
+    "h": 1119,
+    "video": false
+  },
+  "wuqu-brand-identity/section-016.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-016.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-017.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-017.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-018.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-018.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-019.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-019.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-020.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-020.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-021.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-021.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-022.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-022.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-023.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-023.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-024.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-024.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-025.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-025.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-026.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-026.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-027.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-027.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-028.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-028.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-029.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-029.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "wuqu-brand-identity/section-030.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-030.png",
+    "w": 1920,
+    "h": 1124,
+    "video": false
+  },
+  "wuqu-brand-identity/section-031.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/section-031.png",
+    "w": 1920,
+    "h": 1221,
+    "video": false
+  },
+  "wuqu-brand-identity/cover.png": {
+    "tile": 73,
+    "src": "/assets/wuqu-brand-identity/cover.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "some-songs-are-timeless/video.mp4": {
+    "tile": 74,
+    "src": "/assets/some-songs-are-timeless/video.mp4",
+    "w": 1608,
+    "h": 1246,
+    "video": true,
+    "poster": "/assets/some-songs-are-timeless/poster.jpg"
+  },
+  "some-songs-are-timeless/poster.jpg": {
+    "tile": 74,
+    "src": "/assets/some-songs-are-timeless/poster.jpg",
+    "w": 1608,
+    "h": 1246,
+    "video": false
   }
 }

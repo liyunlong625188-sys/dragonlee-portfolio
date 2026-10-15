@@ -185,6 +185,34 @@
       "credits": "",
       "links": "Open interactive plan | /projects/momcozy-work-plan/index.html",
       "directUrl": "/projects/momcozy-work-plan/index.html"
+    },
+    "71": {
+      "title": "Quark Brand Guidelines",
+      "year": "",
+      "text": "A visual identity system for Quark, defining the brand mark, color palette, lockups and applications across social and video.",
+      "credits": "",
+      "links": ""
+    },
+    "72": {
+      "title": "Search Results Consistency",
+      "year": "",
+      "text": "Typography, visual hierarchy and spacing principles for a more consistent, scannable search results experience.",
+      "credits": "",
+      "links": ""
+    },
+    "73": {
+      "title": "Wuqu Brand Identity",
+      "year": "2019",
+      "text": "Brand strategy and visual identity for Wuqu, spanning audience research, logo exploration, geometric construction, color, patterns and branded applications.",
+      "credits": "",
+      "links": ""
+    },
+    "74": {
+      "title": "Some Songs Are Timeless",
+      "year": "",
+      "text": "An animated music-player study exploring interface styles across eras while the same track keeps playing.",
+      "credits": "",
+      "links": ""
     }
   },
   "tiles": {
@@ -297,7 +325,23 @@
       "year": "2026",
       "directUrl": "/projects/momcozy-work-plan/index.html",
       "image": "/assets/momcozy-work-plan-website-cover.jpg",
-      "ratio": 0.5625
+      "ratio": 1
+    },
+    "71": {
+      "label": "Quark Brand Guidelines",
+      "year": ""
+    },
+    "72": {
+      "label": "Search Results Consistency",
+      "year": ""
+    },
+    "73": {
+      "label": "Wuqu Brand Identity",
+      "year": "2019"
+    },
+    "74": {
+      "label": "Some Songs Are Timeless",
+      "year": ""
     }
   },
   "email": "liyunlong625188@gmail.com",

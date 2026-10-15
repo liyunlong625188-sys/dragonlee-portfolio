@@ -8,14 +8,16 @@
   transform-origin: center;
 }
 
-/* Extend the two cards to a square; retain the previous 16:9 media size. */
+/* Extend the requested cards to a square; retain the previous 16:9 media size. */
 #grid .tile[data-project="50"] .galleryCard,
+#grid .tile[data-project="72"] .galleryCard,
 #grid .tile[data-project="48"] .galleryCardVideo {
   position: relative;
   background: #fff;
 }
 
 #grid .tile[data-project="50"] .galleryCard > img,
+#grid .tile[data-project="72"] .galleryCard > img,
 #grid .tile[data-project="48"] .galleryCardVideo > video,
 #grid .tile[data-project="48"] .galleryCardVideo > img.still {
   position: absolute;
@@ -61,6 +63,7 @@
 #grid .tile[data-project="58"] .galleryCard,
 #grid .tile[data-project="67"] .galleryCard,
 #grid .tile[data-project="68"] .galleryCard,
+#grid .tile[data-project="70"] .galleryCard,
 #grid .tile[data-project="69"] .galleryCard {
   position: relative;
   background: #000;
@@ -69,6 +72,7 @@
 #grid .tile[data-project="58"] .galleryCard > img,
 #grid .tile[data-project="67"] .galleryCard > img,
 #grid .tile[data-project="68"] .galleryCard > img,
+#grid .tile[data-project="70"] .galleryCard > img,
 #grid .tile[data-project="69"] .galleryCard > img {
   position: absolute;
   top: 21.875%;
