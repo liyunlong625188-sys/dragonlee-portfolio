@@ -183,7 +183,8 @@
       "year": "2026",
       "text": "A 90-day design plan for Momcozy, connecting business priorities, team capability, design systems and measurable delivery.",
       "credits": "",
-      "links": "Open interactive plan | /projects/momcozy-work-plan/index.html"
+      "links": "Open interactive plan | /projects/momcozy-work-plan/index.html",
+      "directUrl": "/projects/momcozy-work-plan/index.html"
     }
   },
   "tiles": {
@@ -293,7 +294,10 @@
     },
     "70": {
       "label": "Momcozy Probation Plan",
-      "year": "2026"
+      "year": "2026",
+      "directUrl": "/projects/momcozy-work-plan/index.html",
+      "image": "/assets/momcozy-work-plan-website-cover.jpg",
+      "ratio": 0.5625
     }
   },
   "email": "liyunlong625188@gmail.com",

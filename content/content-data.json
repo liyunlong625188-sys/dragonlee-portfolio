@@ -1453,7 +1453,8 @@
           "h": 2160,
           "video": false
         }
-      ]
+      ],
+      "directUrl": "/projects/momcozy-work-plan/index.html"
     },
     {
       "id": 55,
@@ -3420,11 +3421,12 @@
     },
     {
       "id": 70,
-      "ratio": 1.0863636363636364,
+      "ratio": 0.5625,
       "label": "Momcozy Probation Plan",
       "year": "2026",
       "title": "momcozy-probation-plan",
-      "image": "/projects/momcozy-work-plan/assets/images/profile/momcozy-app-poster.jpg"
+      "image": "/assets/momcozy-work-plan-website-cover.jpg",
+      "directUrl": "/projects/momcozy-work-plan/index.html"
     },
     {
       "id": 55,
@@ -3788,7 +3790,8 @@
         "year": "2026",
         "text": "A 90-day design plan for Momcozy, connecting business priorities, team capability, design systems and measurable delivery.",
         "credits": "",
-        "links": "Open interactive plan | /projects/momcozy-work-plan/index.html"
+        "links": "Open interactive plan | /projects/momcozy-work-plan/index.html",
+        "directUrl": "/projects/momcozy-work-plan/index.html"
       }
     },
     "tiles": {
@@ -3898,7 +3901,10 @@
       },
       "70": {
         "label": "Momcozy Probation Plan",
-        "year": "2026"
+        "year": "2026",
+        "directUrl": "/projects/momcozy-work-plan/index.html",
+        "image": "/assets/momcozy-work-plan-website-cover.jpg",
+        "ratio": 0.5625
       }
     },
     "email": "liyunlong625188@gmail.com",

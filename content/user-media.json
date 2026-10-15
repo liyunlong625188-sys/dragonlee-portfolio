@@ -8409,32 +8409,26 @@
       "projectId": 70,
       "source": "/Users/dragonlee/Documents/试用期工作规划/工作规划H5-直接双击完整包-修正版.zip",
       "sourceSha256": "7c1427ef0afdeb537653348d77607b1938e7e45fa2680dab64964df88e2fbe63",
-      "type": "interactive-h5-project",
+      "type": "direct-interactive-h5-project",
       "title": "Momcozy Probation Plan",
       "year": "2026",
       "yearSource": "Explicit user request",
       "page": "/projects/momcozy-work-plan/index.html",
-      "openInNewTab": true,
+      "openInNewTab": false,
       "entrySource": "work-plan-h5/source-clone.html",
-      "coverSource": "assets/images/profile/momcozy-app-poster.jpg",
+      "coverSource": "Browser screenshot of /projects/momcozy-work-plan/index.html",
       "outputs": [
         {
           "order": 1,
-          "source": "/Users/dragonlee/Documents/试用期工作规划/工作规划H5-直接双击完整包-修正版.zip!work-plan-h5/assets/images/profile/momcozy-app-poster.jpg",
-          "path": "projects/momcozy-work-plan/assets/images/profile/momcozy-app-poster.jpg",
-          "width": 2640,
-          "height": 2868,
-          "bytes": 827151,
-          "sha256": "efe1c6e02f09511e45823085ff64509cd3e6c4df635111a7983fba9f709ca97f"
-        },
-        {
-          "order": 2,
-          "source": "/Users/dragonlee/Documents/试用期工作规划/工作规划H5-直接双击完整包-修正版.zip!work-plan-h5/assets/images/projects/Covers/momcozy-app-3-ui-design.png",
-          "path": "projects/momcozy-work-plan/assets/images/projects/Covers/momcozy-app-3-ui-design.png",
-          "width": 3840,
-          "height": 2160,
-          "bytes": 8814331,
-          "sha256": "a35ea3d4f8ce7bdbe99e093f95968f414fcf76230c08f440d3b9ecb98ea0f1d2"
+          "source": "http://127.0.0.1:4174/projects/momcozy-work-plan/index.html",
+          "path": "assets/momcozy-work-plan-website-cover.jpg",
+          "width": 1280,
+          "height": 720,
+          "bytes": 40819,
+          "sha256": "6a32df8126947d76c5745ef617dc52bc994b0c3ea09cab14e7aac5de29fd6c13",
+          "page": "/projects/momcozy-work-plan/index.html",
+          "captureDate": "2026-10-15",
+          "method": "Browser screenshot, initial website viewport"
         }
       ],
       "resources": [
@@ -10493,8 +10487,42 @@
         "Entry served as index.html with original relative assets.",
         "Visible personal branding changed to Dragonlee; animation hooks retained.",
         "Original reference OG cover archived and replaced with Momcozy artwork.",
-        "Original site verification metadata removed; parent portfolio favicon reused."
-      ]
+        "Original site verification metadata removed; parent portfolio favicon reused.",
+        "Work card now opens the existing local interactive website directly in the same tab; original preview media retained as metadata but excluded from the detail gallery.",
+        "Cover replaced with an actual 1280×720 screenshot of the interactive website homepage."
+      ],
+      "previousCoverSource": "assets/images/profile/momcozy-app-poster.jpg",
+      "previousPreviewOutputs": [
+        {
+          "order": 1,
+          "source": "/Users/dragonlee/Documents/试用期工作规划/工作规划H5-直接双击完整包-修正版.zip!work-plan-h5/assets/images/profile/momcozy-app-poster.jpg",
+          "path": "projects/momcozy-work-plan/assets/images/profile/momcozy-app-poster.jpg",
+          "width": 2640,
+          "height": 2868,
+          "bytes": 827151,
+          "sha256": "efe1c6e02f09511e45823085ff64509cd3e6c4df635111a7983fba9f709ca97f"
+        },
+        {
+          "order": 2,
+          "source": "/Users/dragonlee/Documents/试用期工作规划/工作规划H5-直接双击完整包-修正版.zip!work-plan-h5/assets/images/projects/Covers/momcozy-app-3-ui-design.png",
+          "path": "projects/momcozy-work-plan/assets/images/projects/Covers/momcozy-app-3-ui-design.png",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 8814331,
+          "sha256": "a35ea3d4f8ce7bdbe99e093f95968f414fcf76230c08f440d3b9ecb98ea0f1d2"
+        }
+      ],
+      "directUrl": "/projects/momcozy-work-plan/index.html",
+      "coverCapture": {
+        "path": "assets/momcozy-work-plan-website-cover.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 40819,
+        "sha256": "6a32df8126947d76c5745ef617dc52bc994b0c3ea09cab14e7aac5de29fd6c13",
+        "page": "/projects/momcozy-work-plan/index.html",
+        "captureDate": "2026-10-15",
+        "method": "Browser screenshot, initial website viewport"
+      }
     }
   ],
   "companyCards": [
