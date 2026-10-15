@@ -22,7 +22,7 @@ if (existsSync(destinationManifest)) {
   }
 }
 mkdirSync(destination, { recursive: true });
-const entries = ['.gitignore', 'AGENTS.md', 'README.md', 'content', 'index.html', 'package-lock.json', 'package.json', 'public', 'scripts', 'src', 'tests', 'vite.config.mjs', 'worker'];
+const entries = ['.github', '.gitignore', 'AGENTS.md', 'README.md', 'content', 'index.html', 'package-lock.json', 'package.json', 'public', 'scripts', 'src', 'tests', 'vite.config.mjs', 'worker'];
 for (const name of entries) {
   const target = path.join(destination, name);
   rmSync(target, { recursive: true, force: true });

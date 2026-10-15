@@ -1,5 +1,9 @@
 # Dragonlee portfolio instructions
 
+On 2026-10-15 the user superseded the public hosting target and approved a public GitHub repository named `dragonlee-portfolio` with GitHub Pages publication. Use `npm run build:github` and `.github/workflows/pages.yml`; publish only `dist/github/`, never the Worker-dependent `dist/client/`. Preserve canonical runtime files, original media and local preview port 4174. Retain the existing Sites project, Git ancestry, upload recovery records and Cloudflare preparation history. Refresh the Sites source mirror with `scripts/prepare-sites-checkout.mjs` before exporting the latest source for GitHub.
+
+The user authorized public hosting in their own Cloudflare account on 2026-10-15 after repeated Sites archive upload failures. Preserve this source, the Sites project ID and source history; use the already prepared complete build and Cloudflare Workers Static Assets for the public deployment. See `../sites/dragonlee-cloudflare-deployment-20261015.json` and `../sites/dragonlee-cloudflare/` for preparation/configuration. Local preview stays on port 4174. Cloudflare deployment and domain attachment are still pending; do not claim a URL is live until verified.
+
 The active local source is `dragonlee-portfolio/`, served at http://127.0.0.1:4174/. Preserve the current Work grid, About, project navigation, media ratios and interactions. The website title, application name and copyright are Dragonlee. Navigation and future project descriptions are in English; supplied artwork may contain Chinese.
 
 Keep runtime modules, fonts and media local to this Site. `src/main.jsx` imports `public/assets/index-CtCmjgre.js` with Vite processing disabled; that application mounts its own React root. Preserve compiled filenames and module exports. Do not add a second root or starter CSS. The retired essay has a compatibility-only module with no reference content. Developer design, perf and tune modules remain excluded.

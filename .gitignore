@@ -2,3 +2,5 @@
 dist/
 .preview/
 .sites-image-cache/
+.DS_Store
+*.sb-*

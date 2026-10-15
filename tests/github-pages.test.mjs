@@ -1,0 +1,72 @@
+import assert from 'node:assert/strict';
+import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
+import test from 'node:test';
+import { parse } from '@babel/parser';
+import { normalizeBasePath, prepareGithubPagesOutput, rewriteScriptUrls, rewriteTextUrls } from '../scripts/prepare-github-pages.mjs';
+import { prepareSourceVideoChunks } from '../scripts/source-video-chunks.mjs';
+
+test('Pages URL rewriting preserves React keys, path checks and relative imports', () => {
+  const source = 'const asset="/assets/cover.png",dynamic=`/assets/${name}.png`,resume={href:"/resume.html"},home={href:"/"},key="/$",separator="x"+"/"; const accepts=value=>value.startsWith("/"); const preload=function(name){return "/"+name}; import("./Mercury.js");';
+  const output = rewriteScriptUrls(source, '/dragonlee-portfolio/', new Set(['assets', 'resume.html']));
+  parse(output, { sourceType: 'module' });
+  assert.match(output, /"\/dragonlee-portfolio\/assets\/cover.png"/);
+  assert.ok(output.includes('`/dragonlee-portfolio/assets/${name}.png`'));
+  assert.match(output, /href:"\/dragonlee-portfolio\/resume.html"/);
+  assert.match(output, /href:"\/dragonlee-portfolio\/"/);
+  assert.match(output, /return "\/dragonlee-portfolio\/"\+name/);
+  assert.match(output, /key="\/\$",separator="x"\+"\/"/);
+  assert.match(output, /startsWith\("\/"\)/);
+  assert.match(output, /import\("\.\/Mercury.js"\)/);
+  assert.equal(rewriteScriptUrls(output, '/dragonlee-portfolio/', new Set(['assets', 'resume.html'])), output);
+});
+
+test('Pages text rewriting prefixes local URLs and preserves remote and relative URLs', () => {
+  const source = '<img src="/assets/cover.png"><img src="https://example.test/image.png"><img src="//example.test/image.png"><img src="assets/relative.png"><style>div{background:url(/assets/cover.png)}</style>';
+  const output = rewriteTextUrls(source, '/dragonlee-portfolio/', new Set(['assets']));
+  assert.match(output, /src="\/dragonlee-portfolio\/assets\/cover.png"/);
+  assert.match(output, /url\(\/dragonlee-portfolio\/assets\/cover.png\)/);
+  assert.ok(output.includes('src="https://example.test/image.png"'));
+  assert.ok(output.includes('src="//example.test/image.png"'));
+  assert.ok(output.includes('src="assets/relative.png"'));
+  assert.equal(normalizeBasePath(''), '/');
+  assert.equal(normalizeBasePath('/dragonlee-portfolio'), '/dragonlee-portfolio/');
+  assert.throws(() => normalizeBasePath('/../assets/'), /URL-safe/);
+});
+
+test('Pages output restores hosted source videos and changes only the deployment copy', t => {
+  const directory = mkdtempSync(path.join(tmpdir(), 'dragonlee-github-pages-'));
+  t.after(() => rmSync(directory, { recursive: true, force: true }));
+  const sourceDirectory = path.join(directory, 'public');
+  const clientDirectory = path.join(directory, 'dist/github');
+  const contentDirectory = path.join(directory, 'content');
+  mkdirSync(path.join(sourceDirectory, 'assets'), { recursive: true });
+  const video = Buffer.from('abcdefghijklmnopqrstuvwxyz0123456789');
+  writeFileSync(path.join(sourceDirectory, 'assets/demo.mp4'), video);
+  writeFileSync(path.join(sourceDirectory, 'index.html'), '<meta property="og:url" content="https://previous.test/"><meta property="og:image" content="/og.png"><script src="/assets/app.js"></script>');
+  writeFileSync(path.join(sourceDirectory, 'assets/app.js'), 'const video="/assets/demo.mp4";');
+  writeFileSync(path.join(sourceDirectory, 'manifest.json'), JSON.stringify({ start_url: '/', scope: '/', icons: [{ src: '/og.png' }] }));
+  writeFileSync(path.join(sourceDirectory, 'og.png'), 'image');
+  writeFileSync(path.join(sourceDirectory, '.DS_Store'), 'scratch');
+  writeFileSync(path.join(sourceDirectory, 'assets/demo.mp4.sb-copy'), 'scratch');
+  prepareSourceVideoChunks({ publicDirectory: sourceDirectory, contentDirectory, limit: 8, chunkSize: 5 });
+  cpSync(sourceDirectory, clientDirectory, { recursive: true });
+  const result = prepareGithubPagesOutput({ clientDirectory, contentDirectory, pageUrl: 'https://designer.github.io/dragonlee-portfolio' });
+  assert.equal(result.restoredVideos, 1);
+  assert.deepEqual(readFileSync(path.join(clientDirectory, 'assets/demo.mp4')), video);
+  assert.equal(existsSync(path.join(clientDirectory, '.source-video-chunks')), false);
+  assert.equal(existsSync(path.join(clientDirectory, '.media-chunks')), false);
+  assert.equal(existsSync(path.join(clientDirectory, '.DS_Store')), false);
+  assert.equal(existsSync(path.join(clientDirectory, 'assets/demo.mp4.sb-copy')), false);
+  assert.equal(existsSync(path.join(clientDirectory, '.nojekyll')), true);
+  assert.deepEqual(readFileSync(path.join(clientDirectory, '404.html')), readFileSync(path.join(clientDirectory, 'index.html')));
+  assert.match(readFileSync(path.join(clientDirectory, 'index.html'), 'utf8'), /content="https:\/\/designer.github.io\/dragonlee-portfolio\/"/);
+  assert.match(readFileSync(path.join(clientDirectory, 'index.html'), 'utf8'), /content="https:\/\/designer.github.io\/dragonlee-portfolio\/og.png"/);
+  const manifest = JSON.parse(readFileSync(path.join(clientDirectory, 'manifest.json'), 'utf8'));
+  assert.equal(manifest.start_url, '/dragonlee-portfolio/');
+  assert.equal(manifest.scope, '/dragonlee-portfolio/');
+  assert.equal(manifest.icons[0].src, '/dragonlee-portfolio/og.png');
+  assert.equal(readFileSync(path.join(sourceDirectory, 'assets/app.js'), 'utf8'), 'const video="/assets/demo.mp4";');
+  assert.equal(existsSync(path.join(sourceDirectory, '.source-video-chunks')), true);
+});
