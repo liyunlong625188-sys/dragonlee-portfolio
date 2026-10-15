@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prepare-sites-build.mjs",
+    "build:cloudflare": "npm run build",
+    "deploy:cloudflare": "npx wrangler@4.151.0 deploy",
     "build:github": "node scripts/prepare-github-pages.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort",
     "test:sites": "node --test tests/*.test.mjs",

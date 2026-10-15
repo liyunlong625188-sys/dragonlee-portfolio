@@ -2,6 +2,7 @@ import { cpSync, existsSync, lstatSync, mkdirSync, readFileSync, rmSync, symlink
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { prepareSourceVideoChunks } from './source-video-chunks.mjs';
+import { shouldCopySourceFile } from './source-checkout-files.mjs';
 
 // Only this website's source is mirrored; Git history and local runtime state stay in place.
 const source = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -22,13 +23,15 @@ if (existsSync(destinationManifest)) {
   }
 }
 mkdirSync(destination, { recursive: true });
-const entries = ['.github', '.gitignore', 'AGENTS.md', 'README.md', 'content', 'index.html', 'package-lock.json', 'package.json', 'public', 'scripts', 'src', 'tests', 'vite.config.mjs', 'worker'];
+const entries = ['.github', '.gitignore', 'AGENTS.md', 'README.md', 'content', 'index.html', 'package-lock.json', 'package.json', 'public', 'scripts', 'src', 'tests', 'vite.config.mjs', 'worker', 'wrangler.jsonc'];
 for (const name of entries) {
   const target = path.join(destination, name);
   rmSync(target, { recursive: true, force: true });
-  cpSync(path.join(source, name), target, {
+  const sourcePath = path.join(source, name);
+  if (name === '.github' && !existsSync(sourcePath)) continue;
+  cpSync(sourcePath, target, {
     recursive: true,
-    filter: (filename) => path.basename(filename) !== '.DS_Store',
+    filter: (filename) => shouldCopySourceFile(filename, source),
   });
 }
 mkdirSync(path.dirname(destinationManifest), { recursive: true });

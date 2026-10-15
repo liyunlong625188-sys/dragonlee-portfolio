@@ -1,0 +1,16 @@
+{
+  "name": "dragonlee-portfolio",
+  "account_id": "31990bc162ad9fdbb0a772be37790419",
+  "main": "./dist/server/index.js",
+  "compatibility_date": "2026-10-12",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none",
+    "not_found_handling": "none"
+  },
+  "observability": { "enabled": false }
+}

@@ -26,13 +26,15 @@ Sites 原生归档上传目前失败，既有项目、源码历史和恢复记�
 
 `npm run build` 生成预览及 Sites 包装文件；`npm run test:sites` 用于发布前检查；`npm run verify:assets` 核对当前资源基线及之后的明确替换。
 
-## GitHub Pages
+## GitHub 与 Cloudflare
 
-用户已授权将完整网站源码上传至公开的 `dragonlee-portfolio` 仓库，并通过 GitHub Pages 发布。仓库 Settings → Pages 的 Source 选择 GitHub Actions；推送至 `main` 或手动运行 `.github/workflows/pages.yml` 后，工作流会构建并部署 `dist/github/`。
+当前发布方式为公开的 [`liyunlong625188-sys/dragonlee-portfolio`](https://github.com/liyunlong625188-sys/dragonlee-portfolio) 仓库连接 Cloudflare Workers Builds。在 Cloudflare 连接同一仓库的 `main` 分支，根目录选择仓库根目录，构建命令使用 `npm run build:cloudflare`，部署命令使用 `npm run deploy:cloudflare`。GitHub Pages 自动部署工作流已移除。
 
-`npm ci` 后运行 `npm run build:github` 可生成默认 `/dragonlee-portfolio/` 路径的纯静态构建。工作流使用 Pages 返回的实际路径和网址；本地可通过 `GITHUB_PAGES_BASE_PATH`、`GITHUB_PAGES_URL` 覆盖。构建仅重写部署副本中的资源路径，并还原托管源码中按块保存的视频；原始媒体和端口 4174 的预览不变。不要把需要 Worker 的 `dist/client/` 直接上传至 Pages。
+`wrangler.jsonc` 固定 Cloudflare 账号 `31990bc162ad9fdbb0a772be37790419` 和 Worker 名称 `dragonlee-portfolio`。`npm ci` 后运行 `npm run build:cloudflare`，生成 `dist/server/index.js` 和 `dist/client/`；部署时通过 `ASSETS` 绑定交给 Worker 处理原始图片地址及视频范围请求。`npm run deploy:cloudflare` 固定使用 Wrangler 4.151.0。构建后运行 `npm run test:sites` 和 `npm run verify:assets` 验证源码与资源。
 
-本地构建请在 `/private/tmp` 的隔离副本执行，避免 Documents 目录出现重复文件。依赖、构建输出、预览日志及临时副本不纳入 GitHub 仓库；Sites 项目 ID 和历史继续保留。
+本地构建请在 `/private/tmp` 的隔离副本执行，避免 Documents 目录出现重复文件。先用 `scripts/prepare-sites-checkout.mjs` 刷新 `../sites/dragonlee-portfolio/`，再从新镜像导出 GitHub 源码。依赖、构建输出、预览日志及临时副本不纳入 GitHub 仓库；Sites 项目 ID、历史和 Cloudflare 准备记录继续保留。GitHub 使用官方 CLI 浏览器授权及系统钥匙串，Cloudflare 使用已连接账号；不记录凭据，连接源码期间不修改域名注册、续费或 DNS。
+
+`npm run build:github` 保留为可选的纯静态兼容构建，默认输出 `dist/github/` 并使用 `/dragonlee-portfolio/` 路径；可通过 `GITHUB_PAGES_BASE_PATH`、`GITHUB_PAGES_URL` 覆盖。该命令不再负责当前网站发布，原始媒体和端口 4174 的预览保持不变。
 
 2026-10-15：精选新增 Customize Air Jordan Web、Volog、Video Editing 三个 Dribbble 项目，保留六张原图并穿插在现有 Work 中。Video Editing 与其 UI Kit 合并为一个项目；Volog 的重复封面附图不重复展示。新项目详情顺序与 Work 保持一致，出处和年份状态见 `content/dribbble-selection.json`。
 
