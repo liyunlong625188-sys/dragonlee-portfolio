@@ -63,7 +63,6 @@
 #grid .tile[data-project="58"] .galleryCard,
 #grid .tile[data-project="67"] .galleryCard,
 #grid .tile[data-project="68"] .galleryCard,
-#grid .tile[data-project="70"] .galleryCard,
 #grid .tile[data-project="69"] .galleryCard {
   position: relative;
   background: #000;
@@ -72,7 +71,6 @@
 #grid .tile[data-project="58"] .galleryCard > img,
 #grid .tile[data-project="67"] .galleryCard > img,
 #grid .tile[data-project="68"] .galleryCard > img,
-#grid .tile[data-project="70"] .galleryCard > img,
 #grid .tile[data-project="69"] .galleryCard > img {
   position: absolute;
   top: 21.875%;
@@ -86,3 +84,64 @@
   display: none;
 }
 
+/* Keep the foldable card sizes and center each demo at half size. */
+#grid .tile[data-project="75"] .galleryCardVideo,
+#grid .tile[data-project="76"] .galleryCardVideo,
+#grid .tile[data-project="77"] .galleryCardVideo,
+#grid .tile[data-project="78"] .galleryCardVideo {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+:is(#grid .tile[data-project="75"], #grid .tile[data-project="76"], #grid .tile[data-project="77"], #grid .tile[data-project="78"]) .galleryCardVideo > :is(video, img.still) {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  border-radius: 7% / 6.5%;
+}
+:is(#grid .tile[data-project="75"], #grid .tile[data-project="76"], #grid .tile[data-project="77"], #grid .tile[data-project="78"]) .caption {
+  color: #222;
+}
+/* The Momcozy artwork already carries its title; keep the cover unobstructed. */
+#grid .tile[data-project="70"] .caption {
+  display: none;
+}
+/* Hide document furniture only on the Quark Work cover. */
+#grid .tile[data-project="71"] .galleryCard {
+  position: relative;
+}
+#grid .tile[data-project="71"] .galleryCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(#fff, #fff) left top / 25% 25% no-repeat,
+    linear-gradient(#fff, #fff) left bottom / 25% 20% no-repeat,
+    linear-gradient(#fff, #fff) left bottom / 100% 1.1% no-repeat;
+}
+/* Replace the full upper illustration while keeping the original lower copy. */
+#sheet .composite-media:has(> img[src="/assets/oppo-ai-pickup-code.png"]) {
+  background: #000;
+}
+#sheet .composite-media > img[src="/assets/oppo-ai-pickup-code.png"] {
+  clip-path: inset(60% 0 0);
+}
+/* Square video-summary demonstration above the preserved lower copy. */
+#sheet .composite-media:has(> img[src="/assets/oppo-ai-video-summary.png"]) {
+  background: #000;
+}
+#sheet .composite-media > img[src="/assets/oppo-ai-video-summary.png"] {
+  clip-path: inset(60% 0 0);
+}
+/* Full-width voice-note video centered above the original lower copy. */
+#sheet .composite-media:has(> img[src="/assets/oppo-ai-voice-note.png"]) {
+  background: #000;
+}
+#sheet .composite-media > img[src="/assets/oppo-ai-voice-note.png"] {
+  clip-path: inset(60% 0 0);
+}

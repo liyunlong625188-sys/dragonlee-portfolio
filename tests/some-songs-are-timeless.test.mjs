@@ -40,7 +40,7 @@ test('Some Songs Are Timeless preserves the original video bytes, aspect ratio, 
   assert.ok(media.poster.timeSeconds >= 0 && media.poster.timeSeconds < media.video.durationSeconds);
 });
 
-test('Some Songs Are Timeless video card, details, runtime and editable words are synchronized without inferred authorship', () => {
+test('Some Songs Are Timeless video card, details, runtime and editable words are synchronized with the user-confirmed Dragonlee credit', () => {
   const data = readJSON('content-data.json');
   const editable = readJSON('editable-content.json');
   const runtime = readFileSync(path.join(root, 'public/assets/index-CtCmjgre.js'), 'utf8');
@@ -50,17 +50,18 @@ test('Some Songs Are Timeless video card, details, runtime and editable words ar
   const item = project.items[0];
   assert.equal(project.title, 'Some Songs Are Timeless');
   assert.equal(project.year, '');
-  assert.deepEqual(project.credits, []);
+  assert.deepEqual(project.credits, ['Dragonlee']);
   assert.equal(tile.year, '');
   assert.equal(tile.video, item.src);
   assert.equal(tile.poster, item.poster);
   assert.equal(tile.ratio, item.h / item.w);
-  assert.equal(data.tiles[tileIndex - 1].id, 73);
+  assert.equal(data.tiles[tileIndex - 1].id, 46);
   assert.ok(tileIndex < data.tiles.findIndex(tile => tile.id === 69));
-  assert.equal(data.tiles.at(-1).id, 69);
+  assert.deepEqual(data.tiles.filter(tile => [53, 52, 64, 66, 54].includes(tile.id)).map(tile => tile.id), [53, 52, 64, 66, 54]);
   assert.equal(editable.words[74].title, project.title);
   assert.equal(editable.words[74].text, project.text);
-  assert.equal(editable.words[74].credits, '');
+  assert.equal(editable.words[74].credits, 'Dragonlee');
+  assert.equal(readJSON('user-media.json').replacements.find(project => project.projectId === 74).authorCredit, 'Dragonlee');
   assert.equal(editable.tiles[74].label, tile.label);
   assert.deepEqual(data.editableWords, editable);
   assert.ok(runtime.includes(JSON.stringify(data.projects)));

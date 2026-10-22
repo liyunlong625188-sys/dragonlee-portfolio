@@ -2061,11 +2061,11 @@
       "tileRatio": 1,
       "detailRatio": "16:9",
       "coverKey": "oppo-ai/product-film.mp4",
-      "detailItemCount": 18,
-      "ordering": "Supplied product film is both Work cover and first detail, then exact2.png–18.png numeric filename order. The original static3.png logo remains once in details and is retained for the user’s separate brand project.",
+      "detailItemCount": 22,
+      "ordering": "Supplied product film is both Work cover and first detail, then exact2.png–18.png numeric filename order. The original static3.png logo remains once in details and is retained for the user’s separate brand project. On 2026-10-22 append four supplied images after brand guidelines in attachment order: IP overview, design insights, marketing strategy, ODC25 sharing.",
       "orderingBasis": "User explicitly specified folder filenames and provided /Users/dragonlee/Desktop/AI/. All17numbered images were read and matched, including13.png and14.png not in the prior attachment set.",
       "requestedPageNumberRange": "2–18",
-      "suppliedDetailItemCount": 18,
+      "suppliedDetailItemCount": 22,
       "unprovidedPageCount": 0,
       "order": [
         "oppo-ai/product-film.mp4",
@@ -2085,7 +2085,11 @@
         "oppo-ai/overview-02-multisensory.png",
         "oppo-ai/overview-03-information.png",
         "oppo-ai/overview-04-brand-vi.png",
-        "oppo-ai/overview-05-brand-guidelines.png"
+        "oppo-ai/overview-05-brand-guidelines.png",
+        "oppo-ai/supplement-ip-overview.png",
+        "oppo-ai/supplement-06-ip-design-insights.png",
+        "oppo-ai/supplement-07-ip-marketing-strategy.png",
+        "oppo-ai/supplement-08-odc25-design-sharing.png"
       ],
       "images": [
         {
@@ -2510,6 +2514,94 @@
           ],
           "matchedOriginalSource": "/Users/dragonlee/Desktop/AI/18.png",
           "filenameIndex": 18
+        },
+        {
+          "key": "oppo-ai/supplement-ip-overview.png",
+          "role": "detail",
+          "order": 18,
+          "inputIndex": 1,
+          "title": "OPPO Intelligence IP / 2025",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-4c7d2588-95db-480d-a06f-dc0a486fa45e.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 671413,
+          "sourceSha256": "7f29ee54159b0de1a0ffccbea33feae65c1436217f30006c2f7bbbbd2957d9c7",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-supplement-ip-overview.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 671413,
+              "sha256": "7f29ee54159b0de1a0ffccbea33feae65c1436217f30006c2f7bbbbd2957d9c7",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/supplement-06-ip-design-insights.png",
+          "role": "detail",
+          "order": 19,
+          "inputIndex": 2,
+          "title": "小布点设计洞察",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-70c22e19-1913-44b2-b90e-a0001e0d146f.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 505735,
+          "sourceSha256": "2529fd67115743f1c4e9f47260a66e3a199f42af210a238b5463759460c4b91c",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-supplement-06-ip-design-insights.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 505735,
+              "sha256": "2529fd67115743f1c4e9f47260a66e3a199f42af210a238b5463759460c4b91c",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/supplement-07-ip-marketing-strategy.png",
+          "role": "detail",
+          "order": 20,
+          "inputIndex": 3,
+          "title": "小布点营销设计策略",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-83a21bdd-3772-408c-a866-fb1f897814d9.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 1135268,
+          "sourceSha256": "671442c83d41bb77d36f0ff042c10a9d1402e1e62e9ae6c0ede8d4fecfa76a4f",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-supplement-07-ip-marketing-strategy.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1135268,
+              "sha256": "671442c83d41bb77d36f0ff042c10a9d1402e1e62e9ae6c0ede8d4fecfa76a4f",
+              "copiedOriginal": true
+            }
+          ]
+        },
+        {
+          "key": "oppo-ai/supplement-08-odc25-design-sharing.png",
+          "role": "detail",
+          "order": 21,
+          "inputIndex": 4,
+          "title": "ODC25 设计分享",
+          "source": "/var/folders/3_/g4_z5fbx0y16w60qsv4dnxxw0000gn/T/codex-clipboard-8ca03d9b-6a03-479f-9365-cecc837bdb8b.png",
+          "sourceWidth": 1920,
+          "sourceHeight": 1080,
+          "sourceBytes": 1856776,
+          "sourceSha256": "3296cd855e74b7fd456c46909ae01136c7e476ed168b42d54c28510396517fb4",
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-supplement-08-odc25-design-sharing.png",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1856776,
+              "sha256": "3296cd855e74b7fd456c46909ae01136c7e476ed168b42d54c28510396517fb4",
+              "copiedOriginal": true
+            }
+          ]
         }
       ],
       "videos": [
@@ -2584,7 +2676,244 @@
         "role": "work-and-detail-cover",
         "source": "Existing first detail product film, selected by the user on 2026-10-13",
         "fit": "centered square cover via the native Work video card"
-      }
+      },
+      "screenVideoReplacements": [
+        {
+          "targetKey": "oppo-ai/flash-memo-overview.png",
+          "source": "/Users/dragonlee/Downloads/1a3e9563b938d4f4b5eac5243ab658e5a53f6333.mp4",
+          "originalBytesPreserved": true,
+          "placement": {
+            "src": "/assets/oppo-ai-flash-memo/video.mp4",
+            "poster": "/assets/oppo-ai-flash-memo/poster.jpg",
+            "w": 1040,
+            "h": 2262,
+            "left": 22.552083333333332,
+            "top": 15.555555555555555,
+            "width": 18.75,
+            "height": 74.07407407407408,
+            "radius": "13.333333% / 6%",
+            "mask": "radial-gradient(ellipse 2.9% 1.3% at 50% 2.375%, transparent 98%, #000 100%)"
+          },
+          "metadata": {
+            "posterTime": 1,
+            "hasAudio": true,
+            "height": 2262,
+            "width": 1040,
+            "durationSeconds": 5.634
+          },
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-flash-memo/video.mp4",
+              "width": 1040,
+              "height": 2262,
+              "bytes": 2384565,
+              "sha256": "f49fa7899908da14db399ed0478daabcc54ec23008c1fd6b177decd7ead6681f"
+            },
+            {
+              "path": "assets/oppo-ai-flash-memo/poster.jpg",
+              "width": 1040,
+              "height": 2262,
+              "bytes": 374583,
+              "sha256": "59d5951496a47a75ca57345b77f7a447a48af62902963773cc80fe2f0f41281d"
+            }
+          ]
+        },
+        {
+          "targetKey": "oppo-ai/pickup-code.png",
+          "source": "/Users/dragonlee/Downloads/ca85ae062a5baead661a8a7c3a0c8f299ed5cebd.mp4",
+          "originalBytesPreserved": true,
+          "placement": {
+            "src": "/assets/oppo-ai-pickup-video/video.mp4",
+            "poster": "/assets/oppo-ai-pickup-video/poster.jpg",
+            "w": 4000,
+            "h": 680,
+            "left": 33.125,
+            "top": 0,
+            "width": 33.75,
+            "height": 60,
+            "radius": "0"
+          },
+          "metadata": {
+            "width": 4000,
+            "height": 680,
+            "durationSeconds": 10.534,
+            "hasAudio": true,
+            "posterTime": 1
+          },
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-pickup-video/video.mp4",
+              "width": 4000,
+              "height": 680,
+              "bytes": 12550626,
+              "sha256": "32f1e1d7b75b8926ce92f6a717c088f274db02277303fefe046f5c418e46ca26"
+            },
+            {
+              "path": "assets/oppo-ai-pickup-video/poster.jpg",
+              "width": 4000,
+              "height": 680,
+              "bytes": 81987,
+              "sha256": "f68d73be857db4255f3fd31bde41e119abb9f5510d62b4e8a9e8a5410a8563eb"
+            }
+          ]
+        },
+        {
+          "targetKey": "oppo-ai/video-summary.png",
+          "source": "/Users/dragonlee/Downloads/6b70cc4d8cb81f2e17df8398fb6b6da3c8e6ab4e.mp4",
+          "originalBytesPreserved": true,
+          "placement": {
+            "src": "/assets/oppo-ai-summary-video/video.mp4",
+            "poster": "/assets/oppo-ai-summary-video/poster.jpg",
+            "w": 2500,
+            "h": 1000,
+            "left": 33.125,
+            "top": 0,
+            "width": 33.75,
+            "height": 60,
+            "radius": "0"
+          },
+          "metadata": {
+            "durationSeconds": 13.934,
+            "height": 1000,
+            "hasAudio": false,
+            "posterTime": 1,
+            "width": 2500
+          },
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-summary-video/video.mp4",
+              "width": 2500,
+              "height": 1000,
+              "bytes": 7687190,
+              "sha256": "a1e9e3004cc1fa040971ff7f502ebb372c04277d4e470241016a70455037444e"
+            },
+            {
+              "path": "assets/oppo-ai-summary-video/poster.jpg",
+              "width": 2500,
+              "height": 1000,
+              "bytes": 227680,
+              "sha256": "8b180e38403048138982580a66ce200212fc7536e9aed928cd9517c19a4f263a"
+            }
+          ]
+        },
+        {
+          "targetKey": "oppo-ai/expense-records.png",
+          "source": "/Users/dragonlee/Downloads/350f281159c6057fcb8128641dfc822e25d472dc.mp4",
+          "originalBytesPreserved": true,
+          "placement": {
+            "src": "/assets/oppo-ai-expense-video/video.mp4",
+            "poster": "/assets/oppo-ai-expense-video/poster.jpg",
+            "w": 1600,
+            "h": 1440,
+            "left": 37.5,
+            "top": 0,
+            "width": 62.5,
+            "height": 100,
+            "radius": "0"
+          },
+          "metadata": {
+            "durationSeconds": 10.5,
+            "posterTime": 1,
+            "height": 1440,
+            "hasAudio": true,
+            "width": 1600
+          },
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-expense-video/video.mp4",
+              "width": 1600,
+              "height": 1440,
+              "bytes": 4974473,
+              "sha256": "f528a3c7e458adda7e34084c10783550e8544848749cb5e3d9f3af846600b402"
+            },
+            {
+              "path": "assets/oppo-ai-expense-video/poster.jpg",
+              "width": 1600,
+              "height": 1440,
+              "bytes": 166647,
+              "sha256": "e979a62c4f7c7c4d94325a7041214b035ac27b1aaf42a67fb537febb5246b5a7"
+            }
+          ]
+        },
+        {
+          "targetKey": "oppo-ai/voice-note.png",
+          "source": "/Users/dragonlee/Downloads/0f8c4aa13a7adbb992d93488032c1e0fe1a7821b.mp4",
+          "originalBytesPreserved": true,
+          "placement": {
+            "src": "/assets/oppo-ai-voice-video/video.mp4",
+            "poster": "/assets/oppo-ai-voice-video/poster.jpg",
+            "w": 3300,
+            "h": 680,
+            "left": 0,
+            "top": 11.6835016835,
+            "width": 100,
+            "height": 36.632996633,
+            "radius": "0"
+          },
+          "metadata": {
+            "width": 3300,
+            "durationSeconds": 12.934,
+            "hasAudio": false,
+            "posterTime": 6,
+            "height": 680
+          },
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-voice-video/video.mp4",
+              "width": 3300,
+              "height": 680,
+              "bytes": 11105021,
+              "sha256": "76c386b9c30b19aaafcda152bfa015f6815fae307cb2edd39fde721a11840ecc"
+            },
+            {
+              "path": "assets/oppo-ai-voice-video/poster.jpg",
+              "width": 3300,
+              "height": 680,
+              "bytes": 197227,
+              "sha256": "74bea5e497fe7ed52786080b19606c30c3b6f1648b7b31a1b9facfc10314a126"
+            }
+          ]
+        },
+        {
+          "targetKey": "oppo-ai/multiple-images.png",
+          "source": "/Users/dragonlee/Downloads/1d0690180c4f8ee39d9277c808ac354b91eb0501.mp4",
+          "originalBytesPreserved": true,
+          "placement": {
+            "src": "/assets/oppo-ai-multi-image-video/video.mp4",
+            "poster": "/assets/oppo-ai-multi-image-video/poster.jpg",
+            "w": 1484,
+            "h": 1360,
+            "left": 38.6213235294,
+            "top": 0,
+            "width": 61.3786764706,
+            "height": 100,
+            "radius": "0"
+          },
+          "metadata": {
+            "hasAudio": false,
+            "posterTime": 1,
+            "height": 1360,
+            "durationSeconds": 6.167,
+            "width": 1484
+          },
+          "outputs": [
+            {
+              "path": "assets/oppo-ai-multi-image-video/video.mp4",
+              "width": 1484,
+              "height": 1360,
+              "bytes": 15816087,
+              "sha256": "e64336b916bc1ce468c52c7aceb2d2164b35e74f951f60e3bd3bfd40d6103ec6"
+            },
+            {
+              "path": "assets/oppo-ai-multi-image-video/poster.jpg",
+              "width": 1484,
+              "height": 1360,
+              "bytes": 294726,
+              "sha256": "72fe2f5a776db21c2361a1cc2c75713dcf7ac4654a7b189cced7659da11eef82"
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "favicon",
@@ -8403,7 +8732,12 @@
           "bytes": 209576,
           "sha256": "11d2e312b7819788fb8543f901203334ff8052e932eabf52becf2b3b4c84d3d7"
         }
-      ]
+      ],
+      "workCover": {
+        "key": "other-work/02.png",
+        "src": "/assets/other-work-02.png",
+        "selection": "User-selected Design thinking page on 2026-10-22"
+      }
     },
     {
       "projectId": 70,
@@ -10523,10 +10857,10 @@
         "captureDate": "2026-10-15",
         "method": "Browser screenshot, initial website viewport"
       },
-      "tileRatio": 1,
+      "tileRatio": 0.5625,
       "coverDisplay": {
-        "ratio": 1,
-        "background": "#000",
+        "ratio": 0.5625,
+        "background": "none",
         "fit": "contain",
         "originalImageRatio": "16:9",
         "originalPixelsPreserved": true
@@ -10716,7 +11050,24 @@
           "bytes": 27177,
           "sha256": "92dec08c738a238a978a31402dc9ece9aeecbdcfa72a7b77dbc286bfd5d09b6f"
         }
-      ]
+      ],
+      "activePageCount": 15,
+      "excludedPages": [
+        {
+          "sourcePage": 16,
+          "reason": "User requested removal of Back Cover on 2026-10-22; original file preserved."
+        }
+      ],
+      "workCover": {
+        "sourcePage": 3,
+        "src": "/assets/quark-brand-guidelines/page-003.png",
+        "hiddenOnCover": [
+          "Quark Brand Guide header",
+          "02 Standard footer",
+          "bottom blue strip"
+        ],
+        "method": "Cover-only white overlay; original detail image preserved"
+      }
     },
     {
       "projectId": 72,
@@ -11467,7 +11818,7 @@
       "type": "original-video-with-derived-poster",
       "year": "",
       "yearStatus": "Not provided; download filenames and filesystem dates are not treated as project dates.",
-      "authorshipStatus": "Not supplied by the user; no creator credit or Dragonlee authorship is inferred from the download filename.",
+      "authorshipStatus": "User explicitly requested the project credit Dragonlee on 2026-10-16; embedded soundtrack attribution and original video bytes are unchanged.",
       "tileRatio": 0.7748756218905473,
       "video": {
         "path": "assets/some-songs-are-timeless/video.mp4",
@@ -11504,6 +11855,313 @@
           "height": 1246,
           "bytes": 52985,
           "sha256": "61a1c3d5fad9d5daa1ad893ef69e24e93d563bc185270b00baceb7d2d9949405",
+          "video": false
+        }
+      ],
+      "authorCredit": "Dragonlee"
+    },
+    {
+      "projectId": 80,
+      "source": "/Users/dragonlee/Desktop/original-0383edb6e4cc95bd2cb24f326cce1a69.mp4",
+      "sourceBytes": 2993775,
+      "sourceSha256": "9ac06bb90d5379c6731596af11acbbeabc718073356cba49bc14331539d287b6",
+      "type": "original-video-with-derived-poster",
+      "title": "",
+      "year": "",
+      "displayMetadata": "User requested no visible project name or year.",
+      "tileRatio": 0.75,
+      "video": {
+        "path": "assets/video-project-80/video.mp4",
+        "width": 3200,
+        "height": 2400,
+        "bytes": 2993775,
+        "sha256": "9ac06bb90d5379c6731596af11acbbeabc718073356cba49bc14331539d287b6",
+        "video": true,
+        "posterTime": 1,
+        "durationSeconds": 4.016666666666667,
+        "hasAudio": true,
+        "originalBytesPreserved": true
+      },
+      "poster": {
+        "path": "assets/video-project-80/poster.jpg",
+        "width": 3200,
+        "height": 2400,
+        "bytes": 421366,
+        "sha256": "af70e613b0d52176214ed6c302b34a4a9a49ce61e3e6a91e74598a613ee63c36",
+        "video": false,
+        "timeSeconds": 1
+      },
+      "outputs": [
+        {
+          "path": "assets/video-project-80/video.mp4",
+          "width": 3200,
+          "height": 2400,
+          "bytes": 2993775,
+          "sha256": "9ac06bb90d5379c6731596af11acbbeabc718073356cba49bc14331539d287b6",
+          "video": true
+        },
+        {
+          "path": "assets/video-project-80/poster.jpg",
+          "width": 3200,
+          "height": 2400,
+          "bytes": 421366,
+          "sha256": "af70e613b0d52176214ed6c302b34a4a9a49ce61e3e6a91e74598a613ee63c36",
+          "video": false
+        }
+      ]
+    },
+    {
+      "projectId": 81,
+      "source": "https://dribbble.com/shots/6368172-Meditation-APP",
+      "sourceMediaUrl": "https://cdn.dribbble.com/userupload/42194486/file/original-32699eea4744b4d4a29f1fd15bd64212.gif",
+      "type": "original-animated-gif",
+      "title": "Meditation APP",
+      "year": "",
+      "originalBytesPreserved": true,
+      "animationFrames": 122,
+      "loop": 0,
+      "outputs": [
+        {
+          "path": "assets/meditation-app-6368172/original.gif",
+          "width": 800,
+          "height": 600,
+          "bytes": 5674598,
+          "sha256": "b72f80e36ae04de14dd500c4c6a8abc39131cd5ff279896e8f572acf8230ba04",
+          "copiedOriginal": true
+        }
+      ]
+    },
+    {
+      "projectId": 82,
+      "source": "https://dribbble.com/shots/5441522-Blockworld-Web-Prototype",
+      "sourceMediaUrl": "https://cdn.dribbble.com/users/1237425/screenshots/5441522/attachments/1178426/blockworld_web_prototype.png",
+      "type": "downloaded-source-image",
+      "title": "Blockworld Web Prototype",
+      "year": "",
+      "sourceFormatNote": "Dribbble browser download delivered WebP. Cover and attachment verified byte-identical; one full-size copy retained.",
+      "outputs": [
+        {
+          "path": "assets/blockworld-web-prototype/cover.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 58224,
+          "sha256": "3baee094c86ce19d221492c60509971a472fd954402d3ee83905424aa295e0d7",
+          "copiedOriginal": true
+        }
+      ]
+    },
+    {
+      "projectId": 83,
+      "source": "https://dribbble.com/shots/5091152-Block-dragon-link",
+      "sourceMediaUrl": "https://cdn.dribbble.com/users/1237425/screenshots/5091152/attachments/1128226/dragon_link.png",
+      "type": "downloaded-source-image",
+      "title": "Block -dragon link",
+      "year": "",
+      "sourceFormatNote": "Dribbble browser download delivered WebP. Full-size attachment retained without further conversion.",
+      "outputs": [
+        {
+          "path": "assets/block-dragon-link/cover.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 52208,
+          "sha256": "b453063fef2004058dd42becd551b28e57e7647d87027ea3e1d34779131c979e",
+          "copiedOriginal": true
+        }
+      ]
+    },
+    {
+      "projectId": 84,
+      "source": "https://dribbble.com/shots/4899305-Personal-Center-Icon",
+      "sourceMediaUrl": "https://cdn.dribbble.com/users/1237425/screenshots/4899305/attachments/1099402/personal_center__icon_copy.png",
+      "type": "downloaded-source-image",
+      "title": "Personal Center Icon",
+      "year": "",
+      "sourceFormatNote": "Dribbble browser download delivered WebP. Full-size attachment retained without further conversion.",
+      "outputs": [
+        {
+          "path": "assets/personal-center-icon/cover.webp",
+          "width": 2400,
+          "height": 1800,
+          "bytes": 24856,
+          "sha256": "e231b4b54a47e2b6c13499b7eedac14ff45b70bb51d23f2e8ac14be2090249bd",
+          "copiedOriginal": true
+        }
+      ]
+    },
+    {
+      "projectId": 85,
+      "source": "https://dribbble.com/shots/4314848-Sports-Data-Management",
+      "type": "downloaded-source-images",
+      "title": "Sports Data Management",
+      "year": "",
+      "sourceMediaUrls": [
+        "https://cdn.dribbble.com/users/1237425/screenshots/4314848/attachments/983672/sports_data_management-1.png",
+        "https://cdn.dribbble.com/users/1237425/screenshots/4314848/attachments/983671/66666.png"
+      ],
+      "sourceFormatNote": "Browser downloads delivered WebP; saved without further conversion.",
+      "outputs": [
+        {
+          "path": "assets/sports-data-management/01.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 57448,
+          "sha256": "c35f8dc845f17253148c8be534d01767818eee395859303427a559acf44c2de5",
+          "copiedOriginal": true
+        },
+        {
+          "path": "assets/sports-data-management/02.webp",
+          "width": 1440,
+          "height": 1024,
+          "bytes": 33910,
+          "sha256": "648c65d84b61e999ca206f615b7cf0b3f6f3ae2f5aac926c51df9fe0831c9da0",
+          "copiedOriginal": true
+        }
+      ]
+    },
+    {
+      "projectId": 86,
+      "source": "https://dribbble.com/shots/4932816-Ux-Design",
+      "type": "downloaded-source-images",
+      "title": "Ux Design",
+      "year": "",
+      "sourceMediaUrls": [
+        "https://cdn.dribbble.com/users/1237425/screenshots/4932816/attachments/1106147/ux_design.png",
+        "https://cdn.dribbble.com/users/1237425/screenshots/4932816/attachments/1106148/home.png",
+        "https://cdn.dribbble.com/users/1237425/screenshots/4932816/attachments/1106150/product_details.png",
+        "https://cdn.dribbble.com/users/1237425/screenshots/4932816/attachments/1106149/products.png"
+      ],
+      "sourceFormatNote": "Browser downloads delivered WebP; saved without further conversion.",
+      "outputs": [
+        {
+          "path": "assets/ux-design/01.webp",
+          "width": 2400,
+          "height": 1800,
+          "bytes": 86224,
+          "sha256": "99e42bb5eaeadf102038c6a03207f333fc9853108d4bbfdb4d6e899131e6ed65",
+          "copiedOriginal": true
+        },
+        {
+          "path": "assets/ux-design/02.webp",
+          "width": 1440,
+          "height": 4879,
+          "bytes": 98678,
+          "sha256": "80c7b3e5f35a098a70ccd54c395c216fc12adcf8d76668214bbce15d914eb5e2",
+          "copiedOriginal": true
+        },
+        {
+          "path": "assets/ux-design/03.webp",
+          "width": 1440,
+          "height": 3866,
+          "bytes": 114710,
+          "sha256": "1dc7a21b2c804b6569f6c27fe7f4272d953ea7f8a760f9a7fae6a08b72aec6e9",
+          "copiedOriginal": true
+        },
+        {
+          "path": "assets/ux-design/04.webp",
+          "width": 1440,
+          "height": 3595,
+          "bytes": 68138,
+          "sha256": "7fffa58230301a8abc919e8af052e4e3de5dfe1518107be86a3c22d2ce415bfa",
+          "copiedOriginal": true
+        }
+      ]
+    },
+    {
+      "projectId": 87,
+      "source": "/Users/dragonlee/Downloads/xbd-downloader/Scaling text down slightly as it scrolls up and out of view gives it a_2026-10-16_155058_i_3644.mp4",
+      "sourceBytes": 5296894,
+      "sourceSha256": "c37801ae0ebd76d15edc64a8f413bf39f197d33a810e8704f0d3c6bd2cb256ad",
+      "type": "original-video-with-derived-poster",
+      "title": "",
+      "year": "",
+      "displayMetadata": "User requested no visible project name or year.",
+      "tileRatio": 0.751346499102334,
+      "video": {
+        "path": "assets/video-project-87/video.mp4",
+        "width": 2228,
+        "height": 1674,
+        "bytes": 5296894,
+        "sha256": "c37801ae0ebd76d15edc64a8f413bf39f197d33a810e8704f0d3c6bd2cb256ad",
+        "video": true,
+        "durationSeconds": 11.716666666666667,
+        "hasAudio": false,
+        "posterTime": 1,
+        "originalBytesPreserved": true
+      },
+      "poster": {
+        "path": "assets/video-project-87/poster.jpg",
+        "width": 2228,
+        "height": 1674,
+        "bytes": 195504,
+        "sha256": "fc36cb3dd3488d51f43c3966ce597f64c1633775c767c9ab42e0f4893a037357",
+        "video": false,
+        "timeSeconds": 1
+      },
+      "outputs": [
+        {
+          "path": "assets/video-project-87/video.mp4",
+          "width": 2228,
+          "height": 1674,
+          "bytes": 5296894,
+          "sha256": "c37801ae0ebd76d15edc64a8f413bf39f197d33a810e8704f0d3c6bd2cb256ad",
+          "video": true
+        },
+        {
+          "path": "assets/video-project-87/poster.jpg",
+          "width": 2228,
+          "height": 1674,
+          "bytes": 195504,
+          "sha256": "fc36cb3dd3488d51f43c3966ce597f64c1633775c767c9ab42e0f4893a037357",
+          "video": false
+        }
+      ]
+    },
+    {
+      "projectId": 88,
+      "source": "/Users/dragonlee/Downloads/xbd-downloader/horizontal history_2026-10-14_012747_i_6297.mp4",
+      "sourceBytes": 4662585,
+      "sourceSha256": "67dee249fadb46b7b03f2a20b03f60fb0906d596e5a1d3b1bd0415c77963d936",
+      "type": "original-video-with-derived-poster",
+      "title": "personal agent",
+      "year": "",
+      "displayMetadata": "User supplied the project name personal agent; year not provided.",
+      "tileRatio": 1.25,
+      "video": {
+        "path": "assets/personal-agent/video.mp4",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 4662585,
+        "sha256": "67dee249fadb46b7b03f2a20b03f60fb0906d596e5a1d3b1bd0415c77963d936",
+        "video": true,
+        "hasAudio": false,
+        "posterTime": 1,
+        "durationSeconds": 22.016666666666666,
+        "originalBytesPreserved": true
+      },
+      "poster": {
+        "path": "assets/personal-agent/poster.jpg",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 140728,
+        "sha256": "9be4523fa992d529251642a169a7480eea2daa01b217e62fa08c476607774249",
+        "video": false,
+        "timeSeconds": 1
+      },
+      "outputs": [
+        {
+          "path": "assets/personal-agent/video.mp4",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 4662585,
+          "sha256": "67dee249fadb46b7b03f2a20b03f60fb0906d596e5a1d3b1bd0415c77963d936",
+          "video": true
+        },
+        {
+          "path": "assets/personal-agent/poster.jpg",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 140728,
+          "sha256": "9be4523fa992d529251642a169a7480eea2daa01b217e62fa08c476607774249",
           "video": false
         }
       ]

@@ -8,14 +8,16 @@ import test from 'node:test';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const readJSON = filename => JSON.parse(readFileSync(path.join(root, 'content', filename), 'utf8'));
 
-test('Quark brand guidelines preserve all sixteen rendered pages, their dimensions and checksums', () => {
+test('Quark brand guidelines show fifteen pages and preserve the sixteen original files, dimensions and checksums', () => {
   const data = readJSON('content-data.json');
   const sourceMap = readJSON('source-media-map.json');
   const media = readJSON('user-media.json').replacements.find(project => project.projectId === 71);
   const project = data.projects.find(project => project.id === 71);
   assert.equal(project.title, 'Quark Brand Guidelines');
   assert.equal(project.year, '');
-  assert.equal(project.items.length, 16);
+  assert.equal(project.items.length, 15);
+  assert.equal(project.items.at(-1).key, "quark-brand-guidelines/page-015.png");
+  assert.equal(media.activePageCount, 15);
   assert.equal(media.pageCount, 16);
   assert.equal(media.outputs.length, 16);
   const files = readdirSync(path.join(root, 'public/assets/quark-brand-guidelines')).filter(filename => filename.endsWith('.png')).sort();
@@ -51,8 +53,8 @@ test('Quark brand guidelines are synchronized with Work, detail navigation and e
   const tile = data.tiles[tileIndex];
   assert.equal(data.tiles[tileIndex - 1].id, 60);
   assert.ok(tileIndex < data.tiles.findIndex(tile => tile.id === 69));
-  assert.equal(data.tiles.at(-1).id, 69);
-  assert.equal(tile.image, project.items[0].src);
+  assert.deepEqual(data.tiles.filter(tile => [53, 52, 64, 66, 54].includes(tile.id)).map(tile => tile.id), [53, 52, 64, 66, 54]);
+  assert.equal(tile.image, "/assets/quark-brand-guidelines/page-003.png");
   assert.equal(tile.ratio, 1080 / 1920);
   assert.equal(tile.year, '');
   assert.equal(editable.words[71].title, project.title);

@@ -76,7 +76,7 @@ test('search results consistency is synchronized across Work, runtime, editable 
   const tile = data.tiles[tileIndex];
   assert.equal(data.tiles[tileIndex - 1].id, 71);
   assert.ok(tileIndex < data.tiles.findIndex(tile => tile.id === 69));
-  assert.equal(data.tiles.at(-1).id, 69);
+  assert.deepEqual(data.tiles.filter(tile => [53, 52, 64, 66, 54].includes(tile.id)).map(tile => tile.id), [53, 52, 64, 66, 54]);
   assert.equal(project.title, 'Search Results Consistency');
   assert.equal(editable.words[72].title, project.title);
   assert.equal(editable.words[72].text, project.text);

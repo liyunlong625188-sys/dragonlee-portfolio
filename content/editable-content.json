@@ -143,13 +143,6 @@
       "credits": "",
       "links": "Dribbble | https://dribbble.com/shots/5071294-Customize-Air-Jordan-Web"
     },
-    "65": {
-      "title": "Volog",
-      "year": "2020",
-      "text": "Interface design for a video community, covering discovery, playback and creator profiles.",
-      "credits": "Dragonlee (Orizon)",
-      "links": "Dribbble | https://dribbble.com/shots/11585605-Volog-APP"
-    },
     "66": {
       "title": "Video Editing",
       "year": "",
@@ -211,6 +204,97 @@
       "title": "Some Songs Are Timeless",
       "year": "",
       "text": "An animated music-player study exploring interface styles across eras while the same track keeps playing.",
+      "credits": "Dragonlee",
+      "links": ""
+    },
+    "75": {
+      "title": "Foldable Calendar",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
+      "credits": "",
+      "links": ""
+    },
+    "76": {
+      "title": "Foldable File Manager",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
+      "credits": "",
+      "links": ""
+    },
+    "77": {
+      "title": "Foldable Document Viewer",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
+      "credits": "",
+      "links": ""
+    },
+    "78": {
+      "title": "Foldable Notes",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
+      "credits": "",
+      "links": ""
+    },
+    "80": {
+      "title": "",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": ""
+    },
+    "81": {
+      "title": "Meditation APP",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": "Dribbble https://dribbble.com/shots/6368172-Meditation-APP"
+    },
+    "82": {
+      "title": "Blockworld Web Prototype",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": "Dribbble https://dribbble.com/shots/5441522-Blockworld-Web-Prototype"
+    },
+    "83": {
+      "title": "Block -dragon link",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": "Dribbble https://dribbble.com/shots/5091152-Block-dragon-link"
+    },
+    "84": {
+      "title": "Personal Center Icon",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": "Dribbble https://dribbble.com/shots/4899305-Personal-Center-Icon"
+    },
+    "85": {
+      "title": "Sports Data Management",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": "Dribbble https://dribbble.com/shots/4314848-Sports-Data-Management"
+    },
+    "86": {
+      "title": "Ux Design",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": "Dribbble https://dribbble.com/shots/4932816-Ux-Design"
+    },
+    "87": {
+      "title": "",
+      "year": "",
+      "text": "",
+      "credits": "",
+      "links": ""
+    },
+    "88": {
+      "title": "personal agent",
+      "year": "",
+      "text": "",
       "credits": "",
       "links": ""
     }
@@ -300,10 +384,6 @@
       "label": "Customize Air Jordan Web",
       "year": "2018"
     },
-    "65": {
-      "label": "Volog",
-      "year": "2020"
-    },
     "66": {
       "label": "Video Editing",
       "year": ""
@@ -318,18 +398,20 @@
     },
     "69": {
       "label": "Other Work",
-      "year": ""
+      "year": "",
+      "image": "/assets/other-work-02.png"
     },
     "70": {
       "label": "Momcozy Probation Plan",
       "year": "2026",
       "directUrl": "/projects/momcozy-work-plan/index.html",
       "image": "/assets/momcozy-work-plan-website-cover.jpg",
-      "ratio": 1
+      "ratio": 0.5625
     },
     "71": {
       "label": "Quark Brand Guidelines",
-      "year": ""
+      "year": "",
+      "image": "/assets/quark-brand-guidelines/page-003.png"
     },
     "72": {
       "label": "Search Results Consistency",
@@ -341,6 +423,58 @@
     },
     "74": {
       "label": "Some Songs Are Timeless",
+      "year": ""
+    },
+    "75": {
+      "label": "Foldable Calendar",
+      "year": "2023"
+    },
+    "76": {
+      "label": "Foldable File Manager",
+      "year": "2023"
+    },
+    "77": {
+      "label": "Foldable Document Viewer",
+      "year": "2023"
+    },
+    "78": {
+      "label": "Foldable Notes",
+      "year": "2023"
+    },
+    "80": {
+      "label": "",
+      "year": ""
+    },
+    "81": {
+      "label": "Meditation APP",
+      "year": ""
+    },
+    "82": {
+      "label": "Blockworld Web Prototype",
+      "year": ""
+    },
+    "83": {
+      "label": "Block -dragon link",
+      "year": ""
+    },
+    "84": {
+      "label": "Personal Center Icon",
+      "year": ""
+    },
+    "85": {
+      "label": "Sports Data Management",
+      "year": ""
+    },
+    "86": {
+      "label": "Ux Design",
+      "year": ""
+    },
+    "87": {
+      "label": "",
+      "year": ""
+    },
+    "88": {
+      "label": "personal agent",
       "year": ""
     }
   },

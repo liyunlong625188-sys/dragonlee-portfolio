@@ -672,42 +672,109 @@
     "src": "/assets/oppo-ai-flash-memo-overview.png",
     "w": 1920,
     "h": 1080,
-    "video": false
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/oppo-ai-flash-memo/video.mp4",
+      "poster": "/assets/oppo-ai-flash-memo/poster.jpg",
+      "w": 1040,
+      "h": 2262,
+      "left": 22.552083333333332,
+      "top": 15.555555555555555,
+      "width": 18.75,
+      "height": 74.07407407407408,
+      "radius": "13.333333% / 6%",
+      "mask": "radial-gradient(ellipse 2.9% 1.3% at 50% 2.375%, transparent 98%, #000 100%)"
+    }
   },
   "oppo-ai/pickup-code.png": {
     "tile": 49,
     "src": "/assets/oppo-ai-pickup-code.png",
     "w": 5760,
     "h": 3240,
-    "video": false
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/oppo-ai-pickup-video/video.mp4",
+      "poster": "/assets/oppo-ai-pickup-video/poster.jpg",
+      "w": 4000,
+      "h": 680,
+      "left": 33.125,
+      "top": 0,
+      "width": 33.75,
+      "height": 60,
+      "radius": "0"
+    }
   },
   "oppo-ai/voice-note.png": {
     "tile": 49,
     "src": "/assets/oppo-ai-voice-note.png",
     "w": 5760,
     "h": 3240,
-    "video": false
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/oppo-ai-voice-video/video.mp4",
+      "poster": "/assets/oppo-ai-voice-video/poster.jpg",
+      "w": 3300,
+      "h": 680,
+      "left": 0,
+      "top": 11.6835016835,
+      "width": 100,
+      "height": 36.632996633,
+      "radius": "0"
+    }
   },
   "oppo-ai/expense-records.png": {
     "tile": 49,
     "src": "/assets/oppo-ai-expense-records.png",
     "w": 5760,
     "h": 3240,
-    "video": false
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/oppo-ai-expense-video/video.mp4",
+      "poster": "/assets/oppo-ai-expense-video/poster.jpg",
+      "w": 1600,
+      "h": 1440,
+      "left": 37.5,
+      "top": 0,
+      "width": 62.5,
+      "height": 100,
+      "radius": "0"
+    }
   },
   "oppo-ai/multiple-images.png": {
     "tile": 49,
     "src": "/assets/oppo-ai-multiple-images.png",
     "w": 5760,
     "h": 3240,
-    "video": false
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/oppo-ai-multi-image-video/video.mp4",
+      "poster": "/assets/oppo-ai-multi-image-video/poster.jpg",
+      "w": 1484,
+      "h": 1360,
+      "left": 38.6213235294,
+      "top": 0,
+      "width": 61.3786764706,
+      "height": 100,
+      "radius": "0"
+    }
   },
   "oppo-ai/video-summary.png": {
     "tile": 49,
     "src": "/assets/oppo-ai-video-summary.png",
     "w": 5760,
     "h": 3240,
-    "video": false
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/oppo-ai-summary-video/video.mp4",
+      "poster": "/assets/oppo-ai-summary-video/poster.jpg",
+      "w": 2500,
+      "h": 1000,
+      "left": 33.125,
+      "top": 0,
+      "width": 33.75,
+      "height": 60,
+      "radius": "0"
+    }
   },
   "oppo-ai/daily-briefing.png": {
     "tile": 49,
@@ -2502,5 +2569,290 @@
     "w": 1608,
     "h": 1246,
     "video": false
+  },
+  "coloros-14-1-flod-n5/05.png": {
+    "tile": 56,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-01.mp4",
+      "poster": "/assets/coloros-14-1-demo-01-poster.png",
+      "w": 2210,
+      "h": 2352,
+      "left": 30.972576530612244,
+      "top": 14,
+      "width": 38.05484693877551,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "coloros-14-1-flod-n5/06.png": {
+    "tile": 56,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-02.mp4",
+      "poster": "/assets/coloros-14-1-demo-02-poster.png",
+      "w": 2210,
+      "h": 2352,
+      "left": 30.972576530612244,
+      "top": 14,
+      "width": 38.05484693877551,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "coloros-14-1-flod-n5/07.png": {
+    "tile": 56,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-03.mp4",
+      "poster": "/assets/coloros-14-1-demo-03-poster.png",
+      "w": 2210,
+      "h": 2352,
+      "left": 30.972576530612244,
+      "top": 14,
+      "width": 38.05484693877551,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "foldable-demo-75/video": {
+    "tile": 75,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-01.mp4",
+      "poster": "/assets/coloros-14-1-demo-01-poster.png",
+      "w": 2210,
+      "h": 2352,
+      "left": 30.972576530612244,
+      "top": 14,
+      "width": 38.05484693877551,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "foldable-demo-76/video": {
+    "tile": 76,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-02.mp4",
+      "poster": "/assets/coloros-14-1-demo-02-poster.png",
+      "w": 2210,
+      "h": 2352,
+      "left": 30.972576530612244,
+      "top": 14,
+      "width": 38.05484693877551,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "foldable-demo-77/video": {
+    "tile": 77,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-03.mp4",
+      "poster": "/assets/coloros-14-1-demo-03-poster.png",
+      "w": 2210,
+      "h": 2352,
+      "left": 30.972576530612244,
+      "top": 14,
+      "width": 38.05484693877551,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "coloros-14-1-flod-n5/08.png": {
+    "tile": 56,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-04.mp4",
+      "poster": "/assets/coloros-14-1-demo-04-poster.png",
+      "w": 2094,
+      "h": 2252,
+      "left": 31.17073712255773,
+      "top": 14,
+      "width": 37.65852575488454,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "coloros-14-1-flod-n5/demo-05.svg": {
+    "tile": 56,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-05.mp4",
+      "poster": "/assets/coloros-14-1-demo-05-poster.png",
+      "w": 2094,
+      "h": 2252,
+      "left": 31.17073712255773,
+      "top": 14,
+      "width": 37.65852575488454,
+      "height": 72,
+      "radius": "7% / 6.5%",
+      "deviceFrame": true
+    }
+  },
+  "foldable-demo-78/video": {
+    "tile": 78,
+    "src": "/assets/coloros-14-1-demo-canvas.svg",
+    "w": 1280,
+    "h": 720,
+    "video": false,
+    "screenVideo": {
+      "src": "/assets/coloros-14-1-demo-04.mp4",
+      "poster": "/assets/coloros-14-1-demo-04-poster.png",
+      "w": 2094,
+      "h": 2252,
+      "left": 31.17073712255773,
+      "top": 14,
+      "width": 37.65852575488454,
+      "height": 72,
+      "radius": "7% / 6.5%"
+    }
+  },
+  "oppo-ai/supplement-ip-overview.png": {
+    "tile": 49,
+    "src": "/assets/oppo-ai-supplement-ip-overview.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "oppo-ai/supplement-06-ip-design-insights.png": {
+    "tile": 49,
+    "src": "/assets/oppo-ai-supplement-06-ip-design-insights.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "oppo-ai/supplement-07-ip-marketing-strategy.png": {
+    "tile": 49,
+    "src": "/assets/oppo-ai-supplement-07-ip-marketing-strategy.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "oppo-ai/supplement-08-odc25-design-sharing.png": {
+    "tile": 49,
+    "src": "/assets/oppo-ai-supplement-08-odc25-design-sharing.png",
+    "w": 1920,
+    "h": 1080,
+    "video": false
+  },
+  "video-project-80/video.mp4": {
+    "tile": 80,
+    "src": "/assets/video-project-80/video.mp4",
+    "w": 3200,
+    "h": 2400,
+    "video": true,
+    "poster": "/assets/video-project-80/poster.jpg"
+  },
+  "meditation-app-6368172/original.gif": {
+    "tile": 81,
+    "src": "/assets/meditation-app-6368172/original.gif",
+    "w": 800,
+    "h": 600,
+    "video": false
+  },
+  "blockworld-web-prototype/cover.webp": {
+    "tile": 82,
+    "src": "/assets/blockworld-web-prototype/cover.webp",
+    "w": 1600,
+    "h": 1200,
+    "video": false
+  },
+  "block-dragon-link/cover.webp": {
+    "tile": 83,
+    "src": "/assets/block-dragon-link/cover.webp",
+    "w": 1600,
+    "h": 1200,
+    "video": false
+  },
+  "personal-center-icon/cover.webp": {
+    "tile": 84,
+    "src": "/assets/personal-center-icon/cover.webp",
+    "w": 2400,
+    "h": 1800,
+    "video": false
+  },
+  "sports-data-management/01.webp": {
+    "tile": 85,
+    "src": "/assets/sports-data-management/01.webp",
+    "w": 1600,
+    "h": 1200,
+    "video": false
+  },
+  "sports-data-management/02.webp": {
+    "tile": 85,
+    "src": "/assets/sports-data-management/02.webp",
+    "w": 1440,
+    "h": 1024,
+    "video": false
+  },
+  "ux-design/01.webp": {
+    "tile": 86,
+    "src": "/assets/ux-design/01.webp",
+    "w": 2400,
+    "h": 1800,
+    "video": false
+  },
+  "ux-design/02.webp": {
+    "tile": 86,
+    "src": "/assets/ux-design/02.webp",
+    "w": 1440,
+    "h": 4879,
+    "video": false
+  },
+  "ux-design/03.webp": {
+    "tile": 86,
+    "src": "/assets/ux-design/03.webp",
+    "w": 1440,
+    "h": 3866,
+    "video": false
+  },
+  "ux-design/04.webp": {
+    "tile": 86,
+    "src": "/assets/ux-design/04.webp",
+    "w": 1440,
+    "h": 3595,
+    "video": false
+  },
+  "video-project-87/video.mp4": {
+    "tile": 87,
+    "src": "/assets/video-project-87/video.mp4",
+    "w": 2228,
+    "h": 1674,
+    "video": true,
+    "poster": "/assets/video-project-87/poster.jpg"
+  },
+  "personal-agent/video.mp4": {
+    "tile": 88,
+    "src": "/assets/personal-agent/video.mp4",
+    "w": 1080,
+    "h": 1350,
+    "video": true,
+    "poster": "/assets/personal-agent/poster.jpg"
   }
 }

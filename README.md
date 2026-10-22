@@ -55,3 +55,5 @@ Sites 原生归档上传目前失败，既有项目、源码历史和恢复记�
 2026-10-16：新增 Wuqu Brand Identity（物区品牌，id73），位于 Search Results Consistency 之后、Other Work 之前。年份 2019 由文档正文明确确认；原彩色首屏作 16:9 封面，完整长画布保留，详情按 31 个无损连续阅读分段展示。原 PDF 未改动，当前仅更新 4174 本地预览，尚未发布。
 
 2026-10-16：新增 Some Songs Are Timeless（id74），位于 Wuqu Brand Identity 之后、Other Work 之前。用户提供的 MP4 按字节保留原画幅、帧率和音轨，使用原片截图作 poster；Work 继承现有静音播放行为，详情保留原有声音控制。年份与作者署名未提供，不按下载文件名推断。当前仅更新 4174 本地预览，尚未发布。
+
+2026-10-16：用户明确将 Some Songs Are Timeless（id74）项目署名设为 Dragonlee。原片、音轨及片内音乐署名不改，年份保持空白；本次署名更新仅在 4174 本地预览，尚未发布。

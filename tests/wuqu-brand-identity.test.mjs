@@ -62,7 +62,7 @@ test('Wuqu original cover, year, Work, runtime and editable content are synchron
   assert.equal(hash(cover), media.cover.sha256);
   assert.equal(data.tiles[tileIndex - 1].id, 72);
   assert.ok(tileIndex < data.tiles.findIndex(tile => tile.id === 69));
-  assert.equal(data.tiles.at(-1).id, 69);
+  assert.deepEqual(data.tiles.filter(tile => [53, 52, 64, 66, 54].includes(tile.id)).map(tile => tile.id), [53, 52, 64, 66, 54]);
   assert.equal(editable.words[73].title, project.title);
   assert.equal(editable.words[73].text, project.text);
   assert.equal(editable.words[73].year, project.year);

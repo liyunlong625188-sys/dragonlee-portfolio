@@ -563,6 +563,617 @@
       ]
     },
     {
+      "id": 48,
+      "title": "ColorOS System Apps",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "coloros-utilities/overview.png",
+          "tile": 48,
+          "src": "/assets/color16-22-classic-apps.png",
+          "w": 3840,
+          "h": 2160,
+          "video": false,
+          "screenVideos": [
+            {
+              "src": "/assets/color16-world-clock.mp4",
+              "poster": "/assets/color16-world-clock-poster.jpg",
+              "w": 1080,
+              "h": 2400,
+              "left": 5.520833333333333,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            },
+            {
+              "src": "/assets/color16-stopwatch.mp4",
+              "poster": "/assets/color16-stopwatch-poster.jpg",
+              "w": 1080,
+              "h": 2400,
+              "left": 28.958333333333336,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            },
+            {
+              "src": "/assets/color16-calculator.mp4",
+              "poster": "/assets/color16-calculator-poster.jpg",
+              "w": 1080,
+              "h": 2400,
+              "left": 52.39583333333333,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            },
+            {
+              "src": "/assets/color16-level.mp4",
+              "poster": "/assets/color16-level-poster.jpg",
+              "w": 1080,
+              "h": 2372,
+              "left": 75.83333333333333,
+              "top": 12.962962962962962,
+              "width": 18.697916666666668,
+              "height": 74.07407407407408,
+              "radius": "12.5348189415% / 5.625%",
+              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "OPPO AI",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oppo-ai/product-film.mp4",
+          "tile": 49,
+          "src": "/assets/oppo-ai-demo.mp4",
+          "w": 640,
+          "h": 360,
+          "video": true,
+          "poster": "/assets/oppo-ai-demo-poster.jpg"
+        },
+        {
+          "key": "oppo-ai/flash-memo-divider.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-flash-memo-divider.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/cover.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-cover.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/flash-memo-overview.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-flash-memo-overview.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/oppo-ai-flash-memo/video.mp4",
+            "poster": "/assets/oppo-ai-flash-memo/poster.jpg",
+            "w": 1040,
+            "h": 2262,
+            "left": 22.552083333333332,
+            "top": 15.555555555555555,
+            "width": 18.75,
+            "height": 74.07407407407408,
+            "radius": "13.333333% / 6%",
+            "mask": "radial-gradient(ellipse 2.9% 1.3% at 50% 2.375%, transparent 98%, #000 100%)"
+          }
+        },
+        {
+          "key": "oppo-ai/pickup-code.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-pickup-code.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/oppo-ai-pickup-video/video.mp4",
+            "poster": "/assets/oppo-ai-pickup-video/poster.jpg",
+            "w": 4000,
+            "h": 680,
+            "left": 33.125,
+            "top": 0,
+            "width": 33.75,
+            "height": 60,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "oppo-ai/video-summary.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-video-summary.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/oppo-ai-summary-video/video.mp4",
+            "poster": "/assets/oppo-ai-summary-video/poster.jpg",
+            "w": 2500,
+            "h": 1000,
+            "left": 33.125,
+            "top": 0,
+            "width": 33.75,
+            "height": 60,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "oppo-ai/expense-records.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-expense-records.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/oppo-ai-expense-video/video.mp4",
+            "poster": "/assets/oppo-ai-expense-video/poster.jpg",
+            "w": 1600,
+            "h": 1440,
+            "left": 37.5,
+            "top": 0,
+            "width": 62.5,
+            "height": 100,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "oppo-ai/voice-note.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-voice-note.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/oppo-ai-voice-video/video.mp4",
+            "poster": "/assets/oppo-ai-voice-video/poster.jpg",
+            "w": 3300,
+            "h": 680,
+            "left": 0,
+            "top": 11.6835016835,
+            "width": 100,
+            "height": 36.632996633,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "oppo-ai/multiple-images.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-multiple-images.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/oppo-ai-multi-image-video/video.mp4",
+            "poster": "/assets/oppo-ai-multi-image-video/poster.jpg",
+            "w": 1484,
+            "h": 1360,
+            "left": 38.6213235294,
+            "top": 0,
+            "width": 61.3786764706,
+            "height": 100,
+            "radius": "0"
+          }
+        },
+        {
+          "key": "oppo-ai/personalized-answers.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-personalized-answers.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/daily-briefing.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-daily-briefing.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/memory-suggestions.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-memory-suggestions.png",
+          "w": 5760,
+          "h": 3240,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/design-system-divider.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-design-system-divider.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-01-memory.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-01-memory.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-02-multisensory.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-02-multisensory.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-03-information.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-03-information.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-04-brand-vi.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-04-brand-vi.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/overview-05-brand-guidelines.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-overview-05-brand-guidelines.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/supplement-ip-overview.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-supplement-ip-overview.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/supplement-06-ip-design-insights.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-supplement-06-ip-design-insights.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/supplement-07-ip-marketing-strategy.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-supplement-07-ip-marketing-strategy.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai/supplement-08-odc25-design-sharing.png",
+          "tile": 49,
+          "src": "/assets/oppo-ai-supplement-08-odc25-design-sharing.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "OPPO AI IP",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oppo-ai-ip/cover.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-cover.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/01.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/02.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/03.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/04.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/05.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/06.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/07.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/08.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/09.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/10.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-10.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/11.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-11.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/12.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-12.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/13.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-13.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/14.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-14.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/15.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-15.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/16.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-16.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/17.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-17.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/18.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-18.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/19.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-19.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/20.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-20.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/21.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-21.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/22.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-22.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/23.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-23.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/24.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-24.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/25.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-25.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/26.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-26.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/27.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-27.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/28.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-28.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/29.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-29.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/30.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-30.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/31.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-31.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-ip/32.png",
+          "tile": 50,
+          "src": "/assets/oppo-ai-ip-32.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Ideal Life",
+      "year": "2026",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "ideal-life/artwork.png",
+          "tile": 61,
+          "src": "/assets/ideal-life.png",
+          "w": 3840,
+          "h": 2160,
+          "video": false
+        }
+      ]
+    },
+    {
       "id": 56,
       "title": "ColorOS 14.1 Flod N5",
       "text": "App frameworks and responsive layouts for foldable phones and large screens.",
@@ -617,7 +1228,7 @@
             "top": 14,
             "width": 38.05484693877551,
             "height": 72,
-            "radius": "0"
+            "radius": "7% / 6.5%"
           }
         },
         {
@@ -636,7 +1247,7 @@
             "top": 14,
             "width": 38.05484693877551,
             "height": 72,
-            "radius": "0"
+            "radius": "7% / 6.5%"
           }
         },
         {
@@ -655,7 +1266,7 @@
             "top": 14,
             "width": 38.05484693877551,
             "height": 72,
-            "radius": "0"
+            "radius": "7% / 6.5%"
           }
         },
         {
@@ -674,7 +1285,7 @@
             "top": 14,
             "width": 37.65852575488454,
             "height": 72,
-            "radius": "0"
+            "radius": "7% / 6.5%"
           }
         },
         {
@@ -925,6 +1536,182 @@
       "year": "2023"
     },
     {
+      "id": 55,
+      "title": "ColorOS 13.2",
+      "text": "Interface and cover screen design for ColorOS 13.2.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "coloros-13-2/cover.mp4",
+          "src": "/assets/coloros-13-2-cover.mp4",
+          "w": 1920,
+          "h": 1080,
+          "video": true,
+          "poster": "/assets/coloros-13-2-cover-poster.png",
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/01.png",
+          "src": "/assets/coloros-13-2-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/2.png",
+          "src": "/assets/coloros-13-2-extra-2.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/02.png",
+          "src": "/assets/coloros-13-2-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/03.png",
+          "src": "/assets/coloros-13-2-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/5.png",
+          "src": "/assets/coloros-13-2-extra-5.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/04.png",
+          "src": "/assets/coloros-13-2-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/05.png",
+          "src": "/assets/coloros-13-2-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/06.png",
+          "src": "/assets/coloros-13-2-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/7.png",
+          "src": "/assets/coloros-13-2-extra-7.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/app-design-principles.png",
+          "src": "/assets/coloros-13-2-app-design-principles.png",
+          "w": 3840,
+          "h": 2160,
+          "video": false,
+          "tile": 55
+        },
+        {
+          "key": "coloros-13-2/8.png",
+          "src": "/assets/coloros-13-2-extra-8.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false,
+          "tile": 55
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "OOS 15 Una AI",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oos15-una-ai/cover.webp",
+          "tile": 46,
+          "src": "/assets/oos15-una-ai-cover.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos15-una-ai/001.webp",
+          "tile": 46,
+          "src": "/assets/oos15-una-ai-001.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos15-una-ai/002.webp",
+          "tile": 46,
+          "src": "/assets/oos15-una-ai-002.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos15-una-ai/003.webp",
+          "tile": 46,
+          "src": "/assets/oos15-una-ai-003.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos15-una-ai/004.webp",
+          "tile": 46,
+          "src": "/assets/oos15-una-ai-004.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Some Songs Are Timeless",
+      "year": "",
+      "text": "An animated music-player study exploring interface styles across eras while the same track keeps playing.",
+      "credits": [
+        "Dragonlee"
+      ],
+      "links": [],
+      "items": [
+        {
+          "key": "some-songs-are-timeless/video.mp4",
+          "tile": 74,
+          "src": "/assets/some-songs-are-timeless/video.mp4",
+          "w": 1608,
+          "h": 1246,
+          "video": true,
+          "poster": "/assets/some-songs-are-timeless/poster.jpg"
+        }
+      ]
+    },
+    {
       "id": 58,
       "title": "Visual Effects Technology",
       "text": "A study of spatial hierarchy, materials, lighting, and visual depth for ColorOS.",
@@ -1005,6 +1792,421 @@
         }
       ],
       "year": "2024"
+    },
+    {
+      "id": 51,
+      "title": "OPPO AI Brand Design",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oppo-ai-brand/cover.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-cover.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/01.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-01.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/02.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-02.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/03.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-03.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/04.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-04.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/05.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-05.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/06.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-06.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/07.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-07.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/08.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-08.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/09.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-09.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/10.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-10.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/11.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-11.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/12.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-12.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/13.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-13.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/14.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-14.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/15.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-15.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/16.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-16.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/17.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-17.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/18.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-18.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/19.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-19.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/20.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-20.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/21.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-21.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/22.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-22.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/23.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-23.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/24.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-24.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/25.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-25.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/26.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-26.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/27.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-27.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/28.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-28.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/29.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-29.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/30.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-30.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/31.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-31.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/32.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-32.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/33.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-33.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/34.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-34.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/35.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-35.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/36.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-36.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/37.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-37.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/38.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-38.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/39.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-39.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        },
+        {
+          "key": "oppo-ai-brand/40.png",
+          "tile": 51,
+          "src": "/assets/oppo-ai-brand-40.png",
+          "w": 1920,
+          "h": 1080,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "OOS Hummingbird engine",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "oos-hummingbird-engine/cover.webp",
+          "tile": 47,
+          "src": "/assets/oos-hummingbird-engine-cover.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos-hummingbird-engine/001.webp",
+          "tile": 47,
+          "src": "/assets/oos-hummingbird-engine-001.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos-hummingbird-engine/002.webp",
+          "tile": 47,
+          "src": "/assets/oos-hummingbird-engine-002.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos-hummingbird-engine/003.webp",
+          "tile": 47,
+          "src": "/assets/oos-hummingbird-engine-003.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        },
+        {
+          "key": "oos-hummingbird-engine/004.webp",
+          "tile": 47,
+          "src": "/assets/oos-hummingbird-engine-004.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Foldable Calendar",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "foldable-demo-75/video",
+          "tile": 75,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-01.mp4",
+            "poster": "/assets/coloros-14-1-demo-01-poster.png",
+            "w": 2210,
+            "h": 2352,
+            "left": 30.972576530612244,
+            "top": 14,
+            "width": 38.05484693877551,
+            "height": 72,
+            "radius": "7% / 6.5%"
+          }
+        }
+      ]
     },
     {
       "id": 68,
@@ -1425,6 +2627,73 @@
       ]
     },
     {
+      "id": 87,
+      "title": "",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "video-project-87/video.mp4",
+          "tile": 87,
+          "src": "/assets/video-project-87/video.mp4",
+          "w": 2228,
+          "h": 1674,
+          "video": true,
+          "poster": "/assets/video-project-87/poster.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "personal agent",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "personal-agent/video.mp4",
+          "tile": 88,
+          "src": "/assets/personal-agent/video.mp4",
+          "w": 1080,
+          "h": 1350,
+          "video": true,
+          "poster": "/assets/personal-agent/poster.jpg"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Foldable File Manager",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "foldable-demo-76/video",
+          "tile": 76,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
+          "video": false,
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-02.mp4",
+            "poster": "/assets/coloros-14-1-demo-02-poster.png",
+            "w": 2210,
+            "h": 2352,
+            "left": 30.972576530612244,
+            "top": 14,
+            "width": 38.05484693877551,
+            "height": 72,
+            "radius": "7% / 6.5%"
+          }
+        }
+      ]
+    },
+    {
       "id": 70,
       "title": "Momcozy Probation Plan",
       "year": "2026",
@@ -1457,1335 +2726,60 @@
       "directUrl": "/projects/momcozy-work-plan/index.html"
     },
     {
-      "id": 55,
-      "title": "ColorOS 13.2",
-      "text": "Interface and cover screen design for ColorOS 13.2.",
+      "id": 77,
+      "title": "Foldable Document Viewer",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
       "credits": [],
       "links": [],
       "items": [
         {
-          "key": "coloros-13-2/cover.mp4",
-          "src": "/assets/coloros-13-2-cover.mp4",
-          "w": 1920,
-          "h": 1080,
-          "video": true,
-          "poster": "/assets/coloros-13-2-cover-poster.png",
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/01.png",
-          "src": "/assets/coloros-13-2-01.png",
-          "w": 1920,
-          "h": 1080,
+          "key": "foldable-demo-77/video",
+          "tile": 77,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
           "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/2.png",
-          "src": "/assets/coloros-13-2-extra-2.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/02.png",
-          "src": "/assets/coloros-13-2-02.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/03.png",
-          "src": "/assets/coloros-13-2-03.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/5.png",
-          "src": "/assets/coloros-13-2-extra-5.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/04.png",
-          "src": "/assets/coloros-13-2-04.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/05.png",
-          "src": "/assets/coloros-13-2-05.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/06.png",
-          "src": "/assets/coloros-13-2-06.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/7.png",
-          "src": "/assets/coloros-13-2-extra-7.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/app-design-principles.png",
-          "src": "/assets/coloros-13-2-app-design-principles.png",
-          "w": 3840,
-          "h": 2160,
-          "video": false,
-          "tile": 55
-        },
-        {
-          "key": "coloros-13-2/8.png",
-          "src": "/assets/coloros-13-2-extra-8.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false,
-          "tile": 55
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-03.mp4",
+            "poster": "/assets/coloros-14-1-demo-03-poster.png",
+            "w": 2210,
+            "h": 2352,
+            "left": 30.972576530612244,
+            "top": 14,
+            "width": 38.05484693877551,
+            "height": 72,
+            "radius": "7% / 6.5%"
+          }
         }
       ]
     },
     {
-      "id": 48,
-      "title": "ColorOS System Apps",
-      "text": "",
+      "id": 78,
+      "title": "Foldable Notes",
+      "year": "2023",
+      "text": "ColorOS 14.1 · Foldable app experience.",
       "credits": [],
       "links": [],
       "items": [
         {
-          "key": "coloros-utilities/overview.png",
-          "tile": 48,
-          "src": "/assets/color16-22-classic-apps.png",
-          "w": 3840,
-          "h": 2160,
+          "key": "foldable-demo-78/video",
+          "tile": 78,
+          "src": "/assets/coloros-14-1-demo-canvas.svg",
+          "w": 1280,
+          "h": 720,
           "video": false,
-          "screenVideos": [
-            {
-              "src": "/assets/color16-world-clock.mp4",
-              "poster": "/assets/color16-world-clock-poster.jpg",
-              "w": 1080,
-              "h": 2400,
-              "left": 5.520833333333333,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            },
-            {
-              "src": "/assets/color16-stopwatch.mp4",
-              "poster": "/assets/color16-stopwatch-poster.jpg",
-              "w": 1080,
-              "h": 2400,
-              "left": 28.958333333333336,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            },
-            {
-              "src": "/assets/color16-calculator.mp4",
-              "poster": "/assets/color16-calculator-poster.jpg",
-              "w": 1080,
-              "h": 2400,
-              "left": 52.39583333333333,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            },
-            {
-              "src": "/assets/color16-level.mp4",
-              "poster": "/assets/color16-level-poster.jpg",
-              "w": 1080,
-              "h": 2372,
-              "left": 75.83333333333333,
-              "top": 12.962962962962962,
-              "width": 18.697916666666668,
-              "height": 74.07407407407408,
-              "radius": "12.5348189415% / 5.625%",
-              "mask": "radial-gradient(ellipse 3.0640668524% 1.375% at 49.860724234% 2.375%, transparent 98%, #000 100%)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 49,
-      "title": "OPPO AI",
-      "text": "",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "oppo-ai/product-film.mp4",
-          "tile": 49,
-          "src": "/assets/oppo-ai-demo.mp4",
-          "w": 640,
-          "h": 360,
-          "video": true,
-          "poster": "/assets/oppo-ai-demo-poster.jpg"
-        },
-        {
-          "key": "oppo-ai/flash-memo-divider.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-flash-memo-divider.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/cover.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-cover.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/flash-memo-overview.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-flash-memo-overview.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/pickup-code.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-pickup-code.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/video-summary.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-video-summary.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/expense-records.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-expense-records.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/voice-note.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-voice-note.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/multiple-images.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-multiple-images.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/personalized-answers.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-personalized-answers.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/daily-briefing.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-daily-briefing.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/memory-suggestions.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-memory-suggestions.png",
-          "w": 5760,
-          "h": 3240,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/design-system-divider.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-design-system-divider.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/overview-01-memory.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-01-memory.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/overview-02-multisensory.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-02-multisensory.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/overview-03-information.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-03-information.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/overview-04-brand-vi.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-04-brand-vi.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai/overview-05-brand-guidelines.png",
-          "tile": 49,
-          "src": "/assets/oppo-ai-overview-05-brand-guidelines.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 51,
-      "title": "OPPO AI Brand Design",
-      "text": "",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "oppo-ai-brand/cover.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-cover.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/01.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-01.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/02.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-02.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/03.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-03.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/04.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-04.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/05.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-05.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/06.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-06.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/07.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-07.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/08.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-08.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/09.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-09.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/10.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-10.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/11.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-11.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/12.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-12.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/13.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-13.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/14.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-14.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/15.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-15.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/16.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-16.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/17.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-17.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/18.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-18.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/19.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-19.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/20.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-20.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/21.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-21.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/22.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-22.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/23.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-23.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/24.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-24.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/25.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-25.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/26.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-26.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/27.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-27.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/28.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-28.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/29.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-29.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/30.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-30.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/31.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-31.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/32.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-32.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/33.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-33.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/34.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-34.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/35.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-35.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/36.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-36.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/37.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-37.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/38.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-38.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/39.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-39.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-brand/40.png",
-          "tile": 51,
-          "src": "/assets/oppo-ai-brand-40.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 50,
-      "title": "OPPO AI IP",
-      "text": "",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "oppo-ai-ip/cover.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-cover.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/01.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-01.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/02.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-02.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/03.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-03.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/04.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-04.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/05.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-05.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/06.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-06.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/07.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-07.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/08.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-08.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/09.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-09.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/10.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-10.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/11.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-11.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/12.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-12.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/13.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-13.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/14.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-14.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/15.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-15.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/16.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-16.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/17.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-17.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/18.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-18.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/19.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-19.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/20.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-20.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/21.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-21.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/22.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-22.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/23.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-23.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/24.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-24.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/25.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-25.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/26.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-26.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/27.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-27.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/28.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-28.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/29.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-29.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/30.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-30.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/31.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-31.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        },
-        {
-          "key": "oppo-ai-ip/32.png",
-          "tile": 50,
-          "src": "/assets/oppo-ai-ip-32.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 61,
-      "title": "Ideal Life",
-      "year": "2026",
-      "text": "",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "ideal-life/artwork.png",
-          "tile": 61,
-          "src": "/assets/ideal-life.png",
-          "w": 3840,
-          "h": 2160,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 46,
-      "title": "OOS 15 Una AI",
-      "text": "",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "oos15-una-ai/cover.webp",
-          "tile": 46,
-          "src": "/assets/oos15-una-ai-cover.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos15-una-ai/001.webp",
-          "tile": 46,
-          "src": "/assets/oos15-una-ai-001.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos15-una-ai/002.webp",
-          "tile": 46,
-          "src": "/assets/oos15-una-ai-002.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos15-una-ai/003.webp",
-          "tile": 46,
-          "src": "/assets/oos15-una-ai-003.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos15-una-ai/004.webp",
-          "tile": 46,
-          "src": "/assets/oos15-una-ai-004.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 47,
-      "title": "OOS Hummingbird engine",
-      "text": "",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "oos-hummingbird-engine/cover.webp",
-          "tile": 47,
-          "src": "/assets/oos-hummingbird-engine-cover.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos-hummingbird-engine/001.webp",
-          "tile": 47,
-          "src": "/assets/oos-hummingbird-engine-001.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos-hummingbird-engine/002.webp",
-          "tile": 47,
-          "src": "/assets/oos-hummingbird-engine-002.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos-hummingbird-engine/003.webp",
-          "tile": 47,
-          "src": "/assets/oos-hummingbird-engine-003.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        },
-        {
-          "key": "oos-hummingbird-engine/004.webp",
-          "tile": 47,
-          "src": "/assets/oos-hummingbird-engine-004.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 52,
-      "title": "Instagram Data Management",
-      "text": "Interface design for Instagram account management and analytics.",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "instagram-data-management/01.webp",
-          "src": "/assets/instagram-data-management-01.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 52
-        },
-        {
-          "key": "instagram-data-management/02.webp",
-          "src": "/assets/instagram-data-management-02.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 52
-        }
-      ]
-    },
-    {
-      "id": 65,
-      "title": "Volog",
-      "year": "2020",
-      "text": "Interface design for a video community, covering discovery, playback and creator profiles.",
-      "credits": [
-        "Dragonlee (Orizon)"
-      ],
-      "links": [
-        [
-          "Dribbble",
-          "https://dribbble.com/shots/11585605-Volog-APP"
-        ]
-      ],
-      "items": [
-        {
-          "key": "volog/01.png",
-          "tile": 65,
-          "src": "/assets/dribbble-volog-01.png",
-          "w": 1600,
-          "h": 1200,
-          "video": false
-        },
-        {
-          "key": "volog/02.png",
-          "tile": 65,
-          "src": "/assets/dribbble-volog-02.png",
-          "w": 1600,
-          "h": 1200,
-          "video": false
-        },
-        {
-          "key": "volog/03.png",
-          "tile": 65,
-          "src": "/assets/dribbble-volog-03.png",
-          "w": 1600,
-          "h": 1200,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 53,
-      "title": "Illustration",
-      "text": "A collection of illustration work.",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "illustration/01.webp",
-          "src": "/assets/illustration-01.webp",
-          "w": 800,
-          "h": 600,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/02.webp",
-          "src": "/assets/illustration-02.webp",
-          "w": 1600,
-          "h": 1200,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/03.webp",
-          "src": "/assets/illustration-03.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/04.webp",
-          "src": "/assets/illustration-04.webp",
-          "w": 1600,
-          "h": 1200,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/05.webp",
-          "src": "/assets/illustration-05.webp",
-          "w": 800,
-          "h": 600,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/06.webp",
-          "src": "/assets/illustration-06.webp",
-          "w": 1600,
-          "h": 1200,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/07.webp",
-          "src": "/assets/illustration-07.webp",
-          "w": 1600,
-          "h": 1200,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/08.webp",
-          "src": "/assets/illustration-08.webp",
-          "w": 800,
-          "h": 600,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/09.webp",
-          "src": "/assets/illustration-09.webp",
-          "w": 800,
-          "h": 600,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/10.webp",
-          "src": "/assets/illustration-10.webp",
-          "w": 800,
-          "h": 600,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/11.webp",
-          "src": "/assets/illustration-11.webp",
-          "w": 800,
-          "h": 600,
-          "video": false,
-          "tile": 53
-        },
-        {
-          "key": "illustration/12.webp",
-          "src": "/assets/illustration-12.webp",
-          "w": 1600,
-          "h": 1200,
-          "video": false,
-          "tile": 53
-        }
-      ]
-    },
-    {
-      "id": 64,
-      "title": "Customize Air Jordan Web",
-      "year": "2018",
-      "text": "An illustrated web design study inspired by Air Jordan sneaker customization.",
-      "credits": [],
-      "links": [
-        [
-          "Dribbble",
-          "https://dribbble.com/shots/5071294-Customize-Air-Jordan-Web"
-        ]
-      ],
-      "items": [
-        {
-          "key": "air-jordan-web/01.png",
-          "tile": 64,
-          "src": "/assets/dribbble-air-jordan-01.png",
-          "w": 1600,
-          "h": 1200,
-          "video": false
-        }
-      ]
-    },
-    {
-      "id": 54,
-      "title": "Meditation Product Design",
-      "text": "Interface design for a meditation and focus app.",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "meditation-product-design/01.webp",
-          "src": "/assets/meditation-product-design-01.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 54
-        },
-        {
-          "key": "meditation-product-design/02.webp",
-          "src": "/assets/meditation-product-design-02.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 54
-        },
-        {
-          "key": "meditation-product-design/03.webp",
-          "src": "/assets/meditation-product-design-03.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 54
-        },
-        {
-          "key": "meditation-product-design/04.webp",
-          "src": "/assets/meditation-product-design-04.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 54
-        },
-        {
-          "key": "meditation-product-design/05.webp",
-          "src": "/assets/meditation-product-design-05.webp",
-          "w": 1504,
-          "h": 1128,
-          "video": false,
-          "tile": 54
-        }
-      ]
-    },
-    {
-      "id": 66,
-      "title": "Video Editing",
-      "year": "",
-      "text": "A mobile video editing interface and UI kit for media selection, playback, text and audio.",
-      "credits": [
-        "Dragonlee (Orizon)"
-      ],
-      "links": [
-        [
-          "Dribbble",
-          "https://dribbble.com/shots/5825956-Video-Editing"
-        ],
-        [
-          "UI Kit",
-          "https://dribbble.com/shots/5832052-Video-Kit"
-        ]
-      ],
-      "items": [
-        {
-          "key": "video-editing/01.png",
-          "tile": 66,
-          "src": "/assets/dribbble-video-editing-01.png",
-          "w": 1600,
-          "h": 1200,
-          "video": false
-        },
-        {
-          "key": "video-editing/02.png",
-          "tile": 66,
-          "src": "/assets/dribbble-video-editing-02.png",
-          "w": 1600,
-          "h": 1200,
-          "video": false
+          "screenVideo": {
+            "src": "/assets/coloros-14-1-demo-04.mp4",
+            "poster": "/assets/coloros-14-1-demo-04-poster.png",
+            "w": 2094,
+            "h": 2252,
+            "left": 31.17073712255773,
+            "top": 14,
+            "width": 37.65852575488454,
+            "height": 72,
+            "radius": "7% / 6.5%"
+          }
         }
       ]
     },
@@ -3436,14 +3430,6 @@
           "w": 1920,
           "h": 1080,
           "video": false
-        },
-        {
-          "key": "quark-brand-guidelines/page-016.png",
-          "tile": 71,
-          "src": "/assets/quark-brand-guidelines/page-016.png",
-          "w": 1920,
-          "h": 1080,
-          "video": false
         }
       ]
     },
@@ -3884,25 +3870,6 @@
       ]
     },
     {
-      "id": 74,
-      "title": "Some Songs Are Timeless",
-      "year": "",
-      "text": "An animated music-player study exploring interface styles across eras while the same track keeps playing.",
-      "credits": [],
-      "links": [],
-      "items": [
-        {
-          "key": "some-songs-are-timeless/video.mp4",
-          "tile": 74,
-          "src": "/assets/some-songs-are-timeless/video.mp4",
-          "w": 1608,
-          "h": 1246,
-          "video": true,
-          "poster": "/assets/some-songs-are-timeless/poster.jpg"
-        }
-      ]
-    },
-    {
       "id": 69,
       "title": "Other Work",
       "year": "",
@@ -3967,6 +3934,434 @@
           "video": false
         }
       ]
+    },
+    {
+      "id": 53,
+      "title": "Illustration",
+      "text": "A collection of illustration work.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "illustration/01.webp",
+          "src": "/assets/illustration-01.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/02.webp",
+          "src": "/assets/illustration-02.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/03.webp",
+          "src": "/assets/illustration-03.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/04.webp",
+          "src": "/assets/illustration-04.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/05.webp",
+          "src": "/assets/illustration-05.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/06.webp",
+          "src": "/assets/illustration-06.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/07.webp",
+          "src": "/assets/illustration-07.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/08.webp",
+          "src": "/assets/illustration-08.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/09.webp",
+          "src": "/assets/illustration-09.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/10.webp",
+          "src": "/assets/illustration-10.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/11.webp",
+          "src": "/assets/illustration-11.webp",
+          "w": 800,
+          "h": 600,
+          "video": false,
+          "tile": 53
+        },
+        {
+          "key": "illustration/12.webp",
+          "src": "/assets/illustration-12.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false,
+          "tile": 53
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Instagram Data Management",
+      "text": "Interface design for Instagram account management and analytics.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "instagram-data-management/01.webp",
+          "src": "/assets/instagram-data-management-01.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 52
+        },
+        {
+          "key": "instagram-data-management/02.webp",
+          "src": "/assets/instagram-data-management-02.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 52
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Customize Air Jordan Web",
+      "year": "2018",
+      "text": "An illustrated web design study inspired by Air Jordan sneaker customization.",
+      "credits": [],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/5071294-Customize-Air-Jordan-Web"
+        ]
+      ],
+      "items": [
+        {
+          "key": "air-jordan-web/01.png",
+          "tile": 64,
+          "src": "/assets/dribbble-air-jordan-01.png",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Video Editing",
+      "year": "",
+      "text": "A mobile video editing interface and UI kit for media selection, playback, text and audio.",
+      "credits": [
+        "Dragonlee (Orizon)"
+      ],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/5825956-Video-Editing"
+        ],
+        [
+          "UI Kit",
+          "https://dribbble.com/shots/5832052-Video-Kit"
+        ]
+      ],
+      "items": [
+        {
+          "key": "video-editing/01.png",
+          "tile": 66,
+          "src": "/assets/dribbble-video-editing-01.png",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        },
+        {
+          "key": "video-editing/02.png",
+          "tile": 66,
+          "src": "/assets/dribbble-video-editing-02.png",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Meditation Product Design",
+      "text": "Interface design for a meditation and focus app.",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "meditation-product-design/01.webp",
+          "src": "/assets/meditation-product-design-01.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/02.webp",
+          "src": "/assets/meditation-product-design-02.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/03.webp",
+          "src": "/assets/meditation-product-design-03.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/04.webp",
+          "src": "/assets/meditation-product-design-04.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        },
+        {
+          "key": "meditation-product-design/05.webp",
+          "src": "/assets/meditation-product-design-05.webp",
+          "w": 1504,
+          "h": 1128,
+          "video": false,
+          "tile": 54
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [],
+      "items": [
+        {
+          "key": "video-project-80/video.mp4",
+          "tile": 80,
+          "src": "/assets/video-project-80/video.mp4",
+          "w": 3200,
+          "h": 2400,
+          "video": true,
+          "poster": "/assets/video-project-80/poster.jpg"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Meditation APP",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/6368172-Meditation-APP"
+        ]
+      ],
+      "items": [
+        {
+          "key": "meditation-app-6368172/original.gif",
+          "tile": 81,
+          "src": "/assets/meditation-app-6368172/original.gif",
+          "w": 800,
+          "h": 600,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Blockworld Web Prototype",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/5441522-Blockworld-Web-Prototype"
+        ]
+      ],
+      "items": [
+        {
+          "key": "blockworld-web-prototype/cover.webp",
+          "tile": 82,
+          "src": "/assets/blockworld-web-prototype/cover.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Block -dragon link",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/5091152-Block-dragon-link"
+        ]
+      ],
+      "items": [
+        {
+          "key": "block-dragon-link/cover.webp",
+          "tile": 83,
+          "src": "/assets/block-dragon-link/cover.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Personal Center Icon",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/4899305-Personal-Center-Icon"
+        ]
+      ],
+      "items": [
+        {
+          "key": "personal-center-icon/cover.webp",
+          "tile": 84,
+          "src": "/assets/personal-center-icon/cover.webp",
+          "w": 2400,
+          "h": 1800,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Sports Data Management",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/4314848-Sports-Data-Management"
+        ]
+      ],
+      "items": [
+        {
+          "key": "sports-data-management/01.webp",
+          "tile": 85,
+          "src": "/assets/sports-data-management/01.webp",
+          "w": 1600,
+          "h": 1200,
+          "video": false
+        },
+        {
+          "key": "sports-data-management/02.webp",
+          "tile": 85,
+          "src": "/assets/sports-data-management/02.webp",
+          "w": 1440,
+          "h": 1024,
+          "video": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Ux Design",
+      "year": "",
+      "text": "",
+      "credits": [],
+      "links": [
+        [
+          "Dribbble",
+          "https://dribbble.com/shots/4932816-Ux-Design"
+        ]
+      ],
+      "items": [
+        {
+          "key": "ux-design/01.webp",
+          "tile": 86,
+          "src": "/assets/ux-design/01.webp",
+          "w": 2400,
+          "h": 1800,
+          "video": false
+        },
+        {
+          "key": "ux-design/02.webp",
+          "tile": 86,
+          "src": "/assets/ux-design/02.webp",
+          "w": 1440,
+          "h": 4879,
+          "video": false
+        },
+        {
+          "key": "ux-design/03.webp",
+          "tile": 86,
+          "src": "/assets/ux-design/03.webp",
+          "w": 1440,
+          "h": 3866,
+          "video": false
+        },
+        {
+          "key": "ux-design/04.webp",
+          "tile": 86,
+          "src": "/assets/ux-design/04.webp",
+          "w": 1440,
+          "h": 3595,
+          "video": false
+        }
+      ]
     }
   ],
   "tiles": [
@@ -3980,6 +4375,16 @@
       "title": "dot"
     },
     {
+      "id": 62,
+      "ratio": 1,
+      "label": "OPPO",
+      "year": "2020–2026",
+      "title": "company-oppo",
+      "image": "/assets/company-oppo.svg",
+      "locked": true,
+      "company": true
+    },
+    {
       "id": 45,
       "ratio": 1,
       "label": "ColorOS Startup",
@@ -3987,48 +4392,6 @@
       "video": "/assets/color16-startup-square.mp4",
       "poster": "/assets/color16-startup-square-poster.jpg",
       "title": "coloros-startup"
-    },
-    {
-      "id": 56,
-      "ratio": 0.5625,
-      "label": "ColorOS 14.1 Flod N5",
-      "year": "2023",
-      "title": "coloros-14-1-flod-n5",
-      "image": "/assets/coloros-14-1-flod-n5-01.png"
-    },
-    {
-      "id": 58,
-      "ratio": 1,
-      "label": "Visual Effects Technology",
-      "year": "2024",
-      "title": "visual-effects-technology",
-      "image": "/assets/visual-effects-technology-01.png"
-    },
-    {
-      "id": 68,
-      "ratio": 1,
-      "label": "AI Full Stack Design Methodology",
-      "year": "2026",
-      "title": "ai-full-stack-design-methodology",
-      "image": "/assets/ai-full-stack-design-methodology-01.png"
-    },
-    {
-      "id": 70,
-      "ratio": 1,
-      "label": "Momcozy Probation Plan",
-      "year": "2026",
-      "title": "momcozy-probation-plan",
-      "image": "/assets/momcozy-work-plan-website-cover.jpg",
-      "directUrl": "/projects/momcozy-work-plan/index.html"
-    },
-    {
-      "id": 55,
-      "ratio": 0.5625,
-      "label": "ColorOS 13.2",
-      "year": "2022",
-      "title": "coloros-13-2",
-      "video": "/assets/coloros-13-2-cover.mp4",
-      "poster": "/assets/coloros-13-2-cover-poster.png"
     },
     {
       "id": 48,
@@ -4040,16 +4403,6 @@
       "poster": "/assets/coloros-system-apps-cover-poster.jpg"
     },
     {
-      "id": 62,
-      "ratio": 1,
-      "label": "OPPO",
-      "year": "2020–2026",
-      "title": "company-oppo",
-      "image": "/assets/company-oppo.svg",
-      "locked": true,
-      "company": true
-    },
-    {
       "id": 49,
       "ratio": 1,
       "label": "OPPO AI",
@@ -4057,14 +4410,6 @@
       "title": "oppo-ai",
       "video": "/assets/oppo-ai-demo.mp4",
       "poster": "/assets/oppo-ai-demo-poster.jpg"
-    },
-    {
-      "id": 51,
-      "ratio": 1,
-      "label": "OPPO AI Brand Design",
-      "year": "2025",
-      "image": "/assets/oppo-ai-cover.png",
-      "title": "oppo-ai-brand-design"
     },
     {
       "id": 50,
@@ -4083,12 +4428,54 @@
       "image": "/assets/ideal-life.png"
     },
     {
+      "id": 56,
+      "ratio": 0.5625,
+      "label": "ColorOS 14.1 Flod N5",
+      "year": "2023",
+      "title": "coloros-14-1-flod-n5",
+      "image": "/assets/coloros-14-1-flod-n5-01.png"
+    },
+    {
+      "id": 55,
+      "ratio": 0.5625,
+      "label": "ColorOS 13.2",
+      "year": "2022",
+      "title": "coloros-13-2",
+      "video": "/assets/coloros-13-2-cover.mp4",
+      "poster": "/assets/coloros-13-2-cover-poster.png"
+    },
+    {
       "id": 46,
       "ratio": 0.75,
       "label": "OOS 15 Una AI",
       "year": "2024",
       "image": "/assets/oos15-una-ai-cover.webp",
       "title": "oos15-una-ai"
+    },
+    {
+      "id": 74,
+      "ratio": 0.7748756218905473,
+      "label": "Some Songs Are Timeless",
+      "year": "",
+      "title": "some-songs-are-timeless",
+      "video": "/assets/some-songs-are-timeless/video.mp4",
+      "poster": "/assets/some-songs-are-timeless/poster.jpg"
+    },
+    {
+      "id": 58,
+      "ratio": 1,
+      "label": "Visual Effects Technology",
+      "year": "2024",
+      "title": "visual-effects-technology",
+      "image": "/assets/visual-effects-technology-01.png"
+    },
+    {
+      "id": 51,
+      "ratio": 1,
+      "label": "OPPO AI Brand Design",
+      "year": "2025",
+      "image": "/assets/oppo-ai-cover.png",
+      "title": "oppo-ai-brand-design"
     },
     {
       "id": 47,
@@ -4099,52 +4486,75 @@
       "title": "oos-hummingbird-engine"
     },
     {
-      "id": 52,
-      "ratio": 0.75,
-      "label": "Instagram Data Management",
-      "year": "2024",
-      "title": "instagram-data-management",
-      "image": "/assets/instagram-data-management-01.webp"
+      "id": 75,
+      "ratio": 1.0642533936651584,
+      "label": "Foldable Calendar",
+      "year": "2023",
+      "title": "foldable-demo-75",
+      "video": "/assets/coloros-14-1-demo-01.mp4",
+      "poster": "/assets/coloros-14-1-demo-01-poster.png"
     },
     {
-      "id": 65,
-      "ratio": 0.75,
-      "label": "Volog",
-      "year": "2020",
-      "title": "volog",
-      "image": "/assets/dribbble-volog-01.png"
+      "id": 68,
+      "ratio": 1,
+      "label": "AI Full Stack Design Methodology",
+      "year": "2026",
+      "title": "ai-full-stack-design-methodology",
+      "image": "/assets/ai-full-stack-design-methodology-01.png"
     },
     {
-      "id": 53,
-      "ratio": 0.75,
-      "label": "Illustration",
-      "year": "2017",
-      "title": "illustration",
-      "image": "/assets/illustration-01.webp"
-    },
-    {
-      "id": 64,
-      "ratio": 0.75,
-      "label": "Customize Air Jordan Web",
-      "year": "2018",
-      "title": "air-jordan-web",
-      "image": "/assets/dribbble-air-jordan-01.png"
-    },
-    {
-      "id": 54,
-      "ratio": 0.75,
-      "label": "Meditation Product Design",
-      "year": "2018",
-      "title": "meditation-product-design",
-      "image": "/assets/meditation-product-design-01.webp"
-    },
-    {
-      "id": 66,
-      "ratio": 0.75,
-      "label": "Video Editing",
+      "id": 87,
+      "ratio": 0.751346499102334,
+      "label": "",
       "year": "",
-      "title": "video-editing",
-      "image": "/assets/dribbble-video-editing-01.png"
+      "title": "video-project-87",
+      "video": "/assets/video-project-87/video.mp4",
+      "poster": "/assets/video-project-87/poster.jpg"
+    },
+    {
+      "id": 88,
+      "ratio": 1.25,
+      "label": "personal agent",
+      "year": "",
+      "title": "personal-agent",
+      "video": "/assets/personal-agent/video.mp4",
+      "poster": "/assets/personal-agent/poster.jpg"
+    },
+    {
+      "id": 76,
+      "ratio": 1.0642533936651584,
+      "label": "Foldable File Manager",
+      "year": "2023",
+      "title": "foldable-demo-76",
+      "video": "/assets/coloros-14-1-demo-02.mp4",
+      "poster": "/assets/coloros-14-1-demo-02-poster.png"
+    },
+    {
+      "id": 70,
+      "ratio": 0.5625,
+      "label": "Momcozy Probation Plan",
+      "year": "2026",
+      "title": "momcozy-probation-plan",
+      "image": "/assets/momcozy-work-plan-website-cover.jpg",
+      "directUrl": "/projects/momcozy-work-plan/index.html"
+    },
+    {
+      "id": 77,
+      "ratio": 1.0642533936651584,
+      "label": "Foldable Document Viewer",
+      "year": "2023",
+      "title": "foldable-demo-77",
+      "video": "/assets/coloros-14-1-demo-03.mp4",
+      "poster": "/assets/coloros-14-1-demo-03-poster.png"
+    },
+    {
+      "id": 78,
+      "ratio": 1.0754536771728749,
+      "label": "Foldable Notes",
+      "year": "2023",
+      "title": "foldable-demo-78",
+      "video": "/assets/coloros-14-1-demo-04.mp4",
+      "poster": "/assets/coloros-14-1-demo-04-poster.png"
     },
     {
       "id": 57,
@@ -4194,7 +4604,7 @@
       "label": "Quark Brand Guidelines",
       "year": "",
       "title": "quark-brand-guidelines",
-      "image": "/assets/quark-brand-guidelines/page-001.png"
+      "image": "/assets/quark-brand-guidelines/page-003.png"
     },
     {
       "id": 72,
@@ -4213,21 +4623,109 @@
       "image": "/assets/wuqu-brand-identity/cover.png"
     },
     {
-      "id": 74,
-      "ratio": 0.7748756218905473,
-      "label": "Some Songs Are Timeless",
-      "year": "",
-      "title": "some-songs-are-timeless",
-      "video": "/assets/some-songs-are-timeless/video.mp4",
-      "poster": "/assets/some-songs-are-timeless/poster.jpg"
-    },
-    {
       "id": 69,
       "ratio": 1,
       "label": "Other Work",
       "year": "",
       "title": "other-work",
-      "image": "/assets/other-work-01.png"
+      "image": "/assets/other-work-02.png"
+    },
+    {
+      "id": 53,
+      "ratio": 0.75,
+      "label": "Illustration",
+      "year": "2017",
+      "title": "illustration",
+      "image": "/assets/illustration-01.webp"
+    },
+    {
+      "id": 52,
+      "ratio": 0.75,
+      "label": "Instagram Data Management",
+      "year": "2024",
+      "title": "instagram-data-management",
+      "image": "/assets/instagram-data-management-01.webp"
+    },
+    {
+      "id": 64,
+      "ratio": 0.75,
+      "label": "Customize Air Jordan Web",
+      "year": "2018",
+      "title": "air-jordan-web",
+      "image": "/assets/dribbble-air-jordan-01.png"
+    },
+    {
+      "id": 66,
+      "ratio": 0.75,
+      "label": "Video Editing",
+      "year": "",
+      "title": "video-editing",
+      "image": "/assets/dribbble-video-editing-01.png"
+    },
+    {
+      "id": 54,
+      "ratio": 0.75,
+      "label": "Meditation Product Design",
+      "year": "2018",
+      "title": "meditation-product-design",
+      "image": "/assets/meditation-product-design-01.webp"
+    },
+    {
+      "id": 80,
+      "ratio": 0.75,
+      "label": "",
+      "year": "",
+      "title": "video-project-80",
+      "video": "/assets/video-project-80/video.mp4",
+      "poster": "/assets/video-project-80/poster.jpg"
+    },
+    {
+      "id": 81,
+      "ratio": 0.75,
+      "label": "Meditation APP",
+      "year": "",
+      "title": "meditation-app-6368172",
+      "image": "/assets/meditation-app-6368172/original.gif"
+    },
+    {
+      "id": 82,
+      "ratio": 0.75,
+      "label": "Blockworld Web Prototype",
+      "year": "",
+      "title": "blockworld-web-prototype",
+      "image": "/assets/blockworld-web-prototype/cover.webp"
+    },
+    {
+      "id": 83,
+      "ratio": 0.75,
+      "label": "Block -dragon link",
+      "year": "",
+      "title": "block-dragon-link",
+      "image": "/assets/block-dragon-link/cover.webp"
+    },
+    {
+      "id": 84,
+      "ratio": 0.75,
+      "label": "Personal Center Icon",
+      "year": "",
+      "title": "personal-center-icon",
+      "image": "/assets/personal-center-icon/cover.webp"
+    },
+    {
+      "id": 85,
+      "ratio": 0.75,
+      "label": "Sports Data Management",
+      "year": "",
+      "title": "sports-data-management",
+      "image": "/assets/sports-data-management/01.webp"
+    },
+    {
+      "id": 86,
+      "ratio": 0.75,
+      "label": "Ux Design",
+      "year": "",
+      "title": "ux-design",
+      "image": "/assets/ux-design/01.webp"
     }
   ],
   "posters": [],
@@ -4376,13 +4874,6 @@
         "credits": "",
         "links": "Dribbble | https://dribbble.com/shots/5071294-Customize-Air-Jordan-Web"
       },
-      "65": {
-        "title": "Volog",
-        "year": "2020",
-        "text": "Interface design for a video community, covering discovery, playback and creator profiles.",
-        "credits": "Dragonlee (Orizon)",
-        "links": "Dribbble | https://dribbble.com/shots/11585605-Volog-APP"
-      },
       "66": {
         "title": "Video Editing",
         "year": "",
@@ -4444,6 +4935,97 @@
         "title": "Some Songs Are Timeless",
         "year": "",
         "text": "An animated music-player study exploring interface styles across eras while the same track keeps playing.",
+        "credits": "Dragonlee",
+        "links": ""
+      },
+      "75": {
+        "title": "Foldable Calendar",
+        "year": "2023",
+        "text": "ColorOS 14.1 · Foldable app experience.",
+        "credits": "",
+        "links": ""
+      },
+      "76": {
+        "title": "Foldable File Manager",
+        "year": "2023",
+        "text": "ColorOS 14.1 · Foldable app experience.",
+        "credits": "",
+        "links": ""
+      },
+      "77": {
+        "title": "Foldable Document Viewer",
+        "year": "2023",
+        "text": "ColorOS 14.1 · Foldable app experience.",
+        "credits": "",
+        "links": ""
+      },
+      "78": {
+        "title": "Foldable Notes",
+        "year": "2023",
+        "text": "ColorOS 14.1 · Foldable app experience.",
+        "credits": "",
+        "links": ""
+      },
+      "80": {
+        "title": "",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": ""
+      },
+      "81": {
+        "title": "Meditation APP",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": "Dribbble https://dribbble.com/shots/6368172-Meditation-APP"
+      },
+      "82": {
+        "title": "Blockworld Web Prototype",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": "Dribbble https://dribbble.com/shots/5441522-Blockworld-Web-Prototype"
+      },
+      "83": {
+        "title": "Block -dragon link",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": "Dribbble https://dribbble.com/shots/5091152-Block-dragon-link"
+      },
+      "84": {
+        "title": "Personal Center Icon",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": "Dribbble https://dribbble.com/shots/4899305-Personal-Center-Icon"
+      },
+      "85": {
+        "title": "Sports Data Management",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": "Dribbble https://dribbble.com/shots/4314848-Sports-Data-Management"
+      },
+      "86": {
+        "title": "Ux Design",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": "Dribbble https://dribbble.com/shots/4932816-Ux-Design"
+      },
+      "87": {
+        "title": "",
+        "year": "",
+        "text": "",
+        "credits": "",
+        "links": ""
+      },
+      "88": {
+        "title": "personal agent",
+        "year": "",
+        "text": "",
         "credits": "",
         "links": ""
       }
@@ -4533,10 +5115,6 @@
         "label": "Customize Air Jordan Web",
         "year": "2018"
       },
-      "65": {
-        "label": "Volog",
-        "year": "2020"
-      },
       "66": {
         "label": "Video Editing",
         "year": ""
@@ -4551,18 +5129,20 @@
       },
       "69": {
         "label": "Other Work",
-        "year": ""
+        "year": "",
+        "image": "/assets/other-work-02.png"
       },
       "70": {
         "label": "Momcozy Probation Plan",
         "year": "2026",
         "directUrl": "/projects/momcozy-work-plan/index.html",
         "image": "/assets/momcozy-work-plan-website-cover.jpg",
-        "ratio": 1
+        "ratio": 0.5625
       },
       "71": {
         "label": "Quark Brand Guidelines",
-        "year": ""
+        "year": "",
+        "image": "/assets/quark-brand-guidelines/page-003.png"
       },
       "72": {
         "label": "Search Results Consistency",
@@ -4574,6 +5154,58 @@
       },
       "74": {
         "label": "Some Songs Are Timeless",
+        "year": ""
+      },
+      "75": {
+        "label": "Foldable Calendar",
+        "year": "2023"
+      },
+      "76": {
+        "label": "Foldable File Manager",
+        "year": "2023"
+      },
+      "77": {
+        "label": "Foldable Document Viewer",
+        "year": "2023"
+      },
+      "78": {
+        "label": "Foldable Notes",
+        "year": "2023"
+      },
+      "80": {
+        "label": "",
+        "year": ""
+      },
+      "81": {
+        "label": "Meditation APP",
+        "year": ""
+      },
+      "82": {
+        "label": "Blockworld Web Prototype",
+        "year": ""
+      },
+      "83": {
+        "label": "Block -dragon link",
+        "year": ""
+      },
+      "84": {
+        "label": "Personal Center Icon",
+        "year": ""
+      },
+      "85": {
+        "label": "Sports Data Management",
+        "year": ""
+      },
+      "86": {
+        "label": "Ux Design",
+        "year": ""
+      },
+      "87": {
+        "label": "",
+        "year": ""
+      },
+      "88": {
+        "label": "personal agent",
         "year": ""
       }
     },
