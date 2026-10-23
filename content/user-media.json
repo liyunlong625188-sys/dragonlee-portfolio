@@ -12195,7 +12195,7 @@
       "page": "/resume.html",
       "openInNewTab": true,
       "type": "static-website",
-      "sourceWebsite": "/Users/dragonlee/Documents/自我介绍/Dragonlee-site-latest 3",
+      "sourceWebsite": null,
       "sourceHtml": {
         "source": "/Users/dragonlee/Documents/自我介绍/Dragonlee-site-latest 3/index.html",
         "bytes": 17593,
@@ -12203,34 +12203,37 @@
       },
       "servedHtml": {
         "path": "resume.html",
-        "bytes": 17670,
-        "sha256": "1a5e10dcc7c9f958ca799102bf5df1c010c56ff9f9c0e1c31d75c4949cb6bfa0",
+        "bytes": 17367,
+        "sha256": "c3d7ab593b66d629d5adf644c7fe7af81e04fc7c055c549cab325ddf98dbbc31",
         "changes": [
-          "Scope image URL to the local resume-site asset directory.",
-          "Use Dragonlee title and the portfolio favicon."
+          "Replace resume with user supplied Dragonlee-.pdf.",
+          "Match page height and two section anchors; preserve header animation."
         ]
       },
       "resources": [
         {
-          "source": "/Users/dragonlee/Documents/自我介绍/Dragonlee-site-latest 3/assets/pdf-preview/sips-render-edited.png",
+          "source": "/Users/dragonlee/Desktop/Dragonlee-.pdf",
           "path": "resume-site/assets/pdf-preview/sips-render-edited.png",
           "role": "resume-page-artwork",
-          "bytes": 12060553,
-          "sha256": "5b58da52ee13b287db16781eab736568c636cf30268fa730d65251519e75708b",
-          "copiedOriginal": true,
+          "bytes": 1185031,
+          "sha256": "fd87d37b47581030ba97b63028a5ae503447a69baf7e65c97085aedad257ef86",
+          "copiedOriginal": false,
           "width": 1920,
-          "height": 25443
+          "height": 4945,
+          "renderedFromPdf": true
         },
         {
-          "source": "/Users/dragonlee/Documents/自我介绍/Dragonlee-site-latest 3/assets/Dragonlee.pdf",
+          "source": "/Users/dragonlee/Desktop/Dragonlee-.pdf",
           "path": "resume-site/assets/Dragonlee.pdf",
           "role": "source-document",
-          "bytes": 9506387,
-          "sha256": "8f6031945b47442e8b11ae507ce126831de83f2b73572dc2630aab6a38097d01",
+          "bytes": 1985865,
+          "sha256": "b8d9ec6dd9646fe22278c4df1620f21c97865774439440bb3d656cf8a5b152ff",
           "copiedOriginal": true
         }
       ],
-      "previousVersionArchive": "../evidence/resume-website-20261015/before"
+      "previousVersionArchive": "../evidence/resume-update-20261023/before",
+      "sourcePdf": "/Users/dragonlee/Desktop/Dragonlee-.pdf",
+      "updatedAt": "2026-10-23"
     }
   ]
 }
